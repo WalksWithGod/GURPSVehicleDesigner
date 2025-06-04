@@ -1,0 +1,49 @@
+Solid,Crushing,None,#FALSE#,KE,1,0,1,1,1,0
+Chainshot,Crushing,None,#FALSE#,.5 x KE,0.5,0,0.5,1,1,2
+AP,Crushing,None,#FALSE#,KE(2),1,2,1,1,3,0
+APC,Crushing,None,#FALSE#,KE(2),1,2,1,1,3,0
+API,Crushing,None,#FALSE#,KE(2),1,2,1,1,4,0
+APCR,Crushing,None,#FALSE#,1.33 x KE(2),1.33,2,1,1,5,0
+HP,Crushing,None,#FALSE#,KE(.5),1,0.5,1,1,1.5,0
+Plastic,Crushing,None,#FALSE#,.5 x KE,0.5,0,0.5,1,1,0
+Baton,Crushing,None,#FALSE#,.66 X KE,0.66,0,0.2,1,2,0
+Needle,Impaling,None,#FALSE#,.66 X KE,0.66,0,0.66,1,2,0
+APDS,Crushing,None,#FALSE#,1.66 x KE(2),1.66,2,1.5,1.5,5,0
+APS,Crushing,None,#FALSE#,1.28 x KE(2),1.28,2,1.5,1.5,5,0
+APDU,Crushing,None,#FALSE#,1.33 x KE(3),1.33,3,1,1,6,0
+APDSDU,Crushing,None,#FALSE#,1.66 x KE(3),1.66,3,1.5,1.5,10,0
+APFSDS,Crushing,None,#FALSE#,2 x KE(2),2,2,1.5,1.5,8,1
+APFSDSDU,Crushing,None,#FALSE#,2 x KE(3),2,3,1.5,1.5,12,1
+Superwire,Impaling,None,#FALSE#,.25 x KE(10),0.25,10,0.5,1,100,-2
+APSHD,Crushing,None,#FALSE#,1.33 x KE(5),1.33,5,1.5,1.5,20,0
+APHD,Crushing,None,#FALSE#,1.33 x KE(5),1.33,5,1.5,1.5,20,0
+APDSHD,Crushing,None,#FALSE#,1.66 x KE(5),1.66,5,1.5,1.5,20,0
+APFSDSHD,Crushing,None,#FALSE#,2 x KE(5),2,5,1.5,1.5,30,1
+LE,Explosive,None,#TRUE#,C x X / 16000,16000,0,1,1.5,2,0
+HE,Explosive,None,#TRUE#,C x X / 16000,16000,0,1,1.5,2,0
+HEC,Explosive,None,#FALSE#,C x X / 12000,12000,0,1,1.5,2,0
+HEDC,Explosive,None,#TRUE#,C x X / 16000,16000,0,1,1.5,3,0
+HEPF,Explosive,None,#TRUE#,C x X / 16000,16000,0,1,1.5,5,0
+HESH,Explosive,None,#FALSE#,C x X / 16000,16000,0,1,1.5,4,0
+SAPLE,Crushing,Explosive,#TRUE#,KE(.5) & C x X /16000,16000,0.5,1,1.5,2,0
+SAPHE,Crushing,Explosive,#TRUE#,KE(.5) & C x X /16000,16000,0.5,1,1.5,2,0
+APEX,Crushing,Explosive,#TRUE#,KE(2) & C x X/24000,24000,2,1,1,5,0
+HEAT,Explosive,None,#FALSE#,B x S x H(10),1,10,1,1.5,3,0
+HEDP,Explosive,None,#TRUE#,B x S x H(5),1,5,1,1.5,3,0
+Shotshell,Crushing,None,#FALSE#,.75 x KE,0.75,0,0.1,2,1,-1
+Canister,Crushing,None,#FALSE#,.5 x KE,0.5,0,0.16667,1.5,1,-5
+Shrapnel,Crushing,None,#FALSE#,.5 x KE,0.5,0,1,1,3,0
+Beehive,Impaling,None,#FALSE#,.5 x KE,0.5,0,0.1,1.5,4,-1
+CHEM,Special,None,#FALSE#,.00375 x B x B,0.00375,0,1,1.5,2,0
+FASCAM,Special,None,#FALSE#,.0075 x B x B,0.0075,0,1,1.5,10,0
+ICM,Special,None,#FALSE#,.0075 x B x B,0.0075,0,1,1.5,10,0
+SICM,Special,None,#FALSE#,.0075 x B x B,0.0075,0,1,1.5,100,0
+SATNUC,Special,None,#FALSE#,.015 x B x B,0.015,0,1,1.5,200,0
+1 megaton Nuke,Explosive,None,#FALSE#,"12d x 2,000,000,000",1,0,1,1,64000,0
+100 kiloton Nuke,Explosive,None,#FALSE#,"12d x 200,000,000",1,0,1,1,48000,0
+10 kiloton Nuke,Explosive,None,#FALSE#,"12d x 20,000,000",1,0,1,1,42000,0
+1 kiloton Nuke,Explosive,None,#FALSE#,"12d x 2,000,000",1,0,1,1,36000,0
+.1 kiloton Nuke,Explosive,None,#FALSE#,"12d x 200,000",1,0,1,1,15000,0
+.01 kiloton Nuke,Explosive,None,#FALSE#,"12d x 20,000",1,0,1,1,12000,0
+.001 kiloton Nuke,Explosive,None,#FALSE#,"12d x 2,000",1,0,1,1,9000,0
+.0001 kiloton Nuke,Explosive,None,#FALSE#,12d x 200 ,1,0,1,1,6000,0

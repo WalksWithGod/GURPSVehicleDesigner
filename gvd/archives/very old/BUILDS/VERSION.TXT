@@ -1,0 +1,8 @@
+4/17/98 - Older version of Armor Dialog.  Inclused RAP, Thermal and Elect By Facing
+4/18/98 - New armor dialog.  Removes RAP, Thermal and Elect.  These can now only 
+          be place By Location as opposed to By Facing
+4/25/98 - Divided up modules better.  Changed modMath to modStatistics
+          Created modPerformance and modSurfaceFeatures
+4/29/98 - Decided to use Cargo as pseudo sub and Empty /Access as properties
+          Grayed out all Surface Features options according to Vehicle Tech Level
+	  

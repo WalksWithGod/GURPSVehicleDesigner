@@ -1,0 +1,36 @@
+
+RegSoft.com Registration Report for sales December 1999 
+Author Name	: Michael Joseph
+Author ID	: 9710 
+Contact E-Mail	: mikej@nwlink.com
+
+
+Product ID	: 16539 
+Product Name 	: GURPS Vehicle Designer
+
+Order ID		Order Name			Order Email			Qty	Type	Order Status	Order Amount	CDROM Purchase
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+12021999-16539-27	K Greenberg                    	kgreenbe@uk.oracle.com         	1	On-Line	Authorized	$25.00		N
+12031999-16539-28	Edward J Ford                  	edseljoe@earthlink.net         	1	On-Line	Authorized	$25.00		
+12041999-16539-29	Richard Harris                 	rich@synik.force9.co.uk        	1	On-Line	Authorized	$25.00		
+12051999-16539-30	Paul James Bennett             	shadowman@proaxis.com          	1	On-Line	Authorized	$25.00		
+12071999-16539-31	David W Justus                 	djustus@dakotahdirect.com      	1	On-Line	Authorized	$25.00		
+12091999-16539-32	Marcus Spears                  	mspears@boisdarc.tamu-commerce.	1	On-Line	Authorized	$25.00		
+12091999-16539-33	Theodore Prodromou             	thepro@dnai.com                	1	On-Line	Authorized	$25.00		
+12191999-16539-34	David S Pence                  	inframagus@aol.com             	1	On-Line	Authorized	$25.00		
+12191999-16539-35	M. Alexander Jurkat            	myacks@aol.com                 	1	On-Line	Authorized	$25.00		
+12271999-16539-36	Christopher J. Yoder           	clangador@aol.com              	1	On-Line	Authorized	$25.00		
+12291999-16539-37	Michael Walser                 	mjwalser@hotmail.com           	1	Phone	Authorized	$25.00		
+12301999-16539-38	Michael D Boni                 	mboni@mindspring.com           	1	On-Line	Authorized	$25.00		
+
+Qty SubTotals	: 12
+Product SubTotal: $300
+CDROM SubTotal	: 0
+
+
+Qty Total	: 12
+Order Total	: $300
+CDROM Totals	: $0   ($3.00 per sale)
+Commission Total: ($36)
+Payment Total	: $264
+

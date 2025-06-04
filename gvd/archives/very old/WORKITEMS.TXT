@@ -1,0 +1,83 @@
+Reminders
+Search for all "msgbox" 
+Search for all "DEBUG"
+Search for all "ToDo"
+Search for all keys that use 1 instead of "1_" for the Body's key value
+Search for all subassemblies that have obsolete properties such as:
+	"access space"  note that some should have empty and access but not all
+	"empty space"
+	"component" or "componenttype"
+	beware of "subtype" because some need and some dont
+	"text"   do i need text?  not sure yet.
+	"rotationspace" IF NOT part of a turrent. I.E Body doesnt need this i dont think
+	"etc"
+I think i can delete "HelicotperDrivetrain class since i replaced them with CAR Rotar and TTRorMMR
+MMR specific drivetrains
+I can delete GroundDrivetrain class since this was broken down into LegDrivetrain, Wheeldrv,etc.
+I dont need "image" and "selected image" in any of the classes
+of the original properties, only Parent and Key are really important
+
+Work Items:
+````````````````````````
+````````````````````````
+````````````````````````
+Vision as a rule must be added as property to Seats, Spaces, Quarters etc.
+Get the properties for all objects finalized
+Get all components into Collection, UDT' and in Save/Write, and Properties_Show procedures 
+Fill Both Combo Boxes with finalized component lists
+Finalize all Property window query METHODS for each class (PropQuery)
+Compile list of all flags
+
+Updating properties updates collection item
+
+===================
+Calculate changes to properties on object
+	Special case rules with weights and stuff here in each class and not modMain
+	Time: updates immediately on "change" event for combo or text
+
+Calculate changes to properties on other Vehicle object's properties
+	Time: Updates on "change" event of combo or text
+
+Calculate changes to properties on Performance
+	Maybe the Body will hold the performance values as its properties
+===================
+
+Error Checking
+	Node Placement
+	Node Deletion
+
+===================
+Tech Level setting codes
+==================
+Print Functionality
+=================
+Print Preview 
+	Nodes view
+	Text view
+=================
+Export Code
+	To HTML
+	To Rich Text
+===================
+Final INI read / Write
+Statistics Final Look
+Performance Final Look
+Properties Final Look
+Icons Final look
+Maximize/Minimize sizing code
+MDI Interface switch 
+Format all code using utilities
+Align all forms , controls
+Setup Program
+Beta Testing
+Final Debugging
+
+
+
+
+
+
+
+
+	
+

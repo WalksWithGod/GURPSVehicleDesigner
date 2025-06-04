@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<array>
+		<string name = "rule">unit conversion</string>
+			<string name = "condition" opcode = "" value ="" conversioncode = "0"></string>
+
+		<string name = "rule">rounding</string>
+
+	</array>	
+</ObjectStore>

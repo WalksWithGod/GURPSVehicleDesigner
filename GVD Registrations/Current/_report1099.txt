@@ -1,0 +1,67 @@
+
+RegSoft.com Registration Report for sales October 1999 
+Author Name	: Michael Joseph
+Author ID	: 9710 
+Contact E-Mail	: mikej@nwlink.com
+
+
+Product ID	: 16539 
+Product Name 	: GURPS Vehicle Designer
+
+Order ID		Order Name			Order Email			Qty	Type	Order Status	Order Amount	CDROM Purchase
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+10271999-16539-1	Chris Spalding                 	warpath@the-cantina.com        	1	On-Line	Authorized	$25.00		N
+10281999-16539-2	Julio c gonzalez               	jcgonzalez@ucdavis.edu         	1	On-Line	Authorized	$25.00		N
+10291999-16539-3	Leonard G. Smith               	lgs@valmont.com                	1	On-Line	Authorized	$25.00		N
+10291999-16539-4	John Anton Hogan               	jahogan@epix.net               	1	Phone	Authorized	$25.00		N
+11031999-16539-8	Andrew R Slack                 	snakebite@halfwaystation.freese	1	On-Line	Authorized	$25.00		N
+10301999-16539-5	James R Gibbons                	cantus@mindspring.com          	1	On-Line	Authorized	$25.00		N
+10311999-16539-6	Lee W Tankersley               	mraid@worldnet.att.net         	1	On-Line	Authorized	$25.00		N
+145074	Thomas A Jones Low             	tjoneslo@softstart.com         	1	On-Line	Authorized	$25.00		N
+145234	Scott A Corum                  	scottcorum@aol.com             	1	On-Line	Authorized	$25.00		N
+145451	Unnie Knutsen                  	peter@knutsen.dk               	1	On-Line	Authorized	$25.00		N
+145613	Ian Harac                      	lizard@mrlizard.com            	1	On-Line	Authorized	$25.00		N
+145744	THOMAS DENIS                   	thomas_d@club-internet.fr      	1	On-Line	Authorized	$25.00		N
+146078	Alessandro Ricci               	alexricci@tin.it               	1	On-Line	Authorized	$25.00		N
+146115	David A LeMay                  	aytr@worldnet.att.net          	1	On-Line	Authorized	$25.00		N
+146427	Ezra Sherman                   	esherman@calldms.com           	1	On-Line	Authorized	$25.00		N
+146684	Domingo A Hernandez            	e-fud@worldnet.att.net         	1	On-Line	Authorized	$25.00		N
+147036	Travis W. Herring              	neko2048@aol.com               	1	On-Line	Authorized	$25.00		N
+147039	Erik Harding                   	madoc@teleport.com             	1	On-Line	Authorized	$25.00		N
+147271	David T. Waters                	samir@chisp.net                	1	On-Line	Authorized	$25.00		N
+147534	Robert BLAIR Roe               	sthomas@emirates.net.ae        	1	On-Line	Authorized	$25.00		N
+147697	B. Erick Kilmer                	aahz@goth.net                  	1	On-Line	Authorized	$25.00		N
+147707	Deligiannidis Nikolaos         	nikolaos.deligiannidis@stud.tu-	1	On-Line	Authorized	$25.00		N
+147938	Timothy M                      	timb@kesmai.com                	1	On-Line	Authorized	$25.00		N
+148019	Chad C Christen                	chadch@aol.com                 	1	On-Line	Authorized	$25.00		N
+148027	Mike Komer                     	gvd@war-ink.com                	1	On-Line	Authorized	$25.00		N
+148601	Ed Stokes                      	estokes@infoave.net            	1	On-Line	Authorized	$25.00		N
+148911	MR A P Cunnington              	gothtech@dircon.co.uk          	1	On-Line	Authorized	$25.00		N
+148918	Jonathan G Wilson              	jgw@hickorysprings.com         	1	On-Line	Authorized	$25.00		N
+149095	Andrew L Stoner                	astoner942@aol.com             	1	On-Line	Authorized	$25.00		N
+149372	Douglas E Bordeaux             	gikiski@io.com                 	1	On-Line	Authorized	$25.00		N
+149627	Bruce D. Weil                  	brucew@midusa.net              	1	On-Line	Authorized	$25.00		N
+150271	William David Haas             	dav@netdepot.com               	1	On-Line	Authorized	$25.00		N
+150298	Derek G Seitz                  	dgseitz@earthlink.net          	1	On-Line	Authorized	$25.00		N
+150329	Ritchie Mudge                  	necron99@netspace.net.au       	1	On-Line	Authorized	$25.00		N
+150441	John B. Owens II               	jbowens@aol.com                	1	On-Line	Authorized	$25.00		N
+150532	Andreas Schenk                 	andreas.schenk@ruhr-uni-bochum.	1	On-Line	Authorized	$25.00		N
+151634	Shea Medlicott                 	medli@uswest.net               	1	On-Line	Authorized	$25.00		N
+151765	Brigitta Hallwachs             	1108-819@naspa-online.de       	1	On-Line	Authorized	$25.00		N
+151939	Todd Previte                   	shark@armageddon.com           	1	On-Line	Authorized	$25.00		N
+151947	Thaddeus B Brister             	huntsman@ipa.net               	1	On-Line	Authorized	$25.00		N
+152615	Ed Parachini                   	kmiller@kscable.com            	1	On-Line	Authorized	$25.00		N
+152782	Keith Armour                   	swosun@odyssey.on.ca           	1	On-Line	Authorized	$25.00		N
+152863	Paul D Dugan Jr                	starman77@mediaone.net         	1	On-Line	Authorized	$25.00		N
+
+Qty SubTotals	: 43
+Product SubTotal: $1075
+CDROM SubTotal	: 0
+
+
+Qty Total	: 43
+Order Total	: $1075
+CDROM Totals	: $0   ($3.00 per sale)
+Commission Total: ($129)
+Payment Total	: $946
+

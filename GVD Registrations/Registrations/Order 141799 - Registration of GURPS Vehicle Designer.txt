@@ -1,0 +1,40 @@
+Received: from smtp6.mindspring.com (smtp6.mindspring.com [207.69.200.74])
+	by pop.nwlink.com (8.9.3/8.9.3) with ESMTP id GAA07605
+	for <mikej@nwlink.com>; Wed, 22 Sep 1999 06:42:07 -0700 (PDT)
+Received: from rsalt03 (user-37ka1oa.dialup.mindspring.com [207.69.7.10])
+	by smtp6.mindspring.com (8.8.5/8.8.5) with SMTP id JAA00849;
+	Wed, 22 Sep 1999 09:42:21 -0400 (EDT)
+Date: Wed, 22 Sep 1999 09:42:21 -0400 (EDT)
+Message-Id: <199909221342.JAA00849@smtp6.mindspring.com>
+From: "RegSoft.com Registration Center" <registrations@regsoft.com>
+To: Michael Joseph <mikej@nwlink.com>
+cc: cc@regsoft.com
+Subject: Order 141799 - Registration of "GURPS Vehicle Designer"  
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+X-UIDL: 74990a050385164aa8a0dc74b3691cce
+
+
+Order Number 092299-141799 has been authorized
+
+
+Learned about it from :Steve Jackson Games Website
+
+Product Name      : GURPS Vehicle Designer
+Product ID        : 16539
+Order Type        : ON-LINE
+Quantity          : 1
+Registration Fee  : $25
+Registration Date : 9/22/99
+ 
+Name              : J.T. Benton
+Company           : 
+Email             : lordjobe@nex.net
+Address1          : 5810 Hwy. 141 N.
+Address2          : 
+City              : Jonesboro
+State             : AR
+Country           : United States
+Zip               : 72401
+Phone             : 870-935-5401
+

@@ -1,0 +1,95 @@
+; <-- comment
+; maybe just use INI file format... its so much easier to make calls to read the stuff I want outta this lame ass file.
+
+
+; need to contemplate how / should multiple components be layered in these def files to (in effect) create ONE combination component
+; im thinking that "that" should be done with .cmp files.  If a user wants to save a branch, save it .cmp then each item in it, points to its ;.gcd file.
+
+
+[Header]
+Major=
+Minor=
+Revision=
+Reserved= 
+Key=GVDGCD
+
+
+[Definition]
+ClassID=
+IconID=35
+Category=
+SubCategory=
+GUID=
+Version=
+
+[Author]
+Author=
+Email=
+URL=
+Created=08/02/02
+Changed=
+
+[Description]
+About=
+PgReference=
+
+[Defaults]
+Name=
+DR=
+
+[Settings]
+WeightFormula=1
+VolumeFormula=1
+CostFormula=1
+SurfaceFormula=1
+
+[Matrix]
+Width=4
+Type=0
+Data0=326,0,100,100,20
+
+[Bitflag]
+B0=1
+B1=0
+
+
+[Proplist]
+<Prop>
+	<Title>"Settings"
+	<PropName>""
+	<Type> wdText
+	<Enabled> FALSE
+</Prop>
+<Prop>
+	<Title>"Tech level"
+	<PropName>"TL"
+	<Type> wdList
+	<Enabled> TRUE
+	<List> 
+		Element0 = 1
+		Element1 = 2
+		Element2 = 3
+		Element3 = 4
+		Element4 = 5
+		Element5 = 6
+		Element6 = 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+	</List>
+</Prop>
+<Prop>
+	<Title>"Quantity"
+	<PropName>"Quantity"
+	<Type> wdNumber
+</Prop>
+
+Prop3= "Added Volume", .AddedVolume, wdDouble, "AddedVolume"
+Prop4= "DR", .dr, wdNumber, "DR"
+Prop5= "Statistics", "", wdText, "Disabled"
+Prop6= "Cost", "$" & Format(.Cost, "standard"), wdText, "Disabled"
+Prop7= "Weight", Format(.Weight, "standard") & " lbs", wdText, "Disabled"
+Prop8= "Volume", Format(.Volume, "standard") & " cf", wdText, "Disabled"
+Prop9= "Surface Area", Format(.SurfaceArea, "standard") & " sq ft", wdText, "Disabled"
+Prop10= "Hit Points", .HitPoints, wdText, "Disabled"
+
+[TextOut]
+
+

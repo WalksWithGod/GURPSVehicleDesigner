@@ -1,0 +1,478 @@
+GURPS Vehicle Designer Revision History
+
+August 10, 2002 Version 1.3.5 Internal Alpha
+----------------------------
+Change: Major design change.  Src code branched.  Switching to inividual component design model via XML style components behavior templates.  This will add alot of customizeability features that users have been asking for (constantly :) for so long.
+
+July 14, 2002 Version 1.3.0 ALPHA
+----------------------------
+
+NEW:  You can now combine power plant power from multiple power source to power one or more devices.  For instance, lets say you have a Space ship with one Ion Drive that needs 5,000,000 kW of power, but you wish to design your spacecraft with several smaller power generators rather than one big one which could easily be disabled.  So, you can create 4 smaller reactors with each putting out 2,000,000 KW and assign two of them to combine power to the Ion Drive so that it can operate at full power. Meanwhile you still have two reactors in reserve in case the other two get damaged during battle, etc.  Hopefully this new power assignment system will give users the freedom they've been looking for which was lacking in prior versions of GVD.
+
+New: Design check will show an FYI if your vehicle has run into any speed limit barriers as a result of the restrictions listed in the chart on page 135.
+Change: Removed hard restriction on stacked turrets needing to use same  orientation and added a FYI to the design check dialog instead. If it detects stacked turrets with different orientations,  it will notify you in case you didnt explicitly want to break this Vehicles2ed rule.
+
+Fixed: clsSurface:Update --> Local variable for hitpoints increased to single precision floating point from long to avoid overflow.
+Fixed: Any water acceleration (for both boats and submarines) that is less than .05 but greater than 0, will always result in at least 0.1 acceleration. (Vehicles rules specify that result is rounded to 1 decimal place)
+Fixed: Crash trying to set the "quality" (e.g. fine, very fine, etc) for a stone thrower
+Fixed: Runtime error when trying to add a DR value greater than 32747 for By Facing armor types. Limit is now 2,147,483,647
+Fixed: Wasnt successfully calculating the weight/cost/volume of Leg Motors.  GVD treats leg motors as seperate entities, but when you combine the stats of all leg motors, they equal the exact stats as if they were a single drivetrain. This now works properly.
+Fixed: Was guilty of same flaw with Ornithoper motors. 
+Fixed: Was not accumulating the motive powers for Leg Motors in performance calcs.
+
+Fixed: Major error in calculating damage for bursting munitions (FASCAM, ICM, SICM & SATNUC). Was converting what should be the "Burst Radius" as the dice damage figure. Have added a "Burst radius" field to weapons which use these munition types and corrected the damage figures. 
+Fixed: Setting Win95/NT/2k to high contrast (white text on black) the vehicle stats were invisible.
+Fixed: Per second errata, Bore Size in the "S" formula modifer element for TL6+ guns weight is treated at 1/2 for low powered and 1/4 for extra low powered weapons. 
+Fixed: PowerReqt for guns and artillery was using a value for RoF before it was being converted to a fraction (e.g. 5 instead  of 1/5)
+Fixed: Changes to the Ranges for headlights were not being saved properly.
+Fixed: Deleting Fusion Air Rams was still causing a crash. The other half of this bug is now fixed.
+Fixed: Solar cell arrays can also be added to gasbags now.  The Design Check dialog will display a warning if you try to do this before TL10.
+Fixed: Design check dialog will warn if solar cell arrays are used on vehicles with stealth, infrared cloaking, chameleon system or liquid crystal skin.
+Fixed: Per second printing errata, vehicles with lifting body and very good streamlining can exceed the 740mph limitation.
+Fixed: Design check dialog was not detecting "overal armor" type for one of the checks used on water bound craft.
+Fixed: Volumes for retractable solar panels now includes weight of any child solar cell arrays.
+Fixed: Volume for non retractable solar panels is 0 since they do not take up any space inside of any subassembly.
+Fixed: Decreased initial mouse down sensitivity for drag and drop of tree nodes
+Fixed: After trying to copy and paste a component to an invalid paste location (e.g. trying to paste a turret under a wheel) the copy/paste functionality would be broken until a new vehicle was created. (Cause: Was removing pasted component from tree, but not from collection)
+
+Change: Updated to zlib.dll version 1.1.4.  There was an advisory that went out a few months back advising of a potential security issue with 1.1.3 advising people to updaate to the new version.  So be it.
+
+
+
+July 29, 2000 Version 1.2.11
+----------------------------
+Fixed: RoF for Slow and Fast autoloading launchers with 40+ and 60+ mm boresizes respectively, were malfunctioning.
+Fixed: Crash when deleting a Fusion Air Ram (Fusion Air Rams dont use external fuel supplies and so has no key reference to delete which it was trying to do anyway)
+Fixed: Crush depth reports "No Crush Depth" for vehicles which dont meet the requirements for calculating the crush depth.
+Fixed:  Warhead costs for Nukes on Bombs, Torps and Missiles is now correct.
+Fixed: Not being able to add a custom component to a 1.2.9+ vehicle corrected.
+Fixed: Bug introduced in 1.2.9 whereby Armor components install point was incorrect which resulted in incorrect crush depth stats among other things.
+Fixed: Headlights range are displayed in "yards" and not "miles"  (searchlights still use miles)
+Fixed: 32 extra points added to Scan Rating for Radar and Ladar that use the FTL option
+Fixed: Range for FTL radar and ladars now reads "light secs range" instead of "mile range"
+Fixed: Range for FTL communicators now reads in "parsecs" instead of "miles"
+
+
+July 28, 2000 Version 1.2.10
+----------------------------
+Fixed: Non English locale settings prevented fractional values from being properly restored from saved .veh files.
+Fixed: When creating a ground performance profile, it would crash since the MotiveAssembly type was not being properly initialized.
+Fixed: In 1.2.9beta, the Performance Types were appearing as 0's. Probably due to a corrupt .frx file.  These performance types are now entered at run-time which should avoid this bug ever re-appearing in the future.
+Fixed: Design check warning for leg volumes not being equal was always appearing even when no problem was detected.
+Fixed: Design check warning for hardpoints on body was appearing even when no problem was detected (failed to exit function on flag)
+Fixed:  Nasty bug which was resulting in incorrect vehicle weight being viewed in performance calculations when Hardpoints were attached to vehicle.  In ground performances, this was most noticeable because of the negative ground pressure values being reported.
+Fixed: When loading a pre 1.2.9 saved .veh, the first round of stats calculations were stale and had to be updated via F5.
+Fixed: Wasnt properly deleting all leg key references  
+
+July 25, 2000  Version 1.2.9
+---------------------------
+Change: Empty space property added to Wheels subassemby to facilitate construction of "monster tires"
+New. Design check dialog warns user that "a vehicle with a floatation hull, submerisble hull, slope, streamlining or rotors must have armor. The
+message is generated specific to the violation(s) found in the users vehicle.
+New: The Design Check dialog will suggest that DR for non rigid armor should not exceed 100 but it will NOT force the user to do so. It will also
+inform them that non-rigid armor intended to be "reflex" armor should not exceed a DR of 5 x TL (page 22)
+New: Design Check dialog warns user if fuel type of tank does not match engine
+New: Design check dialog warns user if they have hardpoints attached to body in conjunction with other features which VE suggests conflict with hardpoints located on the body.
+New: Design Check dialog checks for primary maneuver control when duplicate controls are found.
+New: Design check dialog checks for duplicate controls and warns the user
+New: Design check dialog warns user if recommended minimum wing volumes are not met for stub wings and non stub wings.
+New: Design check dialog checks for streamlining rules conformance (vehicles with certain subassemblies installed are not allowed to have certain levels of streamlining) and warns user which subassembly is causing the specific violation.
+New: Each saved .Veh contains a GUID (globally unique identifier) to help faciliate vehicle factory automation.  If a user submits a vehicle with the same GUID as an existing vehicle in the factory but has a newer version#, that vehicle will replace the existing one.
+Fixed: Design check for weapons attached to hardpoints/weaponbay produced a warning text which wasnt accurate in meaning. The text for the warning has been updated.
+Fixed: Access Space requirments for components attached to GROUP components were being ignored.
+Fixed:  Hoverfan option for Ducted Fans were not being applied properly.
+Fixed:  Crash when weapon links were installed on a Air vehicle with a blank MotiveAssembly for determining takeoff / landing stats.
+Fixed:  Simple Custom component cannot have Fuel Consumption key references (would cause crash)
+Fixed: Adding more than 536 Grav compensators on a TL12 body caused overflow
+Fixed: Ornithopter and Leg drivetrain power output was not being split properly between the individual motors. GVD now handles this slightly differently.  Power is no longer split per se... now the user enters the power PER MOTOR.  The "(per motor)" text is displayed next to the attribute to remind users of this change.
+Fixed: Coal and Wood bunkers volume is not 1:1 with fuel volume.  Routine now uses lookup table just as normal fuel tanks do.
+Fixed: Multiple barrel launchers incorrectly used NumTubes * 0.4 instead of (NumTubes -1) * .4 for the "M" value in the formula
+if a non duplicate primary set is not found.
+Fixed. Wings and Arms will utilize R and L descriptors in addition to a
+user defineable numeric "index" descriptor for these and all other
+subassemblies. The index descriptor is only added if the value is set > 0.
+Fixed: Searchlights can not be set higher than their TL in miles. Headlights cannot be set past TL * 5 yards.
+Fixed: Could not add saved missile and bomb components to hardpoints. (This bug also affected a few other component types, but now all are fixed)
+Fixed: Was displaying "weight" instead of "warheadweight" for bombs and missiles (stats were fine, just the display value was wrong)
+Fixed: If emission cloaking is enabled, Infrared cloaking (which is already included in emission cloaking) is disabled.
+Fixed: Available RoF list for Light Automatics with bore sizes 10mm and lower is now 3 to 16 and not 3 to 6 (typeo on my part)
+
+
+June 30, 2000 Version 1.2.8
+---------------------------
+Changed: VectoredThrust and LiftEngines are mutually exclusive for ducted fans, jet engines, rocket engines, and reactionless thrusters.
+Changed: Lift fans can be hoverfans or not, hoverfans default to liftfans but can be VectoredThrust fans.
+Improved: Performance calculation, including vectored thrust, takeoff and landing distances added.
+New: Air performance profiles allow selection of different ground motive assemblies for use as landing gear. This affects takeoff and landing distances, and you'll need to edit your saved profiles to take advantage of this, other wise you get a long take off and short landing from dragging the belly of the plane on the ground.
+Fixed: Flexibody is added to list of motive assemblies only when a flexibody drivetrain is present.
+Fixed: Lifting Gas cost and volume were 50% too high.
+Fixed: All appropriate DR covering the same location is now added together for minimum DR necessary for high air speed.
+Fixed: Closer reading of p.VE133 reveals rotor surface area should be multiplied by three when calculating stall speed.
+New: Percent Thrust in performance profiles is enabled. This also applies to animals in harness, sails, lift engines, and lift and thrust from rotors, and does not apply to afterburners, levitation, contragravity, maglev, hyperdrive, warpdrive, jumpdrive, or teleportation.
+Fixed: TiltRotor was misspelled "titlerotor" in numerous places. For compatibility reasons, GetTitleRotorForwardThrust remians in GVD.dll as a stub calling GetTiltRotorForwardThrust.
+New: Performance profiles now have an advisory field to display warnings of shortcomings in the current vehicle design.
+Fixed: HTML exports now are complete documents with <html>, <head>, <title>, and <body> tags.
+Beta: Slimline text export, eliminates cost and weight for many components.
+Fixed: Crash when calculating Air performance with ornithopters and tilt rotors.
+Fixed: Crash when deleting Ornithoper drivetrains (failed to properly init array)
+Fixed: Deleting Ornithopers prevented adding a new set to the same wing pair (wasnt removing key reference)
+Fixed: Space (i.e. " ") character added between the ST value for Power Shovels and Winches and the component description in print output strings for those components.
+
+June 05, 2000 Version 1.2.7.5
+----------------------------------
+Fixed: 1.2.7 was failing to add propulsion from items with no .VectoredThrust property.
+
+
+May 31, 2000 Version 1.2.7
+----------------------------------
+Fixed: Total life systems were only 2X volume of full life systems, corrected to 4X.
+Fixed: Changed performance profile window from tall to wide list windows.
+Fixed: Removed a duplicate of "ducted fan" saved as custom component.
+Fixed: Prevented occasional crash when minimizing.
+Fixed: No longer prompts to save vehicle if no changes have been attempted.
+Fixed: Vectored thrust is counted partially for static lift and partially for motive thrust.
+Fixed: Screen layout, splitter bar position was not saved if GVD was maximized at close.
+New: Hourglass pointer initiated at start of re-calculation cycle
+Change: In output Steerage "operators" now referred to as Steerage passengers
+Fixed: Number of medics calculation now takes into account total passengers as well as crew 
+Fixed: Recommended number of stewards doesnt round until after the number of shifts has been factored in 
+Fixed: Users can now set 0 for volume, weight and cost of Custom Component
+Change: Updated \Lists\Categories.txt to include more categories
+Fixed: When making battlesuits, a left and a right arm are added instead of two left arms 
+Fixed: Copy/paste support be disabled for Group component. 
+Fixed: Armor output now correctly shows ".lbs" plural and not singular ".lb" (only effected the following armor types: ArmorOpenFrame, ArmorGunShield, ArmorComponent, ArmorOverall, ArmorWheelGuard)
+
+
+
+March April 25, 2000 Version 1.26
+----------------------------------
+New:    Weapons and Launchers can now be ruggedized.
+New:  Group component added
+New:  Saved .veh files are now compressed.
+New:  Splitter bar code rewritten.  Can now move all 3 splitters more freely.
+Fixed:  Light Sails no longer need to be attached to a Mast. (though you still can if you wish)
+Fixed:  Light Sail thrust now available for Space Performance
+Fixed:  Battlesuit Systems TL now correctly start at 8 and not 7.
+Fixed:  Neural Interfaces power reqts were not rounding properly in the Power Systems dialog.
+Fixed: RoF for Guns in text/html output was not showing fractions (e.g. RoF 1/3 would print out as 3) 
+Fixed: Updated 3014.txt to fix incorrect volume modifier for TL8+ transponders
+Fixed: Life systems output now reports time in "man-days" and not just "days"
+Fixed: Launchers can be attached to hardpoints
+Fixed: Design check dialog now properly checks for individual components which exceed hardpoint rated capacity.  NOTE: It currently does not try to track cumulative weights of multiple objects attached to a single component.
+Fixed: Compartmentalization added weight and costs were way off. (they were only marginally higher from non compartmentalization values)
+Fixed: Hydrogen fuel scoops can be added to Wings as well as body.
+Fixed: Neural Interfaces now output properly
+Fixed: Weight and Volume for PESA and other Thermal and Passive Elctro sensors is now correct with various Quantity settings
+
+
+March 2, 2000 Version 1.24
+----------------------------------
+New:    In the Tools/Configure dialog you can set the GVD startup mode to Quick Start which will hurry past the splash screen a bit faster.  It still will display the splash screen while GVD is actually performing loading operations, but it will not bother to flip through the graphics.
+New:    In the Tools/Configure dialog you can disable the startup sound from being played.  This will not do anything to speed up the launch since the sound is played asynchronously anyway.  
+New:   GVD's  .VEH files can be associated to Open with GVD when they are double clicked.  In the Tools/Configure dialog just click the checkbox named "Associated .veh extension"   This means you can open a .veh file by just clicking on it.  However, since GVD does not use an MDI interface, this will only work if there is no previous instance of GVD running.
+New:  GVD will now remember independantly, which save, open, text export and html export directories you last used.
+New:  DX and IQ for computers are now listed in its stats and export description.
+New:  Most recent file list (holds the last 5 vehicles) added to File menu
+Change: The various Power, Fuel, Weapon links, Performance Profile dialogs have been made a little bigger.
+Change: GVD settings now saved to an INI file instead of Dat. This will allow for new Ini sections and keys to be added without having to worry about breaking any file formats.
+Change:   More than one sensor can be attached to a sensor Periscope
+Change:  The placement restrictions on Stabilization gear has been removed.  You can place it on litterally ANY component that has weight and volume.  This was done per request.
+Change: Splash screen shows full version --> Major.Minor.Revision instead of just Major.Minor
+Change: Smaller hand cursor in Listview for grabbing items. The index finger points to the item just like a regular mouse arrow.
+Fixed:  IQ for computers with Robot Brain was reporting 3 instead of Complexity + 3.  (Sentient computers were fine)
+Fixed:  Opening files via the Recent File Menu was not properly tracking the filepath.
+Fixed:  Ducted Fans with vectored thrust option, were not having weight, cost and volume x 1.5
+Fixed:  Loading a vehicle by double clicking its filename in Explorer would result in filepath not being saved. (same bug as Recent File Menu since they share the same procedure)
+Fixed:  Saved components that are restored were not being added to the Power System profile dialogs or fuel using system dialogs (same exact problem as the copy/paste bug)
+Fixed:  Ammunition.txt file was corrupted
+Fixed:  Stabilization gear could not be added to anything (failed to set a flag to True in locationcheck routine)
+Fixed:  Crush Depth was ignoring Armor DR 
+Fixed:  Rotors can now be placed on Superstructures, Turrets and Pods in addition to the Body. Now possible to build tilt rotors with Multiple Main rotors attached to Pods.
+Fixed:  Help\About screen shows correct version
+Fixed:  The exported files will now show the correct GVD version that the file was generated with.
+Fixed: Program will not accept input during the middle of a stat calculation cycle. This is to prevent user input while the program is not expeting any. 
+Fixed:  The Performance Profiles, Weapon Links, and Power Systems dialogs now show the custom name given to a component and not the base name.  
+Fixed:  Steerage operators changed to Steerage Passengers in output
+Fixed:  Copy and paste bug affecting any component that has a Power System assignment or Weapon Link assignment. Those components would be added to the vehicle, but would never show up in those dialogs.
+Fixed:  Ammunition types for bore sizes between 9 and 20 are now added properly to the drop down list.
+Fixed:  Power output for all jet engines types was adding +1 kw to all values.
+Fixed: Aerial Sails using Fore & Aft rig structure can now be built
+Fixed: Aerial Sail stats calculations for weight and cost are correct
+Fixed: Design check message for minimum volume when masts are installed is showing correct volume info (and rounded results)
+Fixed: Thousand comma seperators added to Speed for air performance values where applicable
+Fixed:  Drag was not properly checking for Cycle Seats or exposed crew stations (exposed seats were working however)
+Fixed:  If the category and subcategory fields were not initially set under some conditions, the export would print their default values (which happens to be their names cboCategory, cboSubCategory) 
+Fixed:  ESC at register screen will cancel it
+Fixed:  Contragrav generators do not need access space as they are not propulsion or power systems.
+Fixed:  Cancel button on Edit profile dialog has been enlarged so the letter "l" wont get chopped off when the button gains focus
+Fixed: Hovercraft MR was using the MagLev routines instead of the Aircraft routines
+Fixed: Aircraft MR was applying +2 instead of +1 for responsive structure _OR_ elect/computerized controls modifier.  it uses +2 for _AND_
+Fixed:  "No viewer specified" error keeps popping up when trying to export after initial program launch. This bug introduced after switching from .dat to .ini file as I was forgetting to save the viewer path data.
+Fixed: Short and Long now appear under Occupancy export heading
+Fixed: Non conventional guns (electromags and gravitic types) can no longer have the "Advanced Options" such as caseless ammo, liquid propellant, etc.
+Fixed: Cost multipliers for ammunition types SAPLE and downard in the Ammo table (see page 112) were all set to x1 instead of their actual modifier values. The updated ammunition.txt file fixes this.
+Fixed: WPS and VPS no longer show up to a ton of decimal places in the text/html output
+Fixed: Many ammo types were having fragmentation damage where there shouldn't have been any.
+Fixed: The secondary damage was not resetting if switching ammo types from one with secondary damage to one without it.
+Fixed: Some of the devices in the power systems with low consumption rates (e.g. .01) had very odd numbers along the lines of 9.9999998899999 or 1.0000000009988, etc
+Fixed: Editing a "Note" for a component did not take effect immediately.
+Fixed: Damage for Stone Throwers with "counterweight" mechanism was not adding the +1 per die of damage properly.
+Fixed: Damage for Stone Throwers over 100ST was way off.  Formula i was using to calc the swing damage was dividing by 100 instead of 10.
+Fixed: Number of sailors in crew is now _finally_ correct.  Two 20 foot masts with square rig sails for instance will have 2 sailors.  sqr(40) / 4 = ~1.58 = 2 sailors
+Fixed:  Surface area multipliers for various wing types now works properly (e.g. STOL x2, Biplane x3)
+Fixed:  Surface area multiplier for rotors is now correct at x3
+Fixed:  Armor costs at TL3- are now correct UNLESS the armor is n/a at that Tech level (not invented yet)
+Fixed:  Force screens and deflector fields output with full detail under the Surface Features heading in the exported file. 
+Fixed:  Provisions now appear in exported text/html file under the Environmental Systems heading.
+Fixed:  Turbocharged and Superturbocharged HP Gasoline engines was using 2.5xkW +10 instead of 2.25xkW+10
+Fixed:  All ammunitions with range modifiers are now updating the ranges properly. (e.g. APS ammunition is range * 1.5)
+Fixed:  Cost of Thrust Bombs in Orion Engines was incorrectly multiplying by the number of bombs _and_ the bombs total weight.
+Fixed:  Thrust rate on Orion Engines was not multiplying by the Pulse Rate
+Fixed:  Adding a solid rocket engine or Orion Engine to your vehicle and then trying to access the Options dialog caused a RunTime error.
+Fixed:  Deleting Terminals from a vehicle resulted in a RunTime error.  An array within the Terminal object was not being initialized.
+Fixed: Per Ve 2nd Edition Second Printing Errate, Beam Weapon damage formula for > 1,000,000 kJ is 10 x (cube root of O) x B x T
+Fixed: Weight calculations for Beam Weapons with Cyclic Rates LESS than 1/2 (since its not covered in the book) will use the "F" multiplier value of 0.666 (see page 126 for Beam Weapon weight formula).  This will now prevent beam weapons with very slow cyclic rates from having 0 weight, volume and cost.
+Fixed:  Muscle engine Power Output will no longer exceed the Max power output that you specify
+Fixed:  The Air Search & Ground Search .5 multiplier was reversed for all conditions.  It is now correctly using the .5 modifier  which results in less expensive cost when used.
+Typeo: kW/s was being displayed instead of kWs for the Stored capacity for energy banks
+Typeo:  Thrust mispelled "Thurst" in various areas
+
+
+
+November 10, 1999 Version 1.1.6
+----------------------------------
+New: You can now adjsut how many decimal places appear in the text output.  Valid ranges are 0 - 4.  This feature is accessible at the Configure Dialog.
+New:  You can now add ammunition to any subassembly or equipment pod AND you can have multiple ammo types.  HOWEVER, its a little unconventional for using.  To set the ammo, first you must attach it to a valid weapon.  Once you're happy with the Gun's statistics, you can "Lock" the ammo's settings and then you can move it anywhere you  like and its statistics wont get changed.  This is not the most automated way to handle this, but quite frankly, its the easiest way for me without having to add a ton of supporting code to handle this scenario.
+New: You can now copy and paste components that youve installed in your tree.  Currently you can only copy/paste a single element at a time.  This could be changed in a future update, but for now this should help.  Also, some components cannot be copied due to technical reasons.   The Body, battlesuit systems, Wings, Ornithopter Drivetrains, Legs, Leg Drivetrains and a few others are examples of components that cannot be copy and pasted.
+New: Able to Save/Load individual components.  You cannot however save/load branches of components.. only individually.  Also, saving of a few specific component types is not allowed.  Arm motors, Ornithopter drivetrains, leg drivetrains, wings, legs for instance.  
+New:  F12 now launches the Save As dialog. F11 launches the print text dialog. CTRL+N = new vehicle, CTRL+S saves, CTRL+O opens, etc. Check the various menu items to see which accelerator keys are available.
+New: Lasers, Plasma beams and disintegrator weapons can be designated as "Energy Drills" which reduces their cost by half, reduce Acc by 5 and increase SS by 5.
+New: You can now edit the settings of an existing performance profile.  An "edit" button has been placed on the Performance Profile dialog.
+New: Vehicle's class, category and sub category are added to the text output
+Change: Renamed "astronomical sensor array" to "astronomical instruments".   Some people were confused and thought this was supposed to be the "Astronomical Telescopes" on page 55.  To build that, you just build it like a telescope or low light tv and add stabilizaton (per rules page 55)
+Change: Searchlights can be set to ranges less than 1 mile
+Fixed: GEV/SEV was not increasing lift for hoverfans by 5 and 4 respectively or 2 if there is not Hovercraft subassembly
+Fixed: Planing speed for boats was not working correctly. NOTE: this uses the planing speed formula from the 2nd errata.
+Fixed: mispelled "gasoline" in several spots
+Fixed: can now add mines to launchers
+Fixed: added the "s" in "kWs" for energy banks
+Fixed: added Hovercraft category to Description tab in Options dialog
+Fixed: I received several reports of people mysteriously winding up with 0 byte files after saving.  There is a chance that if GVD was erroring during the save and supressing the error messages.  Ive rewritten the save code such that GVD will first create a copy of the saved vehicle in memory and will only dump to file if successful.  The Load coad has been similarly rewritten to first load the entire file and if successful, it will rebuild the tree.
+Fixed: Trying to "Reset Defaults" in options dialog would error out
+Fixed: Land animals attached to harness now generate kW of motive power and not lbs of Thrust is used for Swimming and Flying animals
+Fixed:  There is now a space between "high ground pressure"  in the printout (i.e. used to read "high groundpressure"
+Fixed: Stealth mod for TL7 was correct, but for TL8/9 i was just using flat 1000 and 500 modifiers (i misinterpreted the rules on page 118 since it doesnt explicitly state WPS *1000 or WPS * 500.  But obviously it makes sense to use WPS for all 3.
+Fixed: Damages for Beam weapons under 1000kj output is now correct (see 2nd vehicles errata)
+Fixed: Emptyweight for Beam weapons with ROF of 4 is correct (all other ROF were unaffected)
+Fixed: Beam weapon volumes were not taking into account Power cells
+Fixed: Energy Drill option added to Rainbow and Blue-Green lasers
+Fixed: Access Space volume is now added to the Body before Retract multipliers are factored in. 
+Fixed: The design check dialog was popping up bogus messages
+Fixed: Some launchers listed in the components.txt had the wrong data type listed and so were creating the wrong type of launcher. This was effecting Revolver launchers and Autoloaders.  New components.txt fixes this problem.
+Fixed: Added CHEM as possible missile warhead type.  
+Fixed: Missile skill was always trying to show a value for Terminal Guidance even if there wasnt one installed
+Fixed: Crashwebs and other safety systems that attach to Crew Stations, Seats or accommodations now correctly displays its Quantity in the print output. (i.e. if you attach a single crashweb to a Crew Station with quantity of 2, then 2 crashwebs will be displayed.)
+Fixed: Items added to Launchers were not giving their volume to the subassembly that was holding the launcher.
+Fixed: New 3019.txt file fixes problem with software cost halfing at tech level 8 instead of 9
+Fixed: Malf for breechloaders at TL5+ were incorrect
+Fixed: Recommended Mechanics now calculating properly
+Fixed: Simple custom component will now print, but it will print to its own category header "Custom Components" (*sigh* trying to retrofit some of these features into the current design is just not that straightforward and so i'm opting to take the easy way out until such time that Id want to rewrite portions of it to make it more flexible.  But i dont want to invest the time in that right now)
+Fixed: Fuel Stokers was reversed with Mechanics on the crew dialog
+Fixed: Gravitic and electromag autoloaders now have correct Malfunction.
+Fixed: Hurray!  Locale setting errors for non english systems is fixed.  No need for you non English gents to change your system locale settings anymore.
+Fixed: TL8 MHD HP Turbines updated data file with correct Cost modifier.
+Fixed: No more crash when trying to armor cargo
+Fixed: able to add stabilization gear to operating rooms
+Fixed: Harness crew stations now add 20 to drag
+Fixed: Safety systems attached to Crew Stations or other Accommodations now check the Quantity of the Crew station and calcs the correct weight/volume/cost
+Fixed: External cradle text output now correctly displays the max load that it can support
+Fixed: Current weight loaded onto dry docks, vehicle bays, etc now does not describe this as a "max load"  It is now  "currently loaded" weight.
+Fixed: Crush depth formula was missing the * 10 yards portion of the formula and so max crush depth was always 10
+Fixed: Setting some "access space" modifier values would not be restoreable when re-entering the Options dialog
+Fixed: Power output for tractor beams, compressor beams and combination beams were always 0.
+Fixed: Hydrogen as a fuel in a fuel tank was always free, volumeless and weightless.
+Fixed: Weapons at end of HTMl output are now seperate by a line, however, unless i create an html table its still not going to look right.
+Fixed: TL8 cheap armor is now using the .5 weight 
+Fixed: Fuel Cells can be assigned to fuel tanks (this could cause some problems with older saved vehicles with fuel cells in them)
+Fixed: Number of crew reported for Crew Stations now takes into account a Quantity other than 1 per each crew station component added to the vehicle.
+Fixed: Bilge pumps now are free for large vehicles only after the TotalVolume/1000 quantity has been substracted.
+Fixed: Had the Extra Barrel weight modifier for Artillery reversed.  Was applying it to gatlings when instead its supposed to apply to NON gatlings.
+Fixed: Max range for "WG" guided missiles
+Fixed: Jet engines would cause a fatal error when trying to access the Options dialog (this bug introduced after fixing the required Mechanics crew recommendation)
+Fixed: MR for Air performance profiles was rounding down to 0 instead of using the minimum .5 value.  Hence, Deceleration was wrong for some vehicles.
+Fixed: With saved components and pasted components, I was not setting the "load" flag which was causing the components to override parts of the saved data with default data.
+Fixed: Weights and cost for TL6 Turbo/Supercharged engines was off.  TL7 HP Gasoline engines, and TL8 HP Ceramic Engines.  (wrong variable type was causing the fractional part of their weight formula to be rounded)
+Fixed: range modifiers for guns with relevant Ammo types listed in the ammo table on pg 112 were not being applied.  
+Fixed: For guns, it was impossible to access the ammo types such as SATNUC's, FASCAM's, ICM's and SICM's
+Fixed: Solid is not a valid ammunition type for Mines and is no longer an option (solid is only available for kinetic weapons not stationary ones)
+Fixed: CPS for ammo now uses the original WPS value in its calculations for those ammo types that have a WPS modifier
+Fixed: Fast Autoloader ROF now changes from 3~ to 2~ at 20, not at 15. 
+Fixed: Damage mod for Canister is sqrt KE, not 1/2 KE. 
+Fixed:  Beehive damage is 2.7KE/B, not 1/2 KE. 
+Fixed: Shrapnel has a max damage of 1d. 
+Fixed: KE damage for missiles *is* affected my warhead size x0.5 for small, x0.625 for modest, x0.8 for normal, x0.95 for big, x1 for huge. 
+Fixed: ROF for muzzle loading launchers at TL6+
+Fixed: Notes textbox for crew station assignments was not modal.
+Fixed: The crew station assignment text added to print output
+Fixed: missiles/torps that had a quantity field greater than 1 would display total Cost and Weight in the weapon table at the end of the print output instead of WPS and CPS
+Fixed: tab order on the Edit Performance Profile dialog has been updated
+Fixed: tab order on the Options dialog "Other" tab has been updated 
+Fixed: Gun ammo volume was using 50 instead of 150 for the divisor
+Fixed: For cannons, the barrel length modifier for "long" barreled guns was using 1.5 instead of 1.7
+Fixed: CTLR+I calls up the Options dialog (all the other letters such as O,S,N,P,T were taken by other menu items such as Open,Save,New,Performance...)
+Fixed: Recalc Vehicle stats (F5) wasnt always functioning
+Fixed: Grav Compensators were broken with a recent fix.  Now working agian.
+Fixed: loaders for guns takes into account Quantity
+Fixed: Ammunition now prints out following the weapons output
+Fixed: Treeview background color should always be same color as the other panes
+Fixed: Drop down box on main window will now drop down to reveal all sub types without the need for a scrollbar
+
+
+
+October 05, 1999 Version 1.0.30
+----------------------------------
+Change: The disposeable launcher now defaults to 1 launch tube instead of 6
+Change: bilge pumps are now free, weightless and volumeless for larger vehicles. Originally it was intended that if the user wanted free bilge pumps, then they just wouldnt add them to the vehicle and assume them to be installed. Now bilge pumps cannot be assumed to exist unless you add them.
+New: Weapon links now addded to text output
+New: Software listing added to text output
+New: Crew makeup now added to text output
+New: able to armor equipment pods with component armor
+New: able to specifcy whether you want to override default provision settings (which auto determines which settings to use based on the existance of any life support systems) or to set it to force it to use "light" or "heavy" setting
+New: Able to add armor to cargo
+New: Quanity property added to Grav compensators
+New: In performance profile, able to specify whether you want to treat Popturrets as Extented and thus increasing drag
+New: In performance profile, able to specify whether retractable wheels/skids are extended and thus increasing drag
+New:  The "Help/About" display should have the minor revision numberand patch level displayed
+New: Lift property added to the air,hovercraft and mag lev performance displays
+New: Can now select rechargeable power cells for C,D and E cells in Beam Weapons. These are designated as "rC cell", "rD cell", "rE cell" in the "Power cells" drop down. NumShots is half due to the fact that rechargeable power cells are only half the capacity as standard power cells.
+New: For powercells and rechargeable power cells, you can select a specific Cell type (e.g. AA,A,B,C,D, or E. This will automatically calculate the stored capacity based on the TL and the type of cell. Rechargeable power cells will have half the capacity at the same rate. Note you can also still enter a "custom" stored capacity if you like.
+New: Hitting enter key on a selected node will display the properties for that component just as if clicking on it with the mouse.
+New: Can now select cyclic rates for Beam Weapons using GURPS traveller progression rules. I've removed the minimum cyclic rate checks.
+New: Thrust and Weight Options added to the Perforance Profiles (Currently Thrust is Disabled)
+New: Design check dialog that you can view to see if there are any major flaws in your design.(only reports leg volume problems and minimum body volume messages currently.
+New: Can now specify an empty weight for a cargo room/container and a weight per cf. The default weight per cubic foot can be set in the Options dialog
+New: Able to configure performance profile to treat tilt rotors as having 3.5x motive power for the purposes of forward flight. User should create two profiles for a tilt rotor aircraft... one in forward flight and the other in "helicopter mode". 
+New: In options dialog, you can not check whether you want to use the Capacity for hardpoints and weaponbays for determining Hardpoint loaded weight (default) or if you'd rather ignore the capacity and search for all Weapons and Equipment pods attached to hardpoints instead. When creating a performance profile, you can elect to user a percentage of Hardpoint weight and it will also use the same setting.
+Fixed: luxury mispelled in options dialog
+Fixed: trying to alter tracks from 2 to 4 sets caused error.
+Fixed: Hoverfan option for Ducted Fan now contributes to static lift and not forward thrust
+Fixed: Afterburners now also work in determining static lift
+Fixed: fixed error caused by having low hydro drag in water aircraft
+Fixed: error when deleting any jet engines and then going to the Power System Profiles (i forgot that jets are power generators in addition to propulsion systems and also need their references from Power Generating objects deleted when they are deleted.
+Fixed: if user tried to set the power output of a reactor that doesnt allow output less than 5kW, then the stats would generate weird negative values. Now program wont let you set <5 values for those specific reactor types listed in the table on page 86.
+Fixed: Major ommision, rotors surface area was not being added to the "Total lift area" of a vehicle
+Fixed: Weapons now output to text in both a table at the bottom and in the regular output that shows their Cost, Weight, HP, etc
+Fixed: Quantity greater than 1 now works for all weapon types
+Fixed: MagLev MR was not getting calculated properly
+Fixed: Hovercraft MR was not getting calculated properly
+Fixed: Verticle scrollbar for long vehicle descriptions added to Description textbox on Options dialog
+Fixed: Typeo, cyclic was mispelled cylic 
+Fixed: Cost per shot for gun ammo was messing up. 
+Fixed: Weight for Light Amplification was incorrect
+Fixed: Datafile for targeting systems had incorrect data for Hudwac w/pupil scanner
+Fixed: Crush depth calculations failed for all but medium and higher frame strengths
+Fixed: Orion engine thrust bombs were using dividing by bomb weight instead of multiplying by it. The thrust bomb table shows for instance: 40lbs + (2lbs./kiloton) which confused me and i went with a division instead of a multiplication of 2 * kiloton.
+Fixed: Self destruct systems now have half weight/volume/cost as normal bombs (per rules page 70)
+Fixed: Bombs and Mines no longer have motor weights/costs or guidance weights/cost (smart bomb exception)
+Fixed: In the launchers listing, fast autoloading launch tube was mispelled
+Fixed: Per the rules on page 78, the minimum number of man days for a limited life system is .25 per person. GVD now checks to make sure the user has entered a value for man days that meets the requirement. If not, gvd automatically raises man days to the minimum value necessary.
+Fixed: error with assinging rockets to fuel tanks
+Fixed: Cubic foot in turret for Form Fitting battlesuits is now correct
+Fixed: You can now enter the Weight of Craft in a Storage Bay, Hanger, Space dock etc and this will be added to the LoadedWeight. For performance profiles, you can specify what percent of that weight you want used in the calculations
+Fixed: Reactor costs were always defaulting to the minimum cost of 20,000 (RTG's 2,000)
+Fixed: Grav compensators used 2000 instead of 4000000 in the formula for determining G reduction.
+Fixed: Cost and Complexity for Robot skills programs was busted.
+Fixed: For database software, you can now add in the size in gigabytes
+Fixed: When in tilt rotor propeller mode, top speed is now limited by the propeller top speed and not rotor top speeds (this assumes you dont have any NON tilt rotors on board that would slow it down)
+Fixed: Error in Space performances with 0lb vehicle weight
+Fixed: In the output spelled camouflage as camaflage 
+Fixed: Vehicle storage component output now lists both Max Cf craft supported as well as max load in lbs.
+Fixed: beam weapons no longer have "Vacuum Max Range at HT6- (yards)" listed. Its now just Max Vacuum Range". 
+Fixed: Hardpoint loaded weights were not getting calculated properly
+Fixed: When re-entering the Options dialog, submarine lines would always get disabled if they were previously set
+Fixed: mispelled "Diesel" in fuel tank fuel type drop down
+Fixed: Changing fuel type now updates fuel stats
+Fixed: Any item attached to a hardpoint now increases drag by 5
+Fixed: loading old vehicles saved with a version of GVD before the Crew Station quantity property was added will now check for any 0 quantity values and update them to 1
+Fixed: the history.txt file that installs with GVD has been updated with current history from the web
+Fixed: When starting a new vehicle after having previously loaded a vehicle, the performance profile drop down list wasnt being cleared
+  
+
+September 25, 1999 Version 1.0.24
+------------------------------------
+Fixed: Arm motor power reqt was ST*200 instead of ST/200 
+Fixed: HEDP warhead type for both Missiles and Guns caused crash 
+Fixed: Left out some items that should have been contributing to Static Lift and werent. Specifically helicopter drivetrains, lifting gas and ornithopters 
+Fixed: Some saved data was not getting restored properly. Note: Your saved files are actually fine and there's no need to go back and update them. The new vehicles.dll will allow all the data to be read in properly. 
+Fixed: Orion Engine when added to a Performance Profile caused error 
+Fixed: Reactionless thrusters were always defaulting to the minimum 500.00 cost 
+Fixed: Surface area table data file had a bug. The lookup value starting at 17,186cf had a decimal point where the comma is (and there shouldnt have even been a comma) 
+Fixed: Rotor weight was getting overwritten by its "foldingweight" (wrong variable assignment) 
+Fixed: Armor Tech levels higher than 13 were causing internal error. 
+Fixed: Typeo "attached" mispelled as "atached" 
+Fixed: Typeo "Equipment" mispelled as "Equiptment" 
+Fixed: Tab order for controls on dialogs have been improved. 
+Fixed: Options Dialog would not restore "Military vehicle" checkbox 
+Fixed: Fuel storage devices weight (tanks) were not getting added to Vehicle weight 
+Fixed: Body and wing retract volume werent getting added to the Wings properly 
+Fixed: Empty space was being added to RealBody volume AFTER the modifiers which was resulting in artificially low Body volumes 
+Fixed: Stats for certain tech level environmental controls were wrong 
+Fixed: Water and Submerged Top Speed's fixed. My cube root formula was using ^ 1/3 instead of ^(1/3) Very different results. 
+Fixed: Able to add Bombs to hardpoints and weaponbays now. 
+Fixed: Adding a component with a long name wont auto scroll to show the entire name of the component any more. People were annoyed by this, cant say that i blame them. ;-) 
+Fixed: ESCAPE key will now "CANCEL" dialogs without having to press the X or the Cancel buttons. Note that Cancel means Cancel and not Save and then Close. 
+New: F5 key will force stats update. Im 99.9% sure this wont make a difference since all stats are updated one full cycle after even the tiniest change. Actually this would have made a difference about 1 month ago before i went ahead and decided to sacrifice a little performance for superior accuracy by doing a complete recalc no matter what change you make. Prior to this i was attempting to do only smart stats updating but this was proving to be unreliable. 
+New: Hitting the Enter key when a Component is selected will add that component to the selected Tree component. (if you didnt already know, Double clicking also works in place of dragging and drop) 
+Fixed: Hitting the tab key now cycles through controls in the proper order on all dialogs. 
+Fixed: When editing a property for a component, the selected sell wont return all the way to the top anymore. Instead it will stay where you left off. This will make keyboard access alot easier. 
+Fixed: Tracks were computing volume as .06 and .04 times body volume instead of .6 and .4 respectively. 
+New: Added menu item for Forcing Recalc of all stats F5 will also work 
+New: Added menu item to clear the Warning message panel F6 will also work 
+Fixed: Could not assign Ion Drive to a Power Supply. Unfortunately this fix required a break in compatibility with the old vehicles.dll file. The only real problem this causes is if you saved any vehicle with an Ion drive already, the program will not be able to load it since that component has changed format internally. 
+"Solid" has been removed from possible "guiadance system" types. 
+Fixed: Smart bombs can now be given any guidance system (with TL restrictions the same as guided missiles) except for IG and WG. 
+Fixed: internal error when setting a Naval Mine onto the vehicle 
+Change: Naval proximity mines can use Active sonar homing, Passive radar homing, multiscanner homing, optical homing, and neutrino homing. Im not sure if AH, MH, NH and OH are realistic or not so let me know and i can remove them as options. 
+New: Quantity property enabled for Crew Stations 
+New: Added my email address to the about box 
+New: Crew Escape Capsules now functional 
+Fixed: Objects attached to Equipment Pods thought they were attached to hardpoints and so Equipment pods were having all 0's for stats. 
+Fixed: the aSR calculations were really screwed up 
+Fixed: Vectored thrust calculations were off. 
+Fixed: Some weapons would not print to file. 
+Fixed: Now able to choose your Brilliant "terminal" guidance system for Guided Missiles and Guided Torps. Setting this value to "none" is equal to not having a Brilliant system installed. 
+Fixed: hitpoints for jet engines were off 
+Fixed: Electric gatlings were not "powered" 
+
+
+September 19, 1999 Version 1.0.18
+------------------------------------
+new: in the text output, the list of devices that a power system supplies power to is listed along with any reserve power left over. (Registered versions only) 
+new: stopwatch icon appears when loading vehicles along with "Loading..." text 
+fixed: Status bar on Options panel updates when activating the dialog 
+fixed: Top speed checks for Hovercraft and Aerial performances are now enforced. 
+change: Levitations now uses Loadedweight instead of Empty weight for their lift capabilities. 
+fixed: crash when setting Top Decks to ON with Open Cargo component in vehicle 
+fixed: ammunition type LE in ammunition.txt had "explosive" instead of "exp." damage type 
+fixed: guidance system costs for Missiles was multiplying by Guidance weight AND Missile weight and so the guiance system costs were outrageously high. 
+fixed: selectable ARH (active radar homing) missile guidance type was mispelled ARG and as a result, was not getting read from the lookup table thats used to determine the price 
+fixed: Hovercraft will now use as much vectored thrust from vectored thrust capable engines or fans as necessary to obtain static lift equal to loadedweight 
+fixed: rate of fire for Manual Repeaters with Low Power or Extra Low power option is now 3 instead of 1 
+fixed: rate of fire for guns and launchers of "var." outcomes is now correct. Used to use a "1" value for any "var." value 
+fixed: Electrothermal option for Guns now results in correct stats 
+fixed: Renaming and reverting the name on a component now updates the display in the statusbar 
+fixed: Moving a component to another spot in the tree results in stats updating for the vehicle 
+fixed: Treeview no longer shows loading of vehicles in progress anymore. Looks much better now. 
+fixed: Options dialog now loads about twice as fast as it used too 
+fixed: Updating Masts would not cause all sails to recalc. Now it does. 
+fixed: Much cleaner stats re-calculations across the board. Now if you make a change in one component, you should see the relevant updates occur in the other components. 
+fixed: when loading a saved vehicle with retractabld wheels, the retract location would get set back to "none." Fix is now to set wheel subtype to "rectractable" if the user sets retract location to anything other than "none" 
+fixed: minimum volume messages "should" only appear now when appropriate 
+fixed: loading a corrupt file will no longer prevent new files from being loaded later. 
+fixed: changing the surface area formula to/from Table and Cube root formula now automatically updates every component in the vehicle instantly 
+fixed: when double clicking a component to add it (instead of dragging and dropping) the stats werent updating. Now they do. 
+fixed: could not set motorweight properly on some missile types. now you can. 
+
+September 17, 1999 First Public Release
+------------------------------------------
+ 

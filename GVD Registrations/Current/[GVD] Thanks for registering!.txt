@@ -1,0 +1,40 @@
+Hi 
+Thank you so much for registering GVD! You registration codes are included in this email and will unlock GVD's save, export and publish utilities.  More importantly, your support helps fund the development of future versions of GVD. All version 1.X upgrades will be free for you to download. Make sure to check out the GVD homepage at http://www.makosoft.com/gvd regularly to get the latest GVD news and information on program updates. 
+
+At this time, I would also like to invite you to join the GVD e-mail list. By joining the mailing list you will receive notifications of official program updates as soon as they are made available.  Through the mailing list you will also be notified of interim "beta" updates which are not immediately posted to the website.  To join the list, simply send a blank email (no subject or message text needed) to the following address:  gvd-subscribe@eGroups.com   
+ 
+Here are your registration codes: 
+
+NAME
+XXX XXXXXXXXXX 
+
+Instructions for Registering
+-------------------------------------------------------------------------
+1) Launch GVD by clicking on its icon in your start menu
+2) When GVD has loaded, click the Help / Register menu item
+3) In the left text box, enter your name exactly as it appears above
+4) In the middle text box, enter the first 3 digits of your reg number
+5) In the right most text box, enter the remaining digits.
+6) NOTE: Your name and reg number must be entered exactly as shown above. I suggest you copy and paste the information to ensure accuracy.
+7) If you have problems registering your copy when using the above information, please send mail to gvd@makosoft.com
+8) It is highly recommended that you print this document and save it for future use. Keeping a hard copy can be especially useful in the event of a hard disk crash or reformat. 
+
+
+Loss of Registration Codes
+--------------------------------------------------------------------------
+ _IF_ you lose your reg code due to a hard disk failure or reformat and you do not have this document printed out for reference; I can email your codes to the ORIGINAL email address you registered under.  IF you plan on switching email addresses, please email me FROM your ORIGINAL account BEFORE you close it down along with the new address you wish to use for contacting you.  This way I can be sure that I'm emailing the codes out to you and not someone else masquerading as you who may be trying to steal your registration information.  As a last resort, I can postal mail your codes to you at the address you registered under.
+
+Publishing Your Vehicle
+---------------------------------
+IMPORTANT: As a registered user you will have access to the "Publish Vehicle" button that is on the GVD toolbar and Tools menu. This functionality requires a MAPI enabled email client such as Outlook Express. When you click the Publish Vehicle button, GVD will e-mail me your vehicle and any attached image file it includes using your email account. So that you can see exactly what my program is emailing, all you need to do is check your Outbox and you will see a copy of the message that was sent and to what address it was sent to. Currently the address is mailto:mikej@nwlink.com however in the Tools/Configure dialog this address can and should be changed to gvd@makosoft.com  
+
+IMPORTANT: Each vehicle file is digitally signed with a small portion of your reg code which is unique for every registered user. To guard against pirated registration numbers only authenticated vehicle submissions will be posted to the Vehicle Factory. I reserve the right to refuse submitted vehicles feature if the digital signature, authoring information and/or email address does not correspond to any registered users in my database. To ensure that your registration remains in good standing at the Vehicle Factory, all I ask is that you please do not share your registration code. 
+
+Ok, now that all that stuff is out of the way, let me say that I hope you really enjoy using this program.  I truly appreciate the support you have shown by registering this program.  I will do my best to see that GVD lives up to your expectations.  If you have any questions, comments, bug reports, etc., feel happy to send them to gvd@makosoft.com or through to the mailing list.
+ 
+Thanks again for your support.
+Mike Joseph 
+Mako Software
+
+p.s. Help spread the word about GVD. Point the gamers in your group to the GVD homepage.
+p.s.s Don't forget to print out a copy of this message which contains your reg codes.  In the event of a hard disk crash or reformat this can save us both a little time.  Thanks again.

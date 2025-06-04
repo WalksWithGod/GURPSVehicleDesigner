@@ -1,0 +1,17 @@
+Items:
+List of all avail. drives and props.
+
+
+Tasks:
+Store object types
+ID
+Key
+Index
+
+
+For each performance type
+	gather the list of all available items
+	remember which ones were selected
+
+Using the selected items
+	calc performance

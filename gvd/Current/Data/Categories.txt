@@ -1,0 +1,7 @@
+Wheeled,Motorcyle,Car,Truck,Train,Tractor
+Legged,Robot,Mecha,Battlesuit,Walker
+Tracked,Tank,Snowmobile
+Air,Winged,Rotors,Gasbag,Grav,Vetol,Airship
+Water,Submarine,Boat
+Hovercraft,GEV Skirt,SEV Sidewalls
+Space,Missiles,Fighter,Transport,Station,DefenseGrid

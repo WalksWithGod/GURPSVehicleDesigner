@@ -1,0 +1,62 @@
+
+
+A "frame" is synonymous with a "structure" and is synonymous with "cIComponent."
+Frames stats for material weight cost are calculated just as if they were components using the stats visitor method.
+
+
+A container is any object that 
+	1) contains 6 frames (top, underside, left, right, front, back)
+		- actually it should be able to contain arbitrary sides provided
+		  that its fully enclosed.  this way we can build wedged shaped sections like those
+		  in the Enterprise starship as that radiate from center to rim of saucer section.
+		b) frames dont have to be full length walls either, they can be pillars or other partial walls, railings, fences, etc.  
+
+	2) can contain other containers
+		a) too create a section taht contains two subsections, each of the two subsections
+                   can share references to the adjoining wall!  
+		
+	3) can contain components
+	4) always contain totals for volume, weight, cost of items it contains
+
+	so cIContainer
+		|_frames() as cIComponent
+			|_oArmor (one for each cIComponent ergo, one for each frame)
+		|_children() as cIComponent
+
+	A container can be armored via complex armor by facing.  However, if using simple component armor, we simply use one frame that contains the full area and weight instead of 6 individual faces. (think of it as a single sphere shaped wall.
+
+So how does this effect our graph?  Where do we show the frame settings for a component? Well since its a composite object to the main component, we could just show them in the component itself, dunno...  The point to remember is this, if our internal model... the way we've represented our vehicle/container/components, then the we can be flexible with HOW we choose to visually represent it. The graph should natrually minimize the number of nodes and I believe this can/should come at the expense of elegant graphing functions.
+
+Vehicle
+	Body--->ComponentArmor
+			-->Layer1
+		           Layer2
+
+
+Vehicle
+	Body--->ByFacingArmor-->Face1
+			           Layer1
+               		     -->Face2
+
+Internally, i want to model all containers as having at least 1 face.  The more faces simply divides the area.
+
+Hull
+   Streamlining
+   Lines
+   Catamran
+
+Surface
+   Coating
+   Baffling
+   Stealth
+
+
+Vehicle---Hull----Surface-Armor <--OVERALL ONLY?
+    |_Body---Armor
+    |_Turret	
+    |_Crew
+    |_Performance
+    |_Power Links
+    |_Fuel Links
+    |_Weapon Links
+	

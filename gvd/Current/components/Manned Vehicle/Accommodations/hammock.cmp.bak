@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<Comment> ; CMP files save file version data, author data, and saved states for properties which are defined by the user at run time.  Nothing more.
+	 	 ; ACTUALLY, just thought of something cooler.  Should be that users dont have access to GCD files.  Only I create those.  Users on the other
+	 	 ; hand, can over-ride those values in a GCD if they want, but they only have access to GCD properties which I expose for them.  
+	 	 ; So, they can override the default NAME of a component (This also faciliates me not having to write as many GCD files), its default values
+	 	 ; etc.  Plus, a CMP will be able to restore values.  REMEMBER, there is a (NO?) difference between a saved CMP and the components saved in 
+	 	 ; an entire Vehicle FILE!!!  
+	 	 ; When loading a CMP:
+		  ; 1. Check its valid xml
+	 	 ; 2. Check its Def file exists in correct path
+	 	 ; 3. Check Def is valid
+		  ; 4. Start loading Component stuff.  If anything is missing, default to DEF, if not in Def either, ABORT
+	</Comment>
+
+	<Object classname = "Vehicles.aTest" defpath = "\Definitions\Manned Vehicle\Accommodations\hammock.xml" objid = "0" defid = "3333">
+		<string name = "Description">Hammock</string>
+		<bool name ="Deletable">FALSE</bool>
+		<long name = "maxchildren">1</long>
+	</Object>
+</ObjectStore>
+

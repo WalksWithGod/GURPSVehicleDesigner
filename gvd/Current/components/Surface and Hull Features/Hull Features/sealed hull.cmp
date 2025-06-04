@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<object handle = "0_">
+		<string name = "classname">Vehicles.cFeature</string>
+		<string name = "defpath">\Definitions\Surface and Hull Features\Hull Features\sealed hull.xml</string>
+		<string name = "guid">98753</string>
+		<string name = "name">sealed hull</string>
+		<string name = "Description"></string>
+		<bool name ="Deletable">TRUE</bool>
+		<long name = "maxchildren">0</long>
+	</object>
+</ObjectStore>
+

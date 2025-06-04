@@ -1,0 +1,105 @@
+<Schema name="xop"
+	xmlns="urn:schemas-microsoft-com:xml-data"
+	xmlns:dt="urn:schemas-microsoft-com:datatypes">
+
+	<!-- general attribute definitions -->
+	<AttributeType name="name" dt:type="string" required="yes"/>
+
+
+	<!-- definition of ObjectStore element hierarchy -->
+	<ElementType name="ObjectStore" content="eltOnly" model="closed">
+		<AttributeType name="version" default="1.0" dt:type="string"/>
+
+		<attribute type="version"/>
+
+		<element type="Object" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+
+	<ElementType name="Object" content="eltOnly" model="closed" order="many">
+		<AttributeType name="id" dt:type="id" required="yes"/>
+		<AttributeType name="classname" dt:type="string" required="yes"/>
+
+		<attribute type="id"/>
+		<attribute type="classname"/>
+
+		<element type="string" minOccurs="0" maxOccurs="*"/>
+		<element type="int" minOccurs="0" maxOccurs="*"/>
+		<element type="float" minOccurs="0" maxOccurs="*"/>
+		<element type="boolean" minOccurs="0" maxOccurs="*"/>
+		<element type="dateTime" minOccurs="0" maxOccurs="*"/>
+		<element type="base64" minOccurs="0" maxOccurs="*"/>
+		<element type="objectRef" minOccurs="0" maxOccurs="*"/>
+		<element type="struct" minOccurs="0" maxOccurs="*"/>
+		<element type="array" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+
+
+	<!-- definition of elements for scalar object properties:
+		each property is stored in an element whose tagname matches
+		the data type of the property -->
+	<ElementType name="string" content="textOnly" dt:type="string">
+		<attribute type="name"/>
+	</ElementType>
+
+	<ElementType name="int" content="textOnly" dt:type="int">
+		<attribute type="name"/>
+	</ElementType>
+
+	<ElementType name="float" content="textOnly" dt:type="float">
+		<attribute type="name"/>
+	</ElementType>
+
+	<ElementType name="boolean" content="textOnly" dt:type="boolean">
+		<attribute type="name"/>
+	</ElementType>
+
+	<ElementType name="dateTime" content="textOnly" dt:type="string">
+				<!-- dt:type="dateTime.iso8601" is not currently supported -->
+		<attribute type="name"/>
+	</ElementType>
+
+
+	<!-- definition of elements for structured/complex data stypes -->
+	<ElementType name="base64" content="textOnly" dt:type="string">
+		<attribute type="name"/>
+	</ElementType>
+
+	<ElementType name="struct" content="eltOnly" model="closed" order="many">
+		<attribute type="name"/>
+
+		<element type="string" minOccurs="0" maxOccurs="*"/>
+		<element type="int" minOccurs="0" maxOccurs="*"/>
+		<element type="float" minOccurs="0" maxOccurs="*"/>
+		<element type="boolean" minOccurs="0" maxOccurs="*"/>
+		<element type="dateTime" minOccurs="0" maxOccurs="*"/>
+		<element type="base64" minOccurs="0" maxOccurs="*"/>
+		<element type="objectRef" minOccurs="0" maxOccurs="*"/>
+		<element type="struct" minOccurs="0" maxOccurs="*"/>
+		<element type="array" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+	
+	<ElementType name="array" content="eltOnly" model="closed" order="many">
+		<AttributeType name="lowerBound" dt:type="int" required="yes"/>
+		<AttributeType name="upperBound" dt:type="int" required="yes"/>
+
+		<attribute type="name"/>
+		<attribute type="lowerBound"/>
+		<attribute type="upperBound"/>
+		
+		<element type="string" minOccurs="0" maxOccurs="*"/>
+		<element type="int" minOccurs="0" maxOccurs="*"/>
+		<element type="float" minOccurs="0" maxOccurs="*"/>
+		<element type="boolean" minOccurs="0" maxOccurs="*"/>
+		<element type="dateTime" minOccurs="0" maxOccurs="*"/>
+		<element type="base64" minOccurs="0" maxOccurs="*"/>
+		<element type="objectRef" minOccurs="0" maxOccurs="*"/>
+		<element type="array" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+
+
+	<!-- reference to another object in the ObjectStore -->
+	<ElementType name="objectRef" content="textOnly" dt:type="string">
+				<!-- dt:type="idref" is not currently supported -->
+		<attribute type="name"/>
+	</ElementType>
+</Schema>

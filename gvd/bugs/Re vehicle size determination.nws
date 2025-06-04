@@ -1,0 +1,71 @@
+From: "G. W. Roberts" <awhitestreak@hotmail.com>
+Newsgroups: rec.games.frp.gurps
+References: <RoGG2.172$L2.3270222@news.apex.net>
+Subject: Re: vehicle size determination
+Lines: 57
+X-Newsreader: Microsoft Outlook Express 4.72.3110.5
+X-Mimeole: Produced By Microsoft MimeOLE V4.72.3110.3
+Date: Sat, 13 Mar 1999 22:06:52 -0800
+NNTP-Posting-Host: 206.42.18.208
+X-Trace: newsfeed.slurp.net 921391399 206.42.18.208 (Sun, 14 Mar 1999 00:03:19 CDT)
+NNTP-Posting-Date: Sun, 14 Mar 1999 00:03:19 CDT
+Path: news.nwlink.com!newspeer1.nac.net!news.maxwell.syr.edu!newsfeed.slurp.net!not-for-mail
+Xref: news.nwlink.com rec.games.frp.gurps:42861
+
+
+Scott wrote in message ...
+>Hey guys,
+>
+>   Here's a good one...or maybe not :o)
+
+>   If i create a 3, 540,000 cf starcruiser that is some XX square feet in
+>surface area...how do i determine the actual dimensions of it...or, more to
+>the point, determine how much footage I have to work with if I want to
+>create it any dimension that I want?  I am not sure if that explaines
+>exactly what i would like to know.......
+>
+> PS..the actual dimensions do not have to be perfect down to the last cubic
+>foot or anything...I would just like to know roughly how many feet I have
+to
+>work with to design it as any dimensions that i want.
+
+Believe it or not, but "Fire, Fusion and Steel" for Marc Miller's Traveller
+(aka T4) has 2 tables, 1 figure and 1 equation set that can give you the
+dimensions you're looking for. I use it for GURPS, although I had to make a
+conversion table, since T4 uses metric system as opposed to English.
+
+To use your example, a 3,540,000cf ship gives a basic sphere shape with a
+diameter of 189 feet. This gives an area of 112,220sq ft. Depending upon
+what kind of shape you want, you can get:
+
+Short Cylinder            164.4' long x 164.4' wide x 164.4' high
+Medium cylinder        262.7' L x 130.4' W x 130.4' H
+Long cylinder             378' L x 107.7' W x 107.7' H
+
+Rounded short cylinder        270.3' L x 134.2' W x 134.2' H
+Rounded medium cylinder    387.45' L x 111.5' W x 111.5' H
+Rounded long cylinder        487.6' L x 98.3' W x 98.3' H
+
+Box, cube            153.1' L x 153.1' W x 153.1' H
+Box, medium        241.9' L x 120.96' W x 120.96' H
+Box, long              304.3' L x 153' W x 75.6' H
+Box, slab              521.6' L x 130.4' W x 52.9' H
+Box, monolith      415.8' L x 185.2' W x 45.36' H
+
+Short cone        238.1' L x 238.1' W x 238.1'H
+Medium cone    378' L x 189' W x 189' H
+Long cone        601.02' L x 149.3' W x 149.3' H
+Needle cone    1105.65' L x 111.5' W x 111.5' H
+
+Thin disk            355.2' L x 355.2' W x 35.9' H
+Medium disk     281.6' L x 281.6' W x 56.7' H
+Thick disk          207.9' L x 207.9' W x 103.95' H
+
+Dome        115.2' L x 228.69' W x 228.69' H
+
+(I seem to have lost my corrected version of how to do wedges. Sorry.) Is
+this kinda what you're looking for?
+
+GW Roberts
+
+

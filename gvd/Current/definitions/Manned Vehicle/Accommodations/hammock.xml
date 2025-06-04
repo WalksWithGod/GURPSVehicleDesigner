@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<!-->
+		===============================================================================
+		I dont think i need category crap?  Actually, maybe i do so that when user "saves" a component, it goes into
+		the right folder with other components of its type?
+
+		<Category>Manned Vehicle</Category>
+		<SubCategory>Accommodations</SubCategory>
+		===============================================================================
+	<-->
+	
+	<Location>
+	<!-->
+		===============================================================================	
+		This holds list of classes that are EXCLUDED from being attached to it.  As a rule, we already know  That any component can attach to any Container and that Real Containers can accept any component including Logical Containers and Quantity Containers.  So the list of Location elements should contain EXCEPTS to these simple rules.  This is alot  simpler than tracking which objects CAN be attached since MOST can. 
+
+It would actually be simpler, to come up with a scheme for describing attributes of a Child which a parent wont accept.  for instance, if a child component is PropulsionType, then a particular container wont accept it.  This is much more elegant by far. Perhaps also if we define some components as being implanted in "rooms" only.  Like cFurniture.cls must be in a cRoom.cls althought a cockpit wouldnt classify as a room...  
+		===============================================================================
+	<-->
+	</Location>
+	<object handle = "0_">
+		<string name = "classname">Vehicles.aTest</string>
+		<string name = "guid">3333</string>
+		<string name = "defpath"></string>
+		<string name = "image">\icons\Manned_Accommodations.ico</string>
+		<long name = "maxchildren">1000</long>
+	
+		<objectRef name = "version">-2</objectRef>
+		<objectRef name = "author">-1</objectRef>
+
+		<i_array name = "formulas" lowerBound="0" upperBound = "3">
+			<int name = "0">100</int>
+			<int name = "1">200</int>
+			<int name = "2">300</int>
+			<int name = "3">400</int>
+		</i_array>
+
+		<long name = "userinput_count">1</long>
+		<float name = "userinput_default0">95.5</float>
+		<float name = "userinput_lrange0">0</float>
+		<float name = "userinput_urange0">1.0E20</float>
+
+		<!--> Stats Table is the build data which has different multipliers based on Tech Level <-->
+		<long name = "statstablecount">1</long>
+		<sng_table name = "table0" lRow="0" uRow="1" lCol="0" uCol = "2">
+			<float name = "0,0">0.001</float>
+			<float name = "0,1">0.1</float>
+			<float name = "0,2">0.2</float>
+			<float name = "1,0">1.9</float>
+			<float name = "1,1">33.3</float>
+			<float name = "1,2">44.4</float>
+		</sng_table>
+	
+		<!--> Options Tables represent the modifiers that are triggered (modified ) to the build stats
+		      when a specific selection is made
+		<-->	
+		<long name = "option_count">1</long> 
+		<long name = "option_default0">0</long>
+		<long name = "option_selectioncount0">3</long>
+		<sng_table name = "option_table0" lRow= "0" uRow="2" lCol ="0" uCol="3">
+			<float name = "0,0">0.25</float>
+			<float name = "0,1">0.25</float>
+			<float name = "0,2">0.25</float>
+			<float name = "0,3">0.25</float>
+			<float name = "1,0">0.25</float>
+			<float name = "1,1">0.25</float>
+			<float name = "1,2">0.25</float>
+			<float name = "1,3">0.25</float>
+			<float name = "2,0">0.25</float>
+			<float name = "2,1">0.25</float>
+			<float name = "2,2">0.25</float>
+			<float name = "2,3">0.25</float>
+		</sng_table>
+
+		<int name = "propertycount">11</int>
+		<objectRef name = "property0">1_</objectRef>
+		<objectRef name = "property1">2_</objectRef>	
+		<objectRef name = "property2">3_</objectRef>
+		<objectRef name = "property3">4_</objectRef>
+		<objectRef name = "property4">5_</objectRef>
+		<objectRef name = "property5">6_</objectRef>	
+		<objectRef name = "property6">7_</objectRef>
+		<objectRef name = "property7">8_</objectRef>
+		<objectRef name = "property8">9_</objectRef>
+		<objectRef name = "property9">10_</objectRef>	
+		<objectRef name = "property10">11_</objectRef>	
+	</object>
+	
+
+	<object handle = "-1_">
+		<string name = "classname">cAuthor.cls</string>
+		<string name = "first">Michael</string>
+		<string name = "middle">P.</string>
+		<string name = "last">Joseph</string>
+		<string name = "nick">Pizaz</string>
+		<string name = "email">gvd@makosoft.com</string>
+		<string name = "url">http://www.makosoft.com/gvd</string>
+	</object>
+
+	<object handle = "-2_">
+		<string name = "classname">cVersion.cls</string>
+		<string name = "guid"></string>
+		<string name = "major">1</string>
+		<string name = "minor">0</string>
+		<string name = "revision">0</string>
+		<date name = "created">01/20/03</date>
+		<date name = "modified">01/21/03</date>	
+	</object>
+
+	<!--> 
+		===============================================================================
+		These are used for both property display, and print output display.  for print output, user GuRPSify.dll
+		takes all this data and parses it into a print string on their own
+	<-->
+	<object handle = "1_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">HEADER</string> 
+		<string  name = "caption">Settings</string>
+		<string name = "notes">Edit the followinig attributes to modify this component</string>
+		<long name = "datatype">-99</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "2_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">0</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">Description</string> 
+		<string name = "caption">Description</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<bool name = "readonly">FALSE</bool>
+		<long name = "datatype">0</long>
+	</object>		
+	<object handle = "3_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">TL</string>
+		<string  name = "caption">TL</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<bool name = "readonly">FALSE</bool>
+		<long name = "datatype">3</long>
+		<s_array name = "Selections" lowerBound = "0" upperBound = "12">
+			<string name = "0">0</string>
+			<string name = "1">1</string>
+			<string name = "2">2</string>
+			<string name = "3">3</string>
+			<string name = "4">4</string>
+			<string name = "5">5</string>
+			<string name = "6">6</string>
+			<string name = "7">7</string>
+			<string name = "8">8</string>
+			<string name = "9">9</string>
+			<string name = "10">10</string>
+			<string name = "11">11</string>
+			<string name = "12">12</string>
+		</s_array>
+	</object>
+	
+	<object handle = "4_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">dr</string> 
+		<string name = "caption">DR</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<long name = "datatype">8</long>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+
+	<object handle = "5_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">12</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">option</string>
+		<long name = "callbytype">1</long> 
+		<long name = "subscript">0</long> 
+		<string name = "caption">search option</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<long name = "datatype">3</long>
+		<bool name = "readonly">FALSE</bool>
+		<s_array name = "Selections" lowerBound = "0" upperBound = "2">
+			<string name = "0">none</string>
+			<string name = "1">surface search</string>
+			<string name = "2">air search</string>
+		</s_array>
+	</object>
+
+	<object handle = "6_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">12</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">userinput</string> 
+		<long name = "callbytype">1</long>
+		<long name = "subscript">0</long>
+		<string  name = "caption">range</string>
+		<string name = "notes">Enter the range of the sensor</string>
+		<long name = "datatype">10</long>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	
+	<object handle = "7_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">HEADER</string> 
+		<string  name = "caption">Statistics</string>
+		<string name = "notes">Below are the statistics for this component</string>
+		<long name = "datatype">-99</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "8_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">Cost</string> 
+		<string name = "caption">Cost</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<long name = "datatype">10</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "9_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">weight</string> 
+		<string name = "caption">Weight</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<long name = "datatype">10</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "10_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+'		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">volume</string> 
+		<string name = "caption">Volume</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<long name = "datatype">10</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "11_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">surfacearea</string> 
+		<string name = "caption">Surface Area</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<long name = "datatype">10</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "12_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">hitpoints</string> 
+		<string name = "caption">Hitpoints</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<long name = "datatype">8</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+</ObjectStore>

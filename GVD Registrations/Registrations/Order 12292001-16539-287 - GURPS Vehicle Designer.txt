@@ -1,0 +1,36 @@
+From: registrations@regsoft.com
+Sent: Saturday, December 29, 2001 11:36 AM
+To: gvd@makosoft.com
+Subject: Order 12292001-16539-287 - GURPS Vehicle Designer
+
+
+
+Order number 12292001-16539-287 has been authorized
+
+Order ID             : 12292001-16539-287 
+Tracking ID          : 807711 
+Registration Date    : 12-29-2001
+Product Name         : GURPS Vehicle Designer
+Product ID           : 16539
+Order Type           : On-Line
+Quantity             : 1
+Registration Total   : $25.00
+
+
+Name                 : stephen f bradshaw
+Company              : 
+Email                : cul_me@yahoo.com
+Address1             : 130 upcreek road
+Address2             : 
+Address3             : 
+City                 : cove city
+State                : NC
+Country              : United States
+Country Code         : US
+Zip                  : 28523
+Phone                : 252-527-3630
+For verification purposes, if you wish to confirm that this is a legitimate order placed through RegSoft.com, and not a false order notification from another source, click the link below:
+
+http://www.regsoft.net/verifyorder.php3?trackingid=807711&sid=1009654335
+
+

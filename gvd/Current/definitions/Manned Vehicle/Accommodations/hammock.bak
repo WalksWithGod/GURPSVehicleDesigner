@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Definition version = "1.0">
+
+	<Comment>  1) How to track armor? Default settings?  Layering?
+		   2) How to track Component Group -- only applicable too .CMP though
+                   3) These .DEF files shouldnt contain "Groups" right?  Just single components.
+		   4) Since .CMP can contain groups, must be way to enforce that .CMP's only have one
+ 		      entire vehicle is different because you get to restore the exact same key values.  But adding a branch, the key might already be used.
+		      For example, say you have Armor component who's parent key is set to that of another component in the restoring file.  That restored parent
+		      has its key change (and certainly its object handle) so now the armor needs its key updated.  Issue here is to make sure we add these all through
+		      AddObject and pretend we are adding them one at a time but just using a script to do the adding.   Incidentally, thats how battlesuits should be ;loaded...via script.
+	</Comment>
+	<GUID>3333</GUID>
+	<ClassName>clsHammock</ClassName>
+	<IconPath>\icons\Manned_Accommodations.ico</IconPath>
+	<Category>Manned Vehicle</Category>
+	<SubCategory>Accommodations</SubCategory>
+	<Name>hammock</Name>
+	<PageRef></PageRef>
+	<DR>1</DR>
+
+	<Rules>
+		<WeightFormula>1</WeightFormula>
+		<VolumeFormula>1</VolumeFormula>
+		<SurfaceFormula>1</SurfaceFormula>
+		<CostFormula>1</CostFormula>
+	</Rules>
+	<Matrix>
+		<Width>4</Width>
+		<MatrixType>0</MatrixType>
+		<List>
+			<Element>326</Element>
+			<Element>0</Element>
+			<Element>100</Element>
+			<Element>100</Element>
+			<Element>20</Element>
+		</List>
+	</Matrix>
+	<Bitflag1>
+		<Element>0</Element>
+	</Bitflag1>
+	<Bitflag2>
+	</Bitflag2>	
+	
+	<Author>
+		<Name>Mike Joseph</Name>
+		<Email>gvd@makosoft.com</Email>
+		<URL>http://www.makosoft.com/gvd</URL>
+	</Author>
+	<Version>
+		<GUID></GUID>
+		<Major></Major>
+		<Minor></Minor>
+		<Revision></Revision>		
+		<Created>09/05/02</Created>
+		<Modified>09/06/02</Modified>	
+	</Version>
+
+	<Location>
+		<Comment>This holds list of classes that are EXCLUDED from being attached to it.  As a rule, we already know
+			 That any component can attach to any Container and that Real Containers can accept any component including Logical Containers
+			 and Quantity Containers.   So the list of Location elements should contain EXCEPTS to these simple rules.  This is alot
+ 			 simpler than tracking which objects CAN be attached since MOST can.
+
+			It would actually be simpler, to come up with a scheme for describing attributes of a Child which a parent
+			wont accept.  for instance, if a child component is PropulsionType, then a particular container wont accept it.  This
+			is much more elegant by far.
+		</Comment>
+	</Location>
+	<OutputAttributes>
+		<Comment> This is for print output attributes.  The program can read in the list of output attributes and use
+		          those to output to the external Print.DLL plug in interface.  The user can then parse the data to output
+			  to a style they like
+		</Comment>
+		<Attribute>
+			<AttribName>Description</AttribName>
+			<DataType>string</DataType>
+				
+		</Attribute>
+	</OutputAttributes>
+
+	<PropertyList>
+		<Property>
+			<Title>Settings</Title>
+			<PropName></PropName>
+			<DataType> wdText</DataType>
+			<Enabled> FALSE</Enabled>
+		</Property>
+		<Property>
+			<Title>Tech level</Title>
+			<PropName>TL</PropName>
+			<DataType> wdList</DataType>
+			<Enabled> TRUE</Enabled>
+			<List> 
+				<Element> 1</Element>
+				<Element> 2</Element>
+				<Element> 3</Element>
+				<Element> 4</Element>
+				<Element> 5</Element>
+				<Element> 6</Element>
+				<Element> 7</Element>
+				<Element> 8</Element>
+				<Element> 9</Element>
+				<Element> 10</Element>
+				<Element> 11</Element>
+			</List>
+		</Property>
+		<Property>
+			<Title>Added Volume</Title>
+			<Enabled>TRUE</Enabled>
+			<PropName>AddedVolume</PropName>
+			<DataType>wdDouble</DataType>
+		</Property>
+		<Property>
+			<Title>DR</Title>
+			<Enabled>TRUE</Enabled>
+			<PropName>DR</PropName>
+			<DataType>wdNumber</DataType>
+		</Property>
+		<Property>
+			<Title>Statistics</Title>
+			<Enabled>FALSE</Enabled>
+			<DataType>wdText</DataType>
+		</Property>
+		<Property>
+			<Title>Cost</Title>
+			<Enabled>FALSE</Enabled>
+			<PropName>Cost</PropName>
+			<DataType>wdText</DataType>
+		</Property>
+		<Property>
+			<Title>Weight</Title>
+			<Enabled>FALSE</Enabled>
+			<PropName>Weight</PropName>
+			<DataType>wdText</DataType>
+		</Property>		
+		<Property>
+			<Title>Volume</Title>
+			<Enabled>FALSE</Enabled>
+			<PropName>Volume</PropName>
+			<DataType>wdText</DataType>
+		</Property>
+		<Property>
+			<Title>Surface Area</Title>
+			<Enabled>FALSE</Enabled>
+			<PropName>SurfaceArea</PropName>
+			<DataType>wdText</DataType>
+		</Property>
+		<Property>
+			<Title>Hitpoints</Title>
+			<Enabled>FALSE</Enabled>
+			<PropName>Hitpoints</PropName>
+			<DataType>wdText</DataType>
+		</Property>
+	</PropertyList>
+</Definition>

@@ -1,0 +1,220 @@
+[Bootstrap]
+SetupTitle=Install
+SetupText=Copying Files, please stand by.
+CabFile=GVD1.CAB
+Spawn=Setup1.exe
+Uninstal=st6unst.exe
+TmpDir=msftqws.pdw
+Cabs=6
+
+[Bootstrap Files]
+
+
+[IconGroups]
+Group0=GURPS Vehicle Designer
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[GURPS Vehicle Designer]
+Icon1="GVD.exe"
+Title1=GURPS Vehicle Designer
+StartIn1=$(AppPath)
+Icon2="license.txt"
+Title2=license.txt
+StartIn2=$(AppPath)
+Icon3="readme.txt"
+Title3=readme.txt
+StartIn3=$(AppPath)
+Icon4="order.txt"
+Title4=ordering info
+StartIn4=$(AppPath)
+Icon5="history.txt"
+Title5=revision history
+StartIn5=$(AppPath)
+Icon6=""GVD Home Page.url""
+Title6=GVD Home Page
+StartIn6=$(AppPath)
+Icon7=""Vehicle Factory Online.url""
+Title7=Vehicle Factory Online
+StartIn7=$(AppPath)
+Icon8=""Steve Jackson Games.url""
+Title8=Steve Jackson Games Website
+StartIn8=$(AppPath)
+
+[Setup]
+Title=GURPS Vehicle Designer
+DefaultDir=$(ProgramFiles)\GVD
+AppExe=GVD.exe
+AppToUninstall=GVD.exe
+
+[Setup1 Files]
+File1=@TL7 VSTOL Fighter-Bomber.veh,$(AppPath)\vehicles,,,9/24/99 11:38:14 PM,52078,0.0.0.0
+File2=@TL7 Utility Helicopter.veh,$(AppPath)\vehicles,,,9/24/99 10:56:18 PM,26908,0.0.0.0
+File3=@TL7 Motorcycle.veh,$(AppPath)\vehicles,,,9/22/99 10:14:48 PM,20806,0.0.0.0
+File4=@TL7 Motorboat.veh,$(AppPath)\vehicles,,,7/12/00 7:03:06 PM,21524,0.0.0.0
+File5=@TL7 Main Battle Tank.veh,$(AppPath)\vehicles,,,9/23/99 2:56:30 AM,50174,0.0.0.0
+File6=@TL7 Family Car.veh,$(AppPath)\vehicles,,,9/22/99 9:20:38 PM,26626,0.0.0.0
+File7=@TL6 Transport Aircraft.veh,$(AppPath)\vehicles,,,9/23/99 8:35:52 PM,43010,0.0.0.0
+File8=@TL6 Jeep.veh,$(AppPath)\vehicles,,,9/22/99 6:02:04 PM,24392,0.0.0.0
+File9=@TL3 Roundship.veh,$(AppPath)\vehicles,,,8/19/99 3:00:48 PM,31770,0.0.0.0
+File10=@TL10 Scout Ship.veh,$(AppPath)\vehicles,,,9/24/99 11:46:12 PM,61366,0.0.0.0
+File11=@Miscellaneous Equipment.txt,$(AppPath)\lists,,,8/10/99 3:02:58 PM,215,0.0.0.0
+File12=@Skysloop Corvette TL4.veh,$(AppPath)\vehicles,,,9/26/99 7:52:22 PM,58018,0.0.0.0
+File13=@GVD Home Page.url,$(AppPath),,,4/24/00 11:35:00 PM,82,0.0.0.0
+File14=@Vehicle Factory Online.url,$(AppPath),,,4/24/00 11:34:24 PM,96,0.0.0.0
+File15=@Steve Jackson Games.url,$(AppPath),,,6/16/98 4:16:36 PM,48,0.0.0.0
+File16=@order.txt,$(AppPath),,,4/27/00 5:37:18 PM,2940,0.0.0.0
+File17=@history.txt,$(AppPath),,,8/2/00 5:43:06 PM,46878,0.0.0.0
+File18=@license.txt,$(AppPath),,,4/24/00 11:31:02 PM,7683,0.0.0.0
+File19=@Blank.jpg,$(AppPath)\images,,,9/6/99 11:13:40 AM,6755,0.0.0.0
+File20=@Categories.txt,$(AppPath)\lists,,,6/2/00 10:56:30 AM,263,0.0.0.0
+File21=@readme.txt,$(AppPath),,,4/24/00 11:33:42 PM,4840,0.0.0.0
+File22=@5008.txt,$(AppPath)\data,,,3/21/99 12:46:00 AM,33,0.0.0.0
+File23=@3022.txt,$(AppPath)\data,,,3/21/99 12:14:54 AM,306,0.0.0.0
+File24=@Armor.txt,$(AppPath)\lists,,,3/6/99 12:24:56 PM,5,0.0.0.0
+File25=@3021.txt,$(AppPath)\data,,,3/4/99 12:06:12 AM,126,0.0.0.0
+File26=@static.wav,$(AppPath),,,4/14/98 2:53:18 PM,2046,0.0.0.0
+File27=@SurfaceAreaTable.txt,$(AppPath)\data,,,9/22/99 4:37:58 AM,604,0.0.0.0
+File28=@Components.txt,$(AppPath)\data,,,3/5/00 11:11:34 PM,29680,0.0.0.0
+File29=@StoneBoltDamage.txt,$(AppPath)\data,,,1/16/99 7:33:04 PM,1275,0.0.0.0
+File30=@Weaponry.txt,$(AppPath)\lists,,,11/5/98 6:46:40 AM,112,0.0.0.0
+File31=@Subassemblies.txt,$(AppPath)\lists,,,3/6/99 12:23:48 PM,13,0.0.0.0
+File32=@Propulsion & Lift.txt,$(AppPath)\lists,,,11/5/98 6:47:48 AM,207,0.0.0.0
+File33=@Power and Fuel.txt,$(AppPath)\lists,,,12/5/98 11:43:30 PM,135,0.0.0.0
+File34=@Manned Vehicle Components.txt,$(AppPath)\lists,,,11/5/98 6:49:48 AM,72,0.0.0.0
+File35=@Instruments and Electronics.txt,$(AppPath)\lists,,,3/21/99 12:26:14 AM,185,0.0.0.0
+File36=@Books.txt,$(AppPath)\lists,,,11/5/98 7:28:22 AM,12,0.0.0.0
+File37=@intro.wav,$(AppPath),,,7/22/98 6:28:26 PM,23070,0.0.0.0
+File38=@wMRandwSR.txt,$(AppPath)\data,,,12/6/98 1:55:04 AM,503,0.0.0.0
+File39=@SurfaceTable.txt,$(AppPath)\data,,,4/26/98 2:00:24 AM,882,0.0.0.0
+File40=@gMRandgSR.txt,$(AppPath)\data,,,5/25/98 7:23:46 AM,458,0.0.0.0
+File41=@Armortable.txt,$(AppPath)\data,,,10/10/99 2:10:50 PM,1239,0.0.0.0
+File42=@Ammunition.txt,$(AppPath)\data,,,2/27/00 12:50:56 PM,2990,0.0.0.0
+File43=@7003.txt,$(AppPath)\data,,,10/15/98 10:10:26 AM,2622,0.0.0.0
+File44=@7002.txt,$(AppPath)\data,,,8/11/98 12:16:52 AM,69,0.0.0.0
+File45=@7001.txt,$(AppPath)\data,,,8/11/98 1:00:12 AM,162,0.0.0.0
+File46=@6014.txt,$(AppPath)\data,,,10/11/99 7:27:06 AM,615,0.0.0.0
+File47=@6013.txt,$(AppPath)\data,,,7/3/98 11:29:26 PM,642,0.0.0.0
+File48=@6012.txt,$(AppPath)\data,,,7/13/98 6:37:06 AM,730,0.0.0.0
+File49=@6011.txt,$(AppPath)\data,,,6/26/98 10:54:54 PM,40,0.0.0.0
+File50=@6010.txt,$(AppPath)\data,,,6/26/98 10:54:40 PM,57,0.0.0.0
+File51=@6009.txt,$(AppPath)\data,,,6/30/98 5:45:44 PM,508,0.0.0.0
+File52=@6008.txt,$(AppPath)\data,,,10/11/99 7:22:58 AM,1019,0.0.0.0
+File53=@6007.txt,$(AppPath)\data,,,6/26/98 10:53:54 PM,121,0.0.0.0
+File54=@6006.txt,$(AppPath)\data,,,10/11/99 6:36:50 AM,577,0.0.0.0
+File55=@6005.txt,$(AppPath)\data,,,8/13/98 9:43:38 PM,24,0.0.0.0
+File56=@6004.txt,$(AppPath)\data,,,6/26/98 10:53:08 PM,25,0.0.0.0
+File57=@6003.txt,$(AppPath)\data,,,2/22/00 12:28:04 AM,1734,0.0.0.0
+File58=@6002.txt,$(AppPath)\data,,,6/26/98 10:52:36 PM,219,0.0.0.0
+File59=@6001.txt,$(AppPath)\data,,,6/26/98 10:52:14 PM,158,0.0.0.0
+File60=@5007.txt,$(AppPath)\data,,,9/23/99 7:46:06 PM,167,0.0.0.0
+File61=@5006.txt,$(AppPath)\data,,,7/8/98 5:27:20 AM,57,0.0.0.0
+File62=@5005.txt,$(AppPath)\data,,,7/8/98 5:27:02 AM,342,0.0.0.0
+File63=@5004.txt,$(AppPath)\data,,,7/8/98 5:23:58 AM,300,0.0.0.0
+File64=@5003.txt,$(AppPath)\data,,,2/12/99 12:08:58 AM,250,0.0.0.0
+File65=@5002.txt,$(AppPath)\data,,,7/8/98 5:23:26 AM,106,0.0.0.0
+File66=@5001.txt,$(AppPath)\data,,,6/28/98 4:53:42 PM,192,0.0.0.0
+File67=@4016.txt,$(AppPath)\data,,,6/28/98 5:44:22 PM,32,0.0.0.0
+File68=@4015.txt,$(AppPath)\data,,,7/8/98 3:11:48 AM,248,0.0.0.0
+File69=@4014.txt,$(AppPath)\data,,,6/28/98 5:43:50 PM,53,0.0.0.0
+File70=@4013.txt,$(AppPath)\data,,,7/8/98 2:34:10 AM,288,0.0.0.0
+File71=@4012.txt,$(AppPath)\data,,,6/28/98 5:43:18 PM,80,0.0.0.0
+File72=@4011.txt,$(AppPath)\data,,,6/28/98 5:43:02 PM,75,0.0.0.0
+File73=@4010.txt,$(AppPath)\data,,,6/28/98 5:42:42 PM,227,0.0.0.0
+File74=@4009.txt,$(AppPath)\data,,,6/28/98 5:42:24 PM,30,0.0.0.0
+File75=@4008.txt,$(AppPath)\data,,,6/28/98 5:42:06 PM,183,0.0.0.0
+File76=@4007.txt,$(AppPath)\data,,,7/8/98 12:29:38 AM,300,0.0.0.0
+File77=@4006.txt,$(AppPath)\data,,,6/28/98 5:41:28 PM,282,0.0.0.0
+File78=@4005.txt,$(AppPath)\data,,,7/7/98 10:46:00 PM,617,0.0.0.0
+File79=@4004.txt,$(AppPath)\data,,,7/7/98 10:07:24 PM,444,0.0.0.0
+File80=@4003.txt,$(AppPath)\data,,,6/28/98 5:40:38 PM,51,0.0.0.0
+File81=@4002.txt,$(AppPath)\data,,,6/28/98 5:40:24 PM,40,0.0.0.0
+File82=@4001.txt,$(AppPath)\data,,,10/11/99 7:09:50 AM,158,0.0.0.0
+File83=@3020.txt,$(AppPath)\data,,,6/28/98 3:34:44 PM,375,0.0.0.0
+File84=@3019.txt,$(AppPath)\data,,,10/25/99 7:54:30 PM,890,0.0.0.0
+File85=@3018.txt,$(AppPath)\data,,,6/28/98 3:34:12 PM,93,0.0.0.0
+File86=@3017.txt,$(AppPath)\data,,,1/18/99 3:43:00 AM,678,0.0.0.0
+File87=@3016.txt,$(AppPath)\data,,,3/4/99 12:04:30 AM,783,0.0.0.0
+File88=@3015.txt,$(AppPath)\data,,,9/27/99 4:47:44 PM,586,0.0.0.0
+File89=@3014.txt,$(AppPath)\data,,,4/18/00 6:23:04 PM,593,0.0.0.0
+File90=@3013.txt,$(AppPath)\data,,,6/28/98 3:32:52 PM,387,0.0.0.0
+File91=@3012.txt,$(AppPath)\data,,,7/6/98 6:02:08 PM,247,0.0.0.0
+File92=@3011.txt,$(AppPath)\data,,,7/3/98 11:21:02 PM,301,0.0.0.0
+File93=@3010.txt,$(AppPath)\data,,,6/28/98 3:32:06 PM,561,0.0.0.0
+File94=@3009.txt,$(AppPath)\data,,,6/28/98 3:31:50 PM,385,0.0.0.0
+File95=@3008.txt,$(AppPath)\data,,,6/28/98 3:31:34 PM,66,0.0.0.0
+File96=@3007.txt,$(AppPath)\data,,,6/30/98 7:07:50 PM,215,0.0.0.0
+File97=@3006.txt,$(AppPath)\data,,,7/6/98 3:41:24 PM,983,0.0.0.0
+File98=@3005.txt,$(AppPath)\data,,,7/6/98 5:48:28 PM,389,0.0.0.0
+File99=@3004.txt,$(AppPath)\data,,,6/28/98 3:30:34 PM,124,0.0.0.0
+File100=@3003.txt,$(AppPath)\data,,,7/4/98 4:38:06 AM,143,0.0.0.0
+File101=@3002.txt,$(AppPath)\data,,,6/28/98 3:30:02 PM,23,0.0.0.0
+File102=@3001.txt,$(AppPath)\data,,,7/6/98 7:34:40 PM,1584,0.0.0.0
+File103=@1019.txt,$(AppPath)\data,,,6/11/98 7:25:36 PM,64,0.0.0.0
+File104=@1018.txt,$(AppPath)\data,,,6/11/98 7:25:22 PM,52,0.0.0.0
+File105=@1017.txt,$(AppPath)\data,,,7/15/98 2:56:30 PM,420,0.0.0.0
+File106=@1016.txt,$(AppPath)\data,,,7/15/98 2:08:04 PM,78,0.0.0.0
+File107=@1015.txt,$(AppPath)\data,,,6/11/98 7:24:42 PM,164,0.0.0.0
+File108=@1014.txt,$(AppPath)\data,,,10/11/99 7:02:04 AM,101,0.0.0.0
+File109=@1013.txt,$(AppPath)\data,,,6/11/98 7:24:12 PM,93,0.0.0.0
+File110=@1012.txt,$(AppPath)\data,,,6/11/98 7:23:58 PM,116,0.0.0.0
+File111=@1011.txt,$(AppPath)\data,,,6/11/98 7:23:44 PM,475,0.0.0.0
+File112=@1010.txt,$(AppPath)\data,,,6/11/98 7:23:32 PM,365,0.0.0.0
+File113=@1009.txt,$(AppPath)\data,,,6/11/98 7:23:14 PM,82,0.0.0.0
+File114=@1008.txt,$(AppPath)\data,,,6/11/98 7:23:00 PM,236,0.0.0.0
+File115=@1007.txt,$(AppPath)\data,,,6/11/98 7:22:46 PM,121,0.0.0.0
+File116=@1006.txt,$(AppPath)\data,,,1/7/99 8:38:00 PM,245,0.0.0.0
+File117=@1005.txt,$(AppPath)\data,,,6/11/98 7:22:14 PM,463,0.0.0.0
+File118=@1004.txt,$(AppPath)\data,,,6/11/98 7:21:58 PM,98,0.0.0.0
+File119=@1003.txt,$(AppPath)\data,,,6/11/98 7:21:42 PM,44,0.0.0.0
+File120=@1002.txt,$(AppPath)\data,,,2/26/00 11:15:48 AM,183,0.0.0.0
+File121=@1001.txt,$(AppPath)\data,,,6/11/98 7:20:42 PM,112,0.0.0.0
+File122=@MSMAPI32.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),6/24/98 12:00:00 AM,137000,6.0.81.69
+File123=@COMDLG32.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),5/22/00 12:00:00 AM,140488,6.0.84.18
+File124=@MSCOMCTL.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),5/22/00 12:00:00 AM,1066176,6.0.88.62
+File125=@Vehicles.dll,$(AppPath),$(DLLSelfRegister),,8/2/00 5:22:36 PM,3694592,1.2.0.11
+File126=@msvcrt.dll,$(WinSysPathSysFile),,,12/7/99 12:00:00 PM,295000,6.1.8637.0
+File127=@scrrun.dll,$(WinSysPath),$(DLLSelfRegister),$(Shared),12/7/99 12:00:00 PM,147512,5.1.0.4615
+File128=@TLBINF32.DLL,$(WinSysPath),$(DLLSelfRegister),$(Shared),3/14/00 12:00:00 AM,148480,1.1.88.4
+;File129=@PropList.dll,$(WinSysPath),$(DLLSelfRegister),$(Shared),12/8/99 7:00:42 PM,132800,1.4.5.8
+File129=@zlib.dll,$(AppPath),,,6/14/99 11:48:48 AM,53248,1.1.2.0
+File130=@GVD.exe,$(AppPath),,,8/2/00 5:27:44 PM,1769472,1.2.0.11
+
+; The following lines may be deleted in order to obtain extra 
+; space for customizing this file on a full installation diskette.
+; 
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX

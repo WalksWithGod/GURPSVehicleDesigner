@@ -1,0 +1,128 @@
+///////////////////////////////////////////////////////////////////////////
+LAYOUT FOR POWER CONSUMPTION AND FUEL CONSUMPTION CONFIGURATION
+///////////////////////////////////////////////////////////////////////////
+TreeView 
+
+Power Systems
+     Profile 1 
+     Profile 2
+
+
+----------------
+
+Configure for Power Profile 1 e.g.
+
+Group------------------Coupler
+|______Reactor 1          |____ Consumption 1
+|______Reactor 2          |____ Consumption 2
+
+Group2
+|______Reactor 3
+|______Reactor 4
+
+-----------------------------
+
+List of All Available (no checkboxes, these are dragged onto Couplers)
+Consumption 1
+Consumption 2
+Consumption 3
+
+----------------------
+
+Notes:
+1) Differences between Power Systems, Fuel Tanks is NONE
+2) Differences between above and Weapons
+   a) There are no Consumption nodes.  Just the Groups
+   b) There is no list of childs to drag and drop. 
+
+Objects Needed:
+---------------
+PowerProfiles as Collection (contains all PowerLink Profiles) also have FuelProfiles, WeaponProfiles
+	Profile as clsProfile
+		CreateGroup(iIndex)
+		RemoveGroup(iIndex)
+		GetGroups()
+		SortAvailableSuppliers(suppliers())
+		SortAvailableConsumers(consumers())
+
+		IsCurrent as boolean   '<-- Rather than an IsCurrent flag, have m_bCurrentXXXProfile variable in clsVehicle along with public methods for getting the values from the GUI.exe
+		Key as String ' name of profile 
+		SC_Group() as clsSupplyConsumerGroup
+			|__m_Supplier() as string 'keys or do i want to use object references?
+        		|__m_Consumer() as string ' keys or object references?
+			|__AddSupplier
+			|__RemoveSupplier
+			|__AddConsumer
+			|__RemoveConsumer
+			|__GetConsumers()
+			|__GetSuppliers()
+			|__TotalSupplied
+			|__TotalConsumed
+		
+
+a(0,0) = Key  A(0,1) = Handle
+
+
+Logic For New Profile
+---------------------
+Create Group Object
+    a) Group object inits with blank Supply() and Child() arrays
+
+Deleting a Component
+	a) If the component is a consumer, delete its key reference from EVERY Profiles Consumer Group
+	b) If the component is a supplier, delete the  Group object for it from every Profile
+	c) We no longer need to have keychains inside each Supplier or Consumer.
+	d) to facilitate the above, consumers and suppliers must contain a special BitFlag which describes what types they support (so looping isnt so tedious) [need to think about this.. i might not have thought this thru but wanted to write it down quick.  I will definetly use something like this for drivetrain types to describe which performance profiles they can be added to. But even this is probably mostly only useful for loading the list with available items right?]
+
+
+Code Flow
+------------
+1) For managing "all available" parents and childs, we make one call to gather all of each.  Then pass array reference of keys to each profile in the collection.
+- when passed, we check each group's source and targets to determine which needs to be deleted.  We do this because when a component is deleted off the tree, we don't initally look to delete any references left in the Profiles.  Perhaps we should?  Since afterall, this MUST be performed every itteration to make sure the references are remoed from the profiles at some point.  If we dont do this, a user can delete a item which has a key of say.. 15_  and then the very next item they add may be assigned 15_ since its available, but this is NO LONGER the correct item being referenced in the Profile.
+
+2) Or, we can stick to having items added/removed to Source and Supply arrays as they are added to the vehicle.  This is probably simpler
+- We must keep one key tracking class.  Every time an object is added/deleted from the overall vehicle, it must call Keymanger.Addkey / KeyManager.RemoveKey
+
+2b) Since overall stats are recalc'd after every component is added/deleted, we should calc stats first, then DO EVENTS then update the profiles keys.  This way the extra delay in key addition/removal wouldnt be noticed as much.
+	i) For this reason however, we must make sure when adding branches of components at once (i.e. loading saved tree branch) that no stats updates take place until AFTER all items are added.  It doesnt make sense to calc stats after each component in a "branch add" operation.  However, perhaps we shouldnt update key adds/deletes after stats calculation because then we'd have to track and store each one until the operation was finished and then perform all the key adds/deletes afterwards.  This would just be complicating things for no good reason.
+
+3) There are only a few primary but still trivial, routines for writing this.
+	a) Since only when a profile is created and being displayed, the "Groups" are visible.  Initially, each supplier is added as the sole member of a new group.  So if we have two reactor components in the vehicle, we have Groups1 and Group2 each which has as a member ONE of the two reactors.
+	b) When new suppliers are added to the vehicle, each profile must have this supplier added to a new group.
+	c) when a supplier is deleted, the supplier must be deleted from each respective group within all profiles.
+	d) With consumers, theres only one difference.  When a new consumer is added, it must be removed from either the list of available components
+		i) For simplicity, first we always update the list of available consumers every time a component is added or removed.
+		ii) Next, we loop through each one in the available list and flag it if its already assigned to a group within that profile.
+		iii) The ones that are not flagged go into the available list in the gui
+		iv) We then load the Group/Supplier/Consumer tree directly from the class.
+		v) When a component is added/removed as a consumer in the group, we simply update our flags appropriately.
+
+
+
+
+- Keychain code in ALL components must be deleted.  Note: The reason we had these in every component to begin with is, when a component was deleted, it would be able to check for itself which profile it belong to, and then tell that profile to delete its reference from it.  This was efficient, but makes the code harder to maintain when it comes to creating new objects.  So at the expense of speed/efficiency, we will go for maintainability.  We will loop through all profiles and delete references when / if they are found in any given profile.  Afterall, we dont need speed/efficiency here because DELETE actions arent speed critical like the Stats calculation loop is.  So it makes a ton of sense to simplify the code here! KISS*
+
+- Only "Link" object holds keys and relationships
+- Deleting a component involves
+	a) call to Links.RemoveReference (Type, Key)
+		1) This will cycle through all links in collection and remove the link itself if its a source (e.g. Reactor) or just a reference if its a consumer (e.g. Computer Terminal)
+	b) ** Only rule is that sources cant references themselves (e.g. rechargeable batteries cant be linked to themselves)
+
+
+The below functions will be needed for handling mode switching. We will track the current profiles so when we mode switch, we make one of the below calls to determine which one needs to be displayed.
+Vehicle.GetCurrentPerformanceProfile
+Vehicle.GetCurrrentPowerProfile
+Vehicle.GetCurrentFuelProfile   
+
+Thoughts on saving tree without having to maintain keys.  
+--------------------------------------------------------
+Would be nice if we could create new keys for every component in the vehicle, every time.  
+Why are keys needed in the first place?
+	a) To maintain sibling relationships (e.g. wing pairs)
+	b) To maintain parent/child relationships used to reconstruct tree. (umm... if veh's are saved hiearchly, why is this needed?  Well, because of the "Group" container object.  If a Turret assembly contains a "group" component which in turn contains a few other components, the relationship of logical parent must be maintained by a key.  However, we could just recurse back through the tree whenever a child is added to a group to find the first non group component which would then have to be the parent.  But what about ammunition which  can be attached to guns, but is not actually contained by the gun. In fact, regarding this, perhaps it'd be more elegant when first adding ammo, for the user to be given a required dialog specifiying them to select the gun the ammo will be used with.  This way updates to the gun would update the ammo stats which I dont believe is currently happening)
+	c) I just dont believe there is a way to do this.  There's no way to maintain relationships  (partcularly given we have to load files from disk) without keys
+
+Anyway the question is, can we accomplish the above without maintaining keys for the lifetime of a vehicle?  (that is, do we have to load keys from file, or can we simply create new ones somehow and still maintain sibling and parent child relationships.  We already know parent/child re
+
+---------------------------------------------
+*KISS = KEEP IT SIMPLE STUPID :)

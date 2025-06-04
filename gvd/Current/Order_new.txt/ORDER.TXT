@@ -1,0 +1,124 @@
+
+   *** Life on Mars?. Shareware version V1.11 ***
+
+
+                  INDEX
+
+   1.INTRODUCTION.
+   2.INSTALLATION.
+   3.ORDERING INFO.
+
+
+      1.INTRODUCTION.
+
+  The Shareware version is distributed on line (Internet) in a zip 
+compresed file "MARS.ZIP" including the files:
+
+           - SETUP.EXE
+           - MARS.EXE
+           - MARS.HLP
+           - FILE_ID.DIZ
+           - VENDOR.DOC
+           - ORDER.TXT (this file)
+
+  The distribution of this shareware is encouraged as long as all
+of the mencionated files and not alterated in any way (without the
+permission of the author).
+
+
+      2.INSTALLATION.
+
+  To install the Shareware version of  Live on Mars?  'unzip'
+the file 'MARS.ZIP' in a temporary directory and run 'SETUP.EXE' under
+windows, the installation program copy the program files in the directory
+selected. Finally, when the files have been copied, you will be asked if
+you want create a new group for the Life on Mars files. Choose yes if you
+want a new group to be visible in the Program Manager (Win3.X) or Start
+menu (Win95).
+
+
+      3.ORDERING INFO.
+
+   Registration fee: $19.95 USD
+
+   The registration is performed by program generator (similar to a key 
+generator), it will be send you by e-mail.
+
+  If you would like to register 'LIFE ON MARS?', you can do the registration
+  by one of this ways:
+
+  A. Directament from the author, see "http://www.ctv.es/USERS/innaky/"
+     
+  B. You can go to "http://www.shareit.com" and enter the program number
+     there: #100537
+
+  D. You can register via phone, fax or postal mail. Please print out 
+     the following form, and fax or mail it to:
+
+     element 5 AG / ShareIt! 
+     Vogelsanger Strasse 78 
+
+     50823 Koeln
+     Germany 
+
+
+     Phone:          +49-221-2407279 
+     Fax:            +49-221-2407278
+     E-Mail:         register@shareit.com
+
+     (NOTE for USA residents: If you are located in the USA, you can also 
+      pay by sending a check or cash to the following address:
+
+      ShareIt! Inc.
+      P.O. Box. 844
+      Greensburg, PA 15601-0844
+      Phone (orders only): 1-800-903-4152
+      Phone (customer support): 724-850-8186
+      Fax: 724-850-8187 
+       
+     Please send only checks drawn by US-American banks to this address).
+
+
+     Registration form for 'Life on Mars?', English version
+
+     Program No.: 100537
+
+     Last name: ___________________________________
+
+     First name: ____________________________________
+
+     Street and #: ______________________________________
+
+     City, State, postal code: ________________________________
+
+     Country: _______________________________________
+
+     Phone: _____________________________________
+
+     Fax: ________________________________________
+
+     E-Mail: ______________________________________(essential)
+
+
+
+     How would you like to pay the registration fee of $19.95 USD:
+
+     Credit card - Bank Transfer/Wire - Check - EuroCheque - Cash
+
+
+     Credit card information (if applicable)
+
+     Credit card: Visa - Eurocard/Mastercard - American Express - 
+                  - Diners Club
+
+     Card holder: ________________________________
+
+     Card No.: ___________________________________
+
+     Date of Expiration : ___________________________________
+
+
+
+     Date / Signature ___________________________
+
+ 

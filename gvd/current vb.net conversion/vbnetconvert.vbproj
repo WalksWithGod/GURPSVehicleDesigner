@@ -1,0 +1,689 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <MyType>Windows</MyType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ABCB9AE0-2A25-4E62-8021-BD33C27672B9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>Project1</AssemblyName>
+    <OutputType>Library</OutputType>
+    <AssemblyMajorVersion>1</AssemblyMajorVersion>
+    <AssemblyMinorVersion>0</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>0</AssemblyRevisionNumber>
+    <GenerateRevisionNumber>False</GenerateRevisionNumber>
+    <AssemblyCompanyName>Software</AssemblyCompanyName>
+    <RootNamespace>Project1</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>Project1.xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>Project1.xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aBody.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="aTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cArmor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cArmorFace.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cArmorLayer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cAuthor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cCrew.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cDescription.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cFeature.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cFilePath.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cGroup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cIArmor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cIBuild.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cIComponent.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cIContainer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cIDisplay.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cIExport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cIFrame.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cINI.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cINode.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cIPowerPlant.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cIPropulsion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cISystem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cIWeapon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsAccomodation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsAirscrewDrivetrain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsAntiBlastMagazine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsAquaticPropulsion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsArm.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsArmMotor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsArmor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsAssociateExt.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsAudioVisualSystem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsBattlesuitSystem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsBeamedPowerReceiver.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsBilgePump.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsBody.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCargo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCmdlg.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCommunicator.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCompList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsComponentInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsComputer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsContraGravGenerator.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsCrewStation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDecoyReload.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDuctedFan.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsElectricContactPowertable.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsElectronicCountermeasure.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsEmergencyMedicalEquipment.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsEnergyBank.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsEntertainmentFacility.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsEnvironmentalSystem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsEquipmentPod.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsExoticPowerPlant.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsFileLoader.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsFireExtinguisher.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsFuelCell.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsFuelTank.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsFuelTransferProcessing.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsGasandMHDTurbine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsGasbag.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsGroundDrivetrain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsGroup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsHardPoint.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsHarness.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsHeavyEquipment.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsHelicopterDrivetrain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsHovercraft.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsHTMLViewer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsHydrofoil.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsInternalCombustionEngine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsJetEngine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsKeyManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsLabandWorkshop.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsLandingAid.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsLeg.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsLiftingGas.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsLightSail.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsMagLevLifter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsManeuverControl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsMast.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsModularSocket.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsMuscleEngine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsNavigationSystem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsNeuralInterfaceSystem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsNitrousOxideBooster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsNuclearDamper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsOpenMount.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsOrionEngine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsOrnithopterDrivetrain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsOtherSensor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPerformanceAir.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPerformanceFlex.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPerformanceHover.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPerformanceLeg.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPerformanceMagLev.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPerformanceSkid.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPerformanceSpace.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPerformanceSub.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPerformanceTrack.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPerformanceWater.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPerformanceWheel.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPod.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsPopTurret.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsProvisions.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsRadarandLadar.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsReactionlessThruster.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsReactor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsRealityStabilizer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsRecentFileManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsRocketEngine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsRotor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsRowingPositions.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSafetySystem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSail.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsScientificSensor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSearchlight.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSecurityDirtyTrick.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsShields.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSideCar.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSimpleCustom.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSkid.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSnorkel.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSoftware.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSolarCellArray.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSolarPanel.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSolidRocketEngine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSonar.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSoundDetector.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsStabilizationGear.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsStardrive.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsStats.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSteamEngine.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSuperStructure.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSupplyConsumeGroup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTargetingSystem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTeleportProjector.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTerminal.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsThermPassElectromag.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTrack.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsTurret.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsVehicle.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsVehicleAccess.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsVehicleStorage.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsVisualAugmentationSystem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsWeaponAmmunition.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsWeaponBeam.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsWeaponGun.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsWeaponLauncher.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsWeaponLink.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsWeaponLiquidProjector.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsWeaponMount.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsWeaponStoneBoltThrower.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsWeaponTorpMissile.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsWheel.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsWing.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cProfile.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cProfilePower.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cRoom.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cStats.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cSurface.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cVehicle.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modAirPerformanceHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modConstants.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modFileHandling.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modFileUtils.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modGlobals.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modGUI_Performance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modGUI_Power.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modGVDXMLSchemaConstants.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modHeaps.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modKeyChainManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modListViewHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ModMain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modMapi.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modMatrix.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modOutputConstants.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modPerformance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modPrinter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modProperties.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modSplash.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modStartup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modStatConstants.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modSubclass.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modTableCrewPassengers.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modTableInstrumentsElectronics.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modTableLoader.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modTableMiscEquipt.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modTablePowerFuel.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modTablePropulsion.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modTableWeaponry.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modTextOutput.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modTimerProc.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modTree.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modUtilities.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modWaterPerformanceHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

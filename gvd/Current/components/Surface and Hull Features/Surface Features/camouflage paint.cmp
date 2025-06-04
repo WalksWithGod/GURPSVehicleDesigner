@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<object handle = "0_">
+		<string name = "classname">Vehicles.cFeature</string>
+		<string name = "defpath">\Definitions\Surface and Hull Features\Surface Features\camouflage paint.xml</string>
+		<string name = "guid">98761</string>
+		<string name = "name">camouflage paint</string>
+		<string name = "Description"></string>
+		<long name = "maxchildren">0</long>
+	</object>
+</ObjectStore>
+

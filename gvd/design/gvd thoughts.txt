@@ -1,0 +1,103 @@
+couple of things...
+
+
+- whats the practical use of guid's during saving & loading of vehicles and components?
+
+- i guess its ok to have so many of the common properties repeated in so many def files?  its sorta elegant to keep it the way it is since these are "child" objects of the parent and all child objects are loaded the same way.
+
+	a) ok so what about pre-cacheing? I could probably test this after  i get armor/face/layer def files updated.  There should be a drastic improvemet if i cache all the properties.
+
+	b) since objects in XML def's never get loaded into the tree, maybe i should actually make the "handle" for those the GUID.  This would dramatically simplify cacheing of all files that are cached during DEF mode.   And using the cmpedit, we can always have same guid's for properties even across files because the GUIDs are stored in the database and taken from there.
+
+	i guess this isnt very important to deal with now... 
+
+
+- also dont FORGET,  we're going to strive to keep all our classes very generic... so instead of cDiningHall
+  it would be cRoom and that would cover everything from the Bridge, a mess hall, a crew quarters, etc.  This is how my
+game will handle "spaces" anyway.  Cargo bay is also a "room"
+
+another example is cPropulsion...  cDrivetrain (one is exhaust, and the other drives a subassembly like rotor or wheels or tracks or legs)
+
+i just need to do this slowly and step by step..  We need to come up with a hiearchy of bitflags so info about the capabilities of any particular component can be discerned.   The bottom line is though, we want to keep one class generic, but still not have a ton of select case type code in it. all that should be  handled in the formulation of the xml.
+
+also remember that once are components are "built"  the actual game doesnt need to hold all the statsupdate code in memory... nor alot of the NON STATISTIC tyep properties used in construction.
+
+
+- IMPORTANT: When it comes time to setting up the calculation rules & matrix, ive been thinking that it just might be possible to allow arbitrary selection (amongst all of the available types) of the matrix formula to use.  Basically delegation will be used, and there will be simple checks to make sure necessary variables are available...but essentially, why shouldnt this be possible without any super major scripting.  
+
+I think the "modifiers" array also simplifies this since those rules are actually straight forward.  I think we can try mapping all the common ones first and then deal with special cases later.  And remember, we're going to attempt to create the class count to 25% of what we used before OR LESS if possible.
+
+
+=============
+Im starting to wonder again about using variables for stuff like streamlining.  I mean, what if instead i made them optional variables, and gave them modifiers to cover all the situations where they will be used?  Like litterally, it would have like AirDrag_HVal = 5 which would be the value to use in the airdrag formula for the "H" variable in the formula.  The question here is, without some sort of registry, we would have to search for all these modifiers... unless the modifiers somehow effected module level variables.  Like in cAirPerformance, we could search for all bonuses first thing and fill them.  
+
+WAIT!!!  For a bit, i got worried that my vehicle class objects were data holders without any run-time methods.  Then i remembered that I chose to make the seperation between "construction" of the vehicle and its parts versus the operational run-time functionality of the components during simulation.  So my "engine" object will have actual methods for starting/stopping/drawing fuel etc...  but they will not contain methods for calculating stats.  The stats are simply calculated via delegation just as if they were intrinsic math functions.
+
+So the limitation to gvd's user customization is they must use existing formulas for their custom objects AND they can't create alternative rules for calculating things like performance since they must use the existing formulas.
+
+
+
+Also realized that surface features like streamlining and hydro lines are really build options too.  So we can think of the vehciles.cSurfaceOptions as merely a class required for building, but once the vehicle is constructed and running, its irrelevant and doesnt even need to be loaded.  This is why the options for REAL surface features like reflective coating are apart of the armors.surface.
+
+So in terms of object oriented programming, our "build" formulas for calculating all the stats can be thought of as cConstructor (construction worker) and the class loads in its "recipe" via the XML def.  This formula is loaded into the cIComponent matrix data and such.  
+But i need to re-read some notes i made regarding problems associated with calc'ing values for the various interfaces of any given class.
+
+So we load our options, and we ditch our surfacefeatures.txt data file and move the modifiers for cost and weight into the surface.xml def file.  Will need to revisit the hamock atest.cls to see how we handle the data mapping...  This is going to be very similar to how armor will be i suspect.
+
+Also before i forget, the cINode interface should be the one that contains teh menu option lists for what is and is not allowed.  NOTE: that to avoid hacking, not only the menu must be derived from the ciNode's settings, but when a command is given, it needs to verified by the class as "ok."  If not, then someone could hack the menu to ungray a selection and then try to override the def file settings for that object.
+
+
+
+thing about surface features, each one is sort of like a seperate object in terms of its stats and now we're trying to load them all into just one cSurface object which contains just one matrix() and such.  I could use multiple matrices... sigh.  I just wish it were easier to get this architecture right.
+
+Im thinking we need seperate objects all to be held under the cSurface.Features() object array or something.  We can have seperate cost/weights and then have the main csurface provide totals.  
+
+
+cFeature
+	weight
+	cost
+	
+	description <-- from cINode though?  but if its not graphed, it doesnt need this.  Unless i do graph them?
+	advantage here is we get individual cost weight stats
+	disadvantage is the longer tree loading times (actually probably not since what actually takes long is loading the xml files)
+	
+
+One thing i need to decide is how SHOULD (in an object oriented sense) should formula variables like H= 1 if streamlining = very good, in formulas needed for performanace related (if at all) to surface feature objects?   I could for example think of it as, these variables are apart of the math.bas  or math.cls  and can be "registered."  So math.cls can have  a method registerVariable(varID, value)  which would set the value so that later the performance calculation can just run the calculation without having to use an if/then struct at all.  I kind of like this idea actually... but how do you "register" the correct value for a variable if formulas where there not just checking for one variable (e.g. just streamlining's value)?  Like what if C = 1 if exposed seats and C=2 if no exposed seats and C=3 if exposed seats AND very good streamlining or something to that effect?  Perhaps rather than register the actual formual variables, you register the types of "key" values its looking for.  So you'd register ExposedSeat=TRUE, you'd register StreamliningType = selectionID .  So you'd still be able to compute your formulas, but you wouldn't need to loop through the tree to find stuff, these things would be registered during selection.  This would substantially speed up stats calcs too since we are removing all the loops!
+
+note: using features as individual parts that get added under the Surface/Hull features node also solves the problem of dealing with user defined propertie valeus for setting the magic lev cost, etc... BUT THERE IS the question of duplicates!  Design check could flag it i suppose...
+
+	
+	
+<object handle = "5_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">option</string>
+		<long name = "callbytype">1</long> 
+		<long name = "subscript">0</long> 
+		<string name = "caption">search option</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<long name = "datatype">3</long>
+		<bool name = "readonly">FALSE</bool>
+		<s_array name = "Selections" lowerBound = "0" upperBound = "2">
+			<string name = "0">none</string>
+			<string name = "1">surface search</string>
+			<string name = "2">air search</string>
+		</s_array>
+	</object>
+
+	<object handle = "6_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">userinput</string> 
+		<long name = "callbytype">1</long>
+		<long name = "subscript">0</long>
+		<string  name = "caption">range</string>
+		<string name = "notes">Enter the range of the sensor</string>
+		<long name = "datatype">10</long>
+		<bool name = "readonly">FALSE</bool>
+	</object>

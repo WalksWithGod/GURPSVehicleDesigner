@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<comment>Note that in the XML Def, we dont need object ID's, so we set them all 0.	</comment>
+	<object handle = "0_">
+		<string name = "classname">Vehicles.cCrew</string>
+		<string name = "defpath"></string>
+		<string name = "guid">9876</string>
+		<string name = "image">\icons\options.ico</string>
+	</object>
+</ObjectStore>

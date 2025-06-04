@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<!-->Note that in the XML Def, only the root object needs a GUID since any component that is saved based on it will share this same GUID.  We check upon loading the component in the listview whether the def it points to shares the same GUID as this XML or not.
+	<-->
+	<object handle = "0_">
+		<string name = "classname">Vehicles.cFeature</string>
+		<string name = "defpath"></string>
+		<string name = "guid">98763</string>
+		<string name = "image">\icons\options.ico</string>
+		<int name = "maxchildren">0</int>
+		
+		<long name = "formula_count">0</long>
+		<i_array name = "formulas" lowerBound="0" upperBound = "3">
+			<int name = "0">100</int>
+			<int name = "1">200</int>
+			<int name = "2">300</int>
+			<int name = "3">400</int>
+		</i_array>
+
+		<long name = "userinput_count">0</long>
+		
+		<!--> Stats Table is the build data which has different multipliers based on Tech Level 
+		<-->
+		<long name = "statstablecount">1</long>
+		<sng_table name = "table0" lRow="0" uRow="2" lCol="0" uCol = "3">
+			<float name = "0,0">7</float>
+			<float name = "0,1">2</float>
+			<float name = "0,2">300</float>
+			<float name = "0,3">0</float>
+			<float name = "1,0">8</float>
+			<float name = "1,1">1</float>
+			<float name = "1,2">150</float>
+			<float name = "1,3">0</float>
+			<float name = "2,0">9</float>
+			<float name = "2,1">.5</float>
+			<float name = "2,2">75</float>
+			<float name = "2,3">0</float>
+		</sng_table>
+	
+		<!--> Options Tables represent the modifiers that are triggered (modified ) to the build stats
+		      when a specific selection is made
+		<-->	
+		<long name = "option_count">1</long> 
+		<long name = "option_selectioncount0">3</long>
+		<sng_table name = "option_table0" lRow= "0" uRow="1" lCol ="0" uCol="3">
+			<float name = "0,0">1</float>
+			<float name = "0,1">1</float>
+			<float name = "0,2">1</float>
+			<float name = "0,3">1</float>
+			<float name = "1,0">2</float>
+			<float name = "1,1">10</float>
+			<float name = "1,2">0</float>
+			<float name = "1,3">0.25</float>
+		</sng_table>
+
+		<int name = "propertycount">5</int>
+		<objectRef name = "property0">1_</objectRef>
+		<objectRef name = "property1">2_</objectRef>
+		<objectRef name = "property2">3_</objectRef>
+		<objectRef name = "property3">4_</objectRef>
+		<objectRef name = "property4">5_</objectRef>
+	</object>
+
+	<object handle = "1_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">HEADER</string> 
+		<string  name = "caption">Settings</string>
+		<string name = "notes"></string>
+		<long name = "datatype">-99</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "2_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">12</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">option</string> 
+		<long name = "callbytype">1</long>
+		<long name = "subscript">0</long>
+		<string name = "caption">level</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">Ve2 91-92</string>
+		<bool name = "readonly">FALSE</bool>
+		<long name = "datatype">3</long>
+		<s_array name = "Selections" lowerBound = "0" upperBound = "1">
+			<string name = "0">basic</string>
+			<string name = "1">radical</string>
+		</s_array>
+	</object>		
+
+	<object handle = "3_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">HEADER</string> 
+		<string  name = "caption">Stats</string>
+		<string name = "notes">The following are stats for this surface feature</string>
+		<long name = "datatype">-99</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "4_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">11</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">weight</string> 
+		<string name = "caption">Weight</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+		<long name = "datatype">8</long>
+	</object>	
+	<object handle = "5_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">11</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">cost</string> 
+		<string name = "caption">Cost</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+		<long name = "datatype">8</long>
+	</object>	
+</ObjectStore>

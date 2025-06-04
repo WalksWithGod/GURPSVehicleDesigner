@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<GVD_SAVED_COMP version = "1.0">
+	<Comment> ; CMP files save file version data, author data, and saved states for properties which are defined by the user at run time.  Nothing more.
+		  ; ACTUALLY, just thought of something cooler.  Should be that users dont have access to GCD files.  Only I create those.  Users on the other
+		  ; hand, can over-ride those values in a GCD if they want, but they only have access to GCD properties which I expose for them.  
+		  ; So, they can override the default NAME of a component (This also faciliates me not having to write as many GCD files), its default values
+		  ; etc.  Plus, a CMP will be able to restore values.  REMEMBER, there is a difference between a saved CMP and the components saved in 
+		  ; an entire Vehicle FILE!!!  
+	</Comment>
+	<Component index = "-1" defpath = "\definitions\Propulsion or Lift\Stardrives\jump drive.xml">
+		<Author>
+			<Name>Mike Joseph</Name>
+			<Email>gvd@makosoft.com</Email>
+			<URL>http://www.makosoft.com/gvd</URL>
+		</Author>
+		<Version>
+			<GUID></GUID>
+			<Major></Major>
+			<Minor></Minor>
+			<Revision></Revision>		
+			<Created>09/05/02</Created>
+			<Modified>09/06/02</Modified>	
+		</Version>
+
+		<Definition>
+			<ClassID>2</ClassID>
+			<IconFile>\icons\Propulsion_Stardrives.ico</IconFile>
+			<Category>Propulsion or Lift</Category>
+			<SubCategory>Stardrives</SubCategory>
+			<Name>jump drive</Name>
+			<PageRef></PageRef>
+			<DR>1</DR>
+
+			<Rules>
+				<WeightFormula>1</WeightFormula>
+				<VolumeFormula>1</VolumeFormula>
+				<SurfaceFormula>1</SurfaceFormula>
+				<CostFormula>1</CostFormula>
+			</Rules>
+			<Matrix>
+				<Width>4</Width>
+				<MatrixType>0</MatrixType>
+				<List>
+					<Element>326</Element>
+					<Element>0</Element>
+					<Element>100</Element>
+					<Element>100</Element>
+					<Element>20</Element>
+				</List>
+			</Matrix>
+
+			<Bitflag1>
+				<Element>0</Element>
+			</Bitflag1>
+
+			<Bitflag2>
+			</Bitflag2>	
+		</Definition>
+	
+		<OutputAttributes>
+			<Attribute>
+				<AttribName>Description</AttribName>
+				<DataType>string</DataType>
+				
+			</Attribute>
+		</OutputAttributes>
+
+		<PropertyList>
+			<Property>
+				<Title>Settings</Title>
+				<PropName></PropName>
+				<DataType> wdText</DataType>
+				<Enabled> FALSE</Enabled>
+			</Property>
+			<Property>
+				<Title>Tech level</Title>
+				<PropName>TL</PropName>
+				<DataType> wdList</DataType>
+				<Enabled> TRUE</Enabled>
+				<List> 
+					<Element> 1</Element>
+					<Element> 2</Element>
+					<Element> 3</Element>
+					<Element> 4</Element>
+					<Element> 5</Element>
+					<Element> 6</Element>
+					<Element> 7</Element>
+					<Element> 8</Element>
+					<Element> 9</Element>
+					<Element> 10</Element>
+					<Element> 11</Element>
+				</List>
+			</Property>
+			<Property>
+				<Title>Added Volume</Title>
+				<Enabled>TRUE</Enabled>
+				<PropName>AddedVolume</PropName>
+				<DataType>wdDouble</DataType>
+			</Property>
+			<Property>
+				<Title>DR</Title>
+				<Enabled>TRUE</Enabled>
+				<PropName>DR</PropName>
+				<DataType>wdNumber</DataType>
+			</Property>
+			<Property>
+				<Title>Statistics</Title>
+				<Enabled>FALSE</Enabled>
+				<DataType>wdText</DataType>
+			</Property>
+			<Property>
+				<Title>Cost</Title>
+				<Enabled>FALSE</Enabled>
+				<PropName>Cost</PropName>
+				<DataType>wdText</DataType>
+			</Property>
+			<Property>
+				<Title>Weight</Title>
+				<Enabled>FALSE</Enabled>
+				<PropName>Weight</PropName>
+				<DataType>wdText</DataType>
+			</Property>		
+			<Property>
+				<Title>Volume</Title>
+				<Enabled>FALSE</Enabled>
+				<PropName>Volume</PropName>
+				<DataType>wdText</DataType>
+			</Property>
+			<Property>
+				<Title>Surface Area</Title>
+				<Enabled>FALSE</Enabled>
+				<PropName>SurfaceArea</PropName>
+				<DataType>wdText</DataType>
+			</Property>
+			<Property>
+				<Title>Hitpoints</Title>
+				<Enabled>FALSE</Enabled>
+				<PropName>Hitpoints</PropName>
+				<DataType>wdText</DataType>
+			</Property>
+		</PropertyList>
+	</Component>
+</GVD_SAVED_COMP>

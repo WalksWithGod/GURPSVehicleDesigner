@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<object handle = "0_">
+		<string name = "classname">Vehicles.cVehicle</string>
+		<string name = "defpath">\definitions\vehicle\default.xml</string>
+		<string name = "guid">999888444</string>
+		<string name = "name">Vehicle</string>
+		<string name = "Description"></string>
+		<long name = "Image">1</long>
+		<int name = "childcount">2</int>		
+		<objectRef name = "child0">1_</objectRef>
+		<objectRef name = "child1">3_</objectRef> 
+		
+		<!--> Author, version, description stuff for the Vehicle are saved under the 
+		      Vehicle ojbect since these are composite child objects
+		<-->
+		<objectRef name = "author">4_</objectRef>
+		<objectRef name = "version">5_</objectRef>
+		<objectRef name = "description">6_</objectRef>
+		
+
+	</object>
+	<object handle = "1_">
+		<string name = "classname">Vehicles.cGroup</string>
+		<string name = "defpath">\definitions\subassemblies\group.xml</string>
+		<string name = "guid">1234123412341234</string>
+		<bool name ="Deletable">FALSE</bool>
+		<string name = "name">Components</string>
+		<string name ="Description"></string>
+		<long name = "Image">1</long>
+		<int name = "childcount">1</int>
+		<objectRef name = "child0">2_</objectRef>
+   	</object>
+
+	<object handle = "2_">
+		<string name = "classname">Vehicles.aBody</string>
+		<string name = "defpath">\definitions\subassemblies\body.xml</string>
+		<string name = "guid">91234123412341234</string>
+		<bool name ="Deletable">FALSE</bool>
+		<string name = "name">body</string>
+		<string name ="Description"></string>
+		<long name = "Image">1</long>
+		<int name = "childcount">0</int>
+   	</object>
+
+
+	<object handle = "3_">
+		<string name = "classname">Vehicles.cSurface</string>
+		<string name = "defpath">\definitions\Surface and Hull Features\surface.xml</string>
+		<string name = "guid">444555566666</string>
+		<string name = "name">Surface Features</string>
+		<string name ="Description"></string>
+		<string name="BattlesuitSystem">none</string>
+	</object>
+	
+	<object handle = "4_">
+		<string name = "classname">Vehicles.cAuthor</string>
+		<string name = "defpath"></string>
+		<string name = "guid">1356</string>
+		<string name = "first">Michael</string>
+		<string name = "middle">P.</string>
+		<string name = "last">Joseph</string>
+		<string name = "nick">PizaZ</string>
+		<string name = "email">gvd@makosoft.com</string>
+		<string name = "url">http://www.makosoft.com/gvd</string>
+	</object>
+	<object handle = "5_">
+		<string name = "classname">Vehicles.cVersion</string>
+		<string name = "defpath"></string>
+		<string name = "guid">66554</string>
+		<string name = "major">1</string>
+		<string name = "minor">0</string>
+		<string name = "revision">0</string>
+		<date name = "created">01/20/03</date>
+		<date name = "modified">01/21/03</date>	
+	</object>	
+	<object handle = "6_">
+		<string name = "classname">Vehicles.cDescription</string>
+		<string name = "defpath"></string>
+		<string name = "guid">66555</string>
+		<string name = "name">This is a test name</string>
+		<string name = "description">This is a test vehicle.</string>
+		<string name = "classification">Spy Plane</string>
+		<string name = "name">SR-71 Blackbird</string>
+		<string name = "header">This is my header</string>
+		<string name = "footer">Don't step on my footer</string>
+	</object>
+</ObjectStore>

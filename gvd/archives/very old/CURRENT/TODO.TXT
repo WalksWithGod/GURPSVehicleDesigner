@@ -1,0 +1,30 @@
+Wish List:
+
+- Ability to customize formulas.  Scripting?  Specifically for energy banks?
+- Surface Features should be by facing (RAP, Elect, etc) instead of location only
+- Filtering of tech level components from the Listview
+- Vehicle AND Robot, Mecha, Battlesuit creation
+- Weapon creation
+
+TO DO This week:
+- calculating DR, PD, cost, weight for everything including components
+- Figure out way to "link" stabilization gear to the desired weapon
+- Figure out way to LINK weapons using "links" what about clustering?
+- Figure out way to assign crew to a crew station
+- Figure out way to auto add Stabilization gear to the Astronomical telescopes?
+- Provisions and Occupancy need to be added to Options dialogue
+- Tool for users to create crew memebers and assign names
+- Tool for users to create new weapons, launchers
+- Way to assign Maneuver controls
+- Way to assign which components are using which power sources
+- Way to assign Nitrous Oxide booster to a engine
+- Top Decks dialog.  user clicks on the "top deck" customize property to enable, disable and configure the top deck.
+- Hardpoints (remember weapon bays! since i didnt add these... perhaps hardpoint should be removed too then)
+- Details dialogue.  Headlights, bilgepumps, meteorological equipt???
+- Dialog for adding Vehicle History/discriptions/manufacturer info....
+- Do i need a "crew" class?
+- need to revisit "animal" class for harnesses.  Easiest way is probably create animal class where user can just add them and create their own name, quantity and average ST for the animals.
+
+Final decide on auto add armor and structure.  I think i should NOT auto add anything.  
+I suppose ill leave structure as part of the properties for a subassembly instead of
+making it seperate like Armor.  Only reason for armor was because it made for easy layering.

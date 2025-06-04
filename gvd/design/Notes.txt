@@ -1,0 +1,137 @@
+NOTES:
+--------------------
+- virtually any component can be armored.  probably have to wait on bug reports to see if restrictions need to be placed on a particular item.
+
+- anything can be added to Equiptment Pods except for Subs, Drivetrains, and propulsion systems other than Solid Rockets. This seems correct to me. Below is the list of items that can't be added to Equiptmend Pods.  I can change this easily if users think a particular component should be added or removed from the list.
+	- Airscrew Drivetrain
+	- Ammunition
+	- Aquatic Propulsions
+	- Contra Gravity
+	- AntiblastMagazine
+	- Battlesuit System
+	- Bilge Pumps
+	- Ducted Fan
+	- Electric Contact Power Plants
+	- Entertainment Facilities
+	- Fire Extinguisher Systems
+	- Gas and MHD Turbines
+	- Ground Drivetrain
+	- Hardpoint
+	- Harness
+	- HeavyEquiptment
+	- Helicopter Drivetrain
+	- Jet Engine
+	- Lab and Workshop
+	- Landing Aids
+	- LiftingGas
+	- LightSail
+	- MagLevLifter
+	- ManeuverControls
+	- Muscle Engine
+	- Nitrous Oxide Boosters
+	- Orion Engine
+	- Ornithopter Drivetrain
+	- Reactionless Thrusters
+	- Rocket Engine (the non solid kind)
+	- Rowing Positions
+	- Sail
+	- Software
+	- SolarCell Array
+	- Solar Panel
+	- Stabilization gear
+	- Star Drive
+	- Steam Engine
+	- Weapon Link
+	- Weapon Mount
+	
+- anything can be added to Modules except for the below items.
+	- All subassemblies including Solar Panels and Equiptment Pods
+	- Accomodations
+	- Airscrew Drivetrains
+	- Ammunition 
+	- Antiblast Magazine
+	- Aquatic Propulsion
+	- Arm
+	- Arm Motor
+	- Battlesuit System
+	- Bilge Pump
+	- Contragrav Generator
+	- Crew Station
+	- Ducted Fan
+	- Electric Contact Power
+	- Entertainment Facilities
+	- Environmental Systems
+	- Equiptment Pod
+	- Exotic Power Plant
+	- FireExtinguisher
+	- Fuel Accessory
+	- Fuel Cell
+	- Fuel Tank
+	- Gas and MHD Turbines
+	- Ground Drivetrain
+	- Hardpoint
+	- Harness
+	- Heavy Equiptment
+	- Helicopter Drivetrain
+	- Hovercraft
+	- Hydrofoil
+	- Internal Combustion Engine
+	- Jet Engine
+	- Lab and Workshop
+	- Landing Aid
+	- Lifting Gas
+	- Light Sail
+	- Mag Lev Lifter
+	- Maneuver Control
+	- Mast
+	- Muscle Engine
+	- Nitrous Oxide Booster
+	- Open Mount
+	- Orion Engine
+	- Ornithopther Drivetrain
+	- Pod
+	- Popturret
+	- Reactionless Thruster
+	- Reactor
+	- Rocket Engine
+	- Sail
+	- Sidecar
+	- Skid
+	- Snorkel
+	- Software
+	- solarcell array
+	- solar panel
+	- solid rocket engine
+	- Stabilization Gear
+	- Star Drive
+	- Steam Engine
+	- TorpMissiles
+	- Vehicle Access
+	- Vehicle Storage
+
+	
+- If the program crashes, there is the possibility that objects created at run time will not be released properly.  Therefore it is important that you reboot your system after a crash or else you these objects will just remain in memory.  Each crash will most likely contribute to the wasted memory until eventually your system becomes unstable.  Hopefully the crashes in this build will be far less.
+
+
+ISSUES
+----------
+- There are no rules for where Subassemblies like WHeels, skids, etc are allowed to be placed.  I just implemented restrictions that i thought seemed logical (i.e. Wings can only be added to just Body and not Superstructures also.  If anyone disagrees, its trivial to change, just let me know.)
+- I need to know which Electronic instruments should not be allowed to attach to a periscope so i can write exceptions.  Currently its limited to Visual Augmentation Systems, Radar and Ladar, Sonar, Thermal and Passive Electromagnetic Imaging Sensors, Other Sensors, Sound Detectors, Scientific Sensors, Audiovisual Systems, Navigation Instruments, Targetting Systems,     I've excluded Radio Communicators, Electronic Countermeasures, Computers, Terminals, Software, and Neural Interface systems.   
+
+----------------------------------------------------
+The following though still technically problems, are no longer really relevant because i took the easy way out and now update every components stats instead of only searching for the "culprits."  Still here's the list:
+- Figure out which _components_ (NOT SUBS) need to call "QueryParent" at the end of its own StatsUpdate. NOT IN SUBASSEBMLYS THOUGH.  QUERY Parent should ONLY be done by Components (3/22/99)
+	i.e. Arm Motors need to query their parents when they are added
+	i.e. Arms need to statsupdate their children if their tech levels change
+	i.e Shields need to reupdate since their stats are dependant on the vehicles total surface area
+	i.e. antiblast magazines need to update when ammunitions, etc are updated
+      i.e. things that can attach to sensor periscopes (extendable periscopes) need to query its parent the periscope since its stats are dependant on its child.
+	i.e. full stabilization and universal mounts etc, need to update when its parent has changed
+	i.e. Crashwebs, Ejection Seats, Airbags attached to Cabins/Suites need to update if the Quantity or Occupancy of its parent changes
+	i.e. grav compensators need to adjust to vehicle's loaded weight
+	i.e. engines need to check for Nitrous Oxide Boosters to calculate their output properly
+	- Solar Cell arrays need to update after their parent's surface area has changed. This should probably go in the same location that force field grids are updated, or armor
+	-wings require the vehicles structural weight and cost and area to produce its own stats.  Thus, any change to the vehicle should result in the wing recalculating its own stats.
+	- sails need to recalc as masts are added and deleted since their stats depend on total number of masts and average mast height.  Aslo when you edit a mast's height, sails should recalc stats
+	- snorkel's need their PowerPlant list/key updated if the one they are attached to is deleted.(this autofixes itself if StatsUpdate is called again)
+-------------------------------------------------------

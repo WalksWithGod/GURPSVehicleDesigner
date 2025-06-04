@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<comment>Note that in the XML Def, we dont need object ID's, so we set them all 0.	</comment>
+	<object handle = "0_">
+		<string name = "classname">Vehicles.cSurface</string>
+		<string name = "defpath"></string>
+		<string name = "guid">9876</string>
+		<string name = "image">\icons\options.ico</string>
+		
+		<int name = "maxchildren">50</int>
+		<int name = "propertycount">3</int>
+		<objectRef name = "property0">1_</objectRef>
+		<objectRef name = "property1">2_</objectRef>
+		<objectRef name = "property2">3_</objectRef>
+	</object>
+
+	<object handle = "1_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">HEADER</string> 
+		<string  name = "caption">Stats</string>
+		<string name = "notes">The following stats are the total for all features added</string>
+		<long name = "datatype">-99</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "2_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">6</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">weight</string> 
+		<string name = "caption">Total Weight</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">Ve2 91-92</string>
+		<bool name = "readonly">FALSE</bool>
+		<long name = "datatype">8</long>
+	</object>	
+	
+	<object handle = "3_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">6</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">cost</string> 
+		<string name = "caption">Total Cost</string>
+		<string name = "pageinfo">Ve2 91-92</string>
+		<bool name = "readonly">FALSE</bool>
+		<long name = "datatype">8</long>
+	</object>	
+	
+</ObjectStore>	

@@ -1,0 +1,111 @@
+Received: from lists.io.com (root@lists.io.com [199.170.88.15])
+	by pop.nwlink.com (8.9.3/8.9.3) with ESMTP id XAA02981
+	for <mikej@nwlink.com>; Thu, 4 Mar 1999 23:27:24 -0800 (PST)
+Received: (from majordom@localhost)
+	by lists.io.com (8.9.3/8.9.1a) id BAA25043
+	for gurpsnet-l-outgoing; Fri, 5 Mar 1999 01:11:32 -0600
+Received: from deliverator.io.com (deliverator.io.com [199.170.88.17])
+	by lists.io.com (8.9.3/8.9.1a) with ESMTP id BAA25030
+	for <gurpsnet-l@lists.io.com>; Fri, 5 Mar 1999 01:11:22 -0600
+Received: from arbi.Informatik.Uni-Oldenburg.DE (arbi.Informatik.Uni-Oldenburg.DE [134.106.1.7])
+	by deliverator.io.com (8.9.3/8.9.3) with SMTP id BAA15434
+	for <GURPSnet-l@io.com>; Fri, 5 Mar 1999 01:07:13 -0600
+Received: from diamant.Informatik.Uni-Oldenburg.DE ([134.106.21.2])
+	by arbi.Informatik.Uni-Oldenburg.DE (Smail3.1.29.1)
+	id <m10IohF-0005bcC>; Fri, 5 Mar 99 08:06 CET
+Received: by diamant.Informatik.Uni-Oldenburg.DE (Smail3.1.29.1)
+	id <m10IohG-000V18C>; Fri, 5 Mar 99 08:06 MET
+Received: by smaragd.Informatik.Uni-Oldenburg.DE (Smail3.1.29.1)
+	id <m10IohE-000DIzC>; Fri, 5 Mar 99 08:06 MET
+Message-Id: <m10IohE-000DIzC@smaragd.Informatik.Uni-Oldenburg.DE>
+X-Aliased: From omeyer@smaragd.Informatik.Uni-Oldenburg.DE (Onno Meyer)
+From: "Onno Meyer" <Onno.Meyer@Informatik.Uni-Oldenburg.DE>
+Subject: Re: [VEHICLE DESIGN]: XAU-29 "Terrorhawk" 
+To: GURPSnet-l@io.com
+Date: Fri, 5 Mar 1999 08:06:55 +0100 (MET)
+X-Mailer: ELM [version 2.4 PL25]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+Sender: owner-gurpsnet-l@lists.io.com
+Precedence: list
+Content-Return: prohibited
+X-URL: http://www.sjgames.com/gurps
+X-URL: http://www.io.com/GURPSnet
+X-UIDL: 460b3a722c1b96f917ecc1cf4975fd4e
+
+
+> Threat Briefing: XAU-29 "Terrorhawk"
+> Date: 2/8/2068
+> 
+>         Propulsion: 2 Hyper Fans w/ Vectored Thrust option, rated at 19100 lbs.
+> thrust each.  One located in each pod.
+
+Why not hull-mounted like those in a Harrier? This should cut the area 
+to be armored, and IIRC an unmanned vehicle doesn't need access space.
+
+>         Built-in Weaponry: [...]
+
+What about a compact, high-RoF weapon for missile defense?
+
+> Instruments and Electronics: [...]
+
+* Why did you take two different radios? The cost and mass difference between
+  a long range radio and a medium radio becomes almost neglible at this TL.
+
+* Where are the rearview sensors? 
+
+* I'd want triple INS - that way, the XAU can tell which one went buggy.
+
+>         Fuel: Two 4298-gallon Ultralight self-sealing fuel tanks (429.75 lbs., 645
+> cf., Fire -1, WiL, WiR), powers Hyperfan engines for 45 minutes.  One
+> 2865-gallon Ultralight self-sealing fuel tank (286.5 lbs., 430 cf., Fire -1,
+> Bo), powers Hyperfan engines for 15 minutes.  11,460 gallons of Hydrogen is
+> 6,646.8 lbs.
+
+This writeup doesn't clarify whether you have 45+45+15 or 45+15 minutes 
+endurance. Either way, the numbers seem buggy. Your engines should burn 3,820
+gph each. 11461 gallons should last for 90 minutes. Is that enough?
+
+>         Structure: Heavy, Expensive Materials w/ Robotic and Responsive and Heavy
+> Compartmentalization options.
+
+Are you sure expensive materials are necessary? See above for surface
+cuts to compensate.
+
+>         Armor: PD 3, DR 9 Advanced Composite (Bo, Wi, Po, Tu), w/ PD 2 DR 3 Advanced
+> Metal covering (Bo, Wi, Tu).
+
+Not nearly enough at this TL. 
+
+>         Surface Features: Sealed.  Basic Emissions Cloaking, Basic Sound Baffling,
+> Radical Stealth, and Instant Chameleon.
+
+Humans are probably the 'underdog', and that means they should prefer passive
+sensors to active sensors. Radical emission cloaking and basic stealth might 
+be a better mix.
+
+>         Statistics: Empty Weight: 26, 477 lbs.  Usual Internal Payload: 0 lbs.  Fuel
+> and Full Weapons Bay Load: 11,647 lbs.  Loaded Weight: 38,124 lbs. (19.1
+> tons).  Price $61,007,704.9. HT 12.
+> -Ryan
+
+Q: How do you ground a Terrorhawk?
+A: You stuff a few pounds of trash inside, and it can't take off any more.
+
+I'd want more power reserves.
+
+What about this countermeasure?
+
+TL8 Light HVM MK.I, 120mm, (v1.1, OM 3/99)
+    A compact missile against robots, battlesuits and other moderately
+    armored targets. Game mechanics: Stealthy missile with 120mm small
+    APDU warhead and IIRH guidance system, in a disposable launch tube
+    with 'shoulder stock'.
+    Light HVM MK.I           25 lbs.   $30,000
+    Disposable Launch Tube   15 lbs.       $93.75
+    Malf Guidance Type Damage   Speed End Max   Skill SS RoF Rcl ST
+    Crit IIRH     Cr   6d*20(3) 1,600 2   3,200 15    14 1NR 0   13
+
+Onno Meyer
+

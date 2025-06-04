@@ -1,0 +1,474 @@
+Accessories,1000,84,85,custom component
+Accessories,668,64,65,refuelling probe
+Accessories,669,64,65,refuelling drogue
+Accessories,670,64,65,fuel electrolysis system
+Accessories,672,64,65,atmosphere processor
+Accessories,671,64,65,hydrogen fuel scoop
+Accessories,666,64,65,arrestor hook
+Accessories,667,64,65,vehicular parachute
+Accessories,675,64,65,modular socket
+Accessories,676,64,65,module
+Accommodations,310,54,55,cramped crew station
+Accommodations,311,54,55,normal crew station
+Accommodations,312,54,55,roomy crew station
+Accommodations,314,54,55,cycle crew station
+Accommodations,315,54,55,harness station
+Accommodations,317,54,55,cramped seat
+Accommodations,318,54,55,normal seat
+Accommodations,319,54,55,roomy seat
+Accommodations,320,54,55,cramped standing room
+Accommodations,321,54,55,normal standing room
+Accommodations,322,54,55,roomy standing room
+Accommodations,325,54,55,cycle seat
+Accommodations,326,54,55,hammock
+Accommodations,327,54,55,bunk
+Accommodations,328,54,55,cabin
+Accommodations,329,54,55,luxury cabin
+Accommodations,345,54,55,small galley
+Accommodations,349,54,55,suite
+Accommodations,350,54,55,luxury suite
+Airscrews,209,104,105,aerial propeller
+Airscrews,210,104,105,ducted fan
+Aquatic Propulsion,211,106,107,paddle wheel
+Aquatic Propulsion,212,106,107,screw propeller
+Aquatic Propulsion,213,106,107,light screw propeller
+Aquatic Propulsion,214,106,107,ducted propeller
+Aquatic Propulsion,215,106,107,hydrojet
+Aquatic Propulsion,216,106,107,MHD tunnel
+Armor,30,38,39,Armor - overall
+Armor,31,38,39,Armor - location
+Armor,32,38,39,Armor - by facing (basic)
+Armor,33,38,39,Armor - by facing (complex)
+Armor,34,38,39,Armor - gun shield
+Armor,35,38,39,Armor - wheel guard
+Armor,36,38,39,Armor - open frame
+Armor,41,38,38,Armor - component
+Artillery and Guns,125,142,143,fast autoloader
+Artillery and Guns,126,142,143,light automatic
+Artillery and Guns,127,142,143,heavy automatic
+Artillery and Guns,128,142,143,electric gatling
+Artillery and Guns,116,142,143,bolt thrower
+Artillery and Guns,117,142,143,stone thrower
+Artillery and Guns,118,142,143,repeating bolt thrower
+Artillery and Guns,119,142,143,muzzleloader
+Artillery and Guns,120,142,143,breachloader
+Artillery and Guns,121,142,143,manual repeater
+Artillery and Guns,122,142,143,revolver
+Artillery and Guns,123,142,143,mechanical gatling
+Artillery and Guns,124,142,143,slow autoloader
+Audio Visual Systems,5040,130,131,sound system
+Audio Visual Systems,5042,130,131,vehicle camera
+Audio Visual Systems,5044,130,131,recon camera
+Audio Visual Systems,5043,130,131,digital vehicle camera
+Audio Visual Systems,5045,130,131,digital recon camera
+Audio Visual Systems,5041,130,131,flight recorder
+Beam Weapons,147,144,145,military paralysis beam
+Beam Weapons,139,144,145,x-ray laser
+Beam Weapons,140,144,145,fusion beam
+Beam Weapons,141,144,145,gravity beam
+Beam Weapons,142,144,145,antiparticle beam
+Beam Weapons,143,144,145,graser
+Beam Weapons,144,144,145,disintegrator
+Beam Weapons,145,144,145,displacer
+Beam Weapons,172,144,145,rainbow laser
+Beam Weapons,173,144,145,blue green laser
+Beam Weapons,129,144,145,laser
+Beam Weapons,130,144,145,UV laser
+Beam Weapons,131,144,145,IR laser
+Beam Weapons,132,144,145,disruptor
+Beam Weapons,133,144,145,charged particle beam
+Beam Weapons,134,144,145,neutral particle beam
+Beam Weapons,135,144,145,flamer
+Beam Weapons,136,144,145,screamer
+Beam Weapons,137,144,145,stunner
+Beam Weapons,138,144,145,paralysis beam
+Bilge Pumps,605,68,69,bilge pump
+Combustion Engines,406,86,87,gasoline engine
+Combustion Engines,408,86,87,gasoline engine - turbocharged
+Combustion Engines,409,86,87,gasoline engine - supercharged
+Combustion Engines,407,86,87,HP gasoline engine
+Combustion Engines,410,86,87,HP gasoline engine - turbocharged
+Combustion Engines,411,86,87,HP gasoline engine - supercharged
+Combustion Engines,414,86,87,marine diesel engine
+Combustion Engines,412,86,87,standard diesel engine
+Combustion Engines,416,86,87,HP diesel engine
+Combustion Engines,417,86,87,HP diesel engine- turbocharged
+Combustion Engines,474,86,87,ceramic engine
+Combustion Engines,475,86,87,ceramic engine - turbocharged
+Combustion Engines,476,86,87,ceramic engine - supercharged
+Combustion Engines,477,86,87,HP ceramic engine
+Combustion Engines,478,86,87,HP ceramic engine - turbocharged
+Combustion Engines,479,86,87,HP ceramic engine - supercharged
+Combustion Engines,480,86,87,hydrogen combustion engine
+Communicators,5001,132,133,radio communicator
+Communicators,5002,132,133,tight beam radio
+Communicators,5003,132,133,VLF radio
+Communicators,5004,132,133,cellular phone
+Communicators,5005,132,133,cellular phone w/ radio option
+Communicators,5006,132,133,radio jammer
+Communicators,5007,132,133,ELF receiver
+Communicators,5008,132,133,laser communicator
+Communicators,5009,132,133,neutrino communicator
+Communicators,5010,132,133,gravity ripple communicator
+Computers Terminals & Neural,5079,134,135,macroframe
+Computers Terminals & Neural,5080,134,135,mainframe
+Computers Terminals & Neural,5081,134,135,microframe
+Computers Terminals & Neural,5082,134,135,minicomputer
+Computers Terminals & Neural,5083,134,135,small computer
+Computers Terminals & Neural,5084,134,135,terminal
+Computers Terminals & Neural,5097,134,135,surgical interface
+Computers Terminals & Neural,5098,134,135,interface web
+Computers Terminals & Neural,5099,134,135,auto-interface web
+Computers Terminals & Neural,5100,134,135,socket interface
+Computers Terminals & Neural,5101,134,135,neural induction field
+Shields,5125,80,81,deflector field
+Shields,5126,80,81,force screen
+Shields,5127,80,81,variable force screen
+Contragrav Generators,250,108,109,contragrav generator
+Drivetrains,201,110,111,wheeled drivetrain
+Drivetrains,202,110,111,tracked drivetrain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,204,110,111,flexibody drivetrain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,205,110,111,TTR rotor drivetrain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,206,110,111,MMR rotor drivetrain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,207,110,111,CAR rotor drivetrain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,208,110,111,ornithopter drivetrain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,254,110,111,all-wheel drive wheeled drivetrain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5066,136,137,radar detector,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5068,136,137,laser sensor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5069,136,137,radar/laser detector,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5071,136,137,radio direction finder,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5072,136,137,area jammer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5073,136,137,deceptive jammers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5074,136,137,infrared jammer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5075,136,137,chaff decoy discharger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5119,136,137,smoke decoy discharger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5120,136,137,flare decoy discharger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5121,136,137,sonar decoy discharger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5122,136,137,hot smoke decoy discharger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5123,136,137,prism decoy discharger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5124,136,137,blackout gas decoy discharger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5076,136,137,radar reflector,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5077,136,137,blip enhancer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5078,136,137,TEMPEST equipment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5112,136,137,chaff decoy reload,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5113,136,137,smoke decoy reload ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5114,136,137,flares decoy reload ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5115,136,137,sonar decoy reload,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5116,136,137,hot smoke decoy reload ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5117,136,137,prism decoy reload ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5118,136,137,blackout gas decoy reload,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Emergency & Medical Equipment,627,70,71,operating room,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Emergency & Medical Equipment,628,70,71,stretcher pallet
+Emergency & Medical Equipment,629,70,71,emergency support unit
+Emergency & Medical Equipment,630,70,71,emergency lights and siren
+Emergency & Medical Equipment,631,70,71,cryonic capsule
+Emergency & Medical Equipment,632,70,71,automed
+Emergency & Medical Equipment,633,70,71,diagnosis table
+Energy Bank,444,88,89,clockwork
+Energy Bank,445,88,89,lead-acid battery
+Energy Bank,446,88,89,advanced battery
+Energy Bank,447,88,89,flywheel
+Energy Bank,448,88,89,rechargeable power cell
+Energy Bank,449,88,89,power cell
+Entertainment Facilities,634,72,73,stage
+Entertainment Facilities,640,72,73,small movie screen and projector
+Entertainment Facilities,639,72,73,big movie screen and projector
+Entertainment Facilities,635,72,73,hall
+Entertainment Facilities,637,72,73,conference room
+Entertainment Facilities,641,72,73,holoventure zone
+Entertainment Facilities,636,72,73,bar room
+Environmental Systems,334,56,57,provisions
+Environmental Systems,330,56,57,environmental control
+Environmental Systems,332,56,57,limited life system
+Environmental Systems,333,56,57,full life system
+Environmental Systems,348,56,57,total life system
+Environmental Systems,331,56,57,NBC kit
+Environmental Systems,335,56,57,artificial gravity unit
+Exotic Power Plants,436,90,91,mana engine
+Exotic Power Plants,433,90,91,soulburner
+Exotic Power Plants,435,90,91,elemental furnace
+Exotic Power Plants,437,90,91,carnivore bioconveror
+Exotic Power Plants,438,90,91,herbivore bioconvertor
+Exotic Power Plants,439,90,91,omnivore bioconvertor
+Exotic Power Plants,440,90,91,vampire bioconvertor
+Fire Extinguishers,602,74,75,fire extinguisher system
+Fire Extinguishers,603,74,75,full fire suppression system
+Fire Extinguishers,604,74,75,compact fire suppression system
+Fuel,461,92,93,aviation gas
+Fuel,469,92,93,cadmium
+Fuel,460,92,93,diesel fuel
+Fuel,459,92,93,gasoline
+Fuel,462,92,93,jet fuel
+Fuel,471,92,93,rocket fuel
+Fuel,458,92,93,water
+Fuel,467,92,93,liquid hydrogen
+Fuel,470,92,93,metal/LOX
+Fuel,468,92,93,oxygen (LOX)
+Fuel,463,92,93,propane/LNG
+Fuel,472,92,93,antimatter
+Fuel,482,92,93,coal
+Fuel,481,92,93,wood
+Fuel,465,92,93,ethanol
+Fuel,466,92,93,methanol
+Fuel,464,92,93,liquified natural gas
+Fuel,483,92,93,uranium fuel rod
+Fuel Storage,452,94,95,standard fuel tank
+Fuel Storage,455,94,95,self-sealing fuel tank
+Fuel Storage,456,94,95,light self-sealing fuel tank
+Fuel Storage,453,94,95,light fuel tank
+Fuel Storage,454,94,95,ultralight fuel tank
+Fuel Storage,457,94,95,ultralight self-sealing fuel tank
+Fuel Storage,473,94,95,antimatter fuel bay
+Fuel Storage,450,94,95,coal bunker
+Fuel Storage,451,94,95,wood bunker
+Gas and MHD Turbines,422,102,103,optimized gas turbine
+Gas and MHD Turbines,420,102,103,standard gas turbine
+Gas and MHD Turbines,421,102,103,HP gas turbine
+Gas and MHD Turbines,423,102,103,standard MHD turbine
+Gas and MHD Turbines,424,102,103,HP MHD turbine
+Harnesses,217,112,113,rope harness
+Harnesses,218,112,113,yoke-and-pole harness
+Harnesses,219,112,113,shaft-and-collar harness
+Harnesses,220,112,113,whiffletree harness
+Heavy Equipment,613,76,77,extendable ladder
+Heavy Equipment,614,76,77,crane
+Heavy Equipment,615,76,77,winch
+Heavy Equipment,616,76,77,power shovel
+Heavy Equipment,617,76,77,wrecking crane
+Heavy Equipment,618,76,77,forklift
+Heavy Equipment,619,76,77,vehicular bridge
+Heavy Equipment,620,76,77,launch catapult
+Heavy Equipment,621,76,77,skyhook
+Heavy Equipment,622,76,77,bore
+Heavy Equipment,623,76,77,super-bore
+Heavy Equipment,625,76,77,tractor beam
+Heavy Equipment,626,76,77,pressor beam
+Heavy Equipment,678,76,77,combination beam
+Jet Engines,226,114,115,turbojet
+Jet Engines,227,114,115,turbofan
+Jet Engines,229,114,115,turbo-ramjet
+Jet Engines,230,114,115,hyperfan
+Jet Engines,231,114,115,fusion air-ram
+Jet Engines,228,114,115,ramjet
+Labs and Workshops,612,78,79,science lab
+Labs and Workshops,606,78,79,complete workshop
+Labs and Workshops,677,78,79,mini-mechanic workshop
+Labs and Workshops,611,78,79,complete mini-workshop
+Labs and Workshops,607,78,79,mechanic workshop
+Labs and Workshops,608,78,79,engineering workshop
+Labs and Workshops,609,78,79,electronics workshop
+Labs and Workshops,610,78,79,armoury workshop
+Labs and Workshops,683,78,79,mini-electronics workshop
+Labs and Workshops,684,78,79,mini-engineering workshop
+Labs and Workshops,685,78,79,mini-armoury workshop
+Launchers,148,154,155,disposable launch tube
+Launchers,149,154,155,muzzleloading launch tube
+Launchers,150,154,155,breechloading launch tube
+Launchers,151,154,155,manual repeater launch tube
+Launchers,152,154,155,slow autoloading launch tube
+Launchers,153,154,155,fast autoloading launch bube
+Launchers,154,154,155,revolver launch tube
+Launchers,155,154,155,light automatic launch tube
+Launchers,156,154,155,heavy automatic launch tube
+Lifting Gas,251,116,117,hot air
+Lifting Gas,252,116,117,hydrogen
+Lifting Gas,253,116,117,helium
+Liquid Projectors,175,156,157,water cannon
+Liquid Projectors,174,148,149,flame thrower
+Mag-Lev Lifters,225,118,119,mag-lev lifter
+Maneuver Controls,301,58,59,primitive controls
+Maneuver Controls,302,58,59,mechanical controls
+Maneuver Controls,303,58,59,electronic controls
+Maneuver Controls,304,58,59,computerized controls
+Maneuver Controls,308,58,59,mechanical diving controls
+Maneuver Controls,346,58,59,electronic diving controls
+Maneuver Controls,347,58,59,computerized diving controls
+Missiles Torps Bombs & Mines,170,160,161,guided missile
+Missiles Torps Bombs & Mines,171,160,161,guided torpedo
+Missiles Torps Bombs & Mines,157,146,147,iron bomb
+Missiles Torps Bombs & Mines,158,146,147,retarded bomb
+Missiles Torps Bombs & Mines,159,146,147,smart bomb
+Missiles Torps Bombs & Mines,160,146,147,self destruct system
+Missiles Torps Bombs & Mines,161,146,147,naval contact mine
+Missiles Torps Bombs & Mines,162,146,147,naval proximity mine
+Missiles Torps Bombs & Mines,164,146,147,pressure trigger land mine
+Missiles Torps Bombs & Mines,165,146,147,command trigger land mine
+Missiles Torps Bombs & Mines,166,146,147,smart trigger land mine
+Missiles Torps Bombs & Mines,168,160,161,un-guided missile
+Missiles Torps Bombs & Mines,169,160,161,un-guided torpedo
+Navigation Systems,5048,138,139,navigation instruments
+Navigation Systems,5053,138,139,IFF
+Navigation Systems,5055,138,139,inertial navigation system
+Navigation Systems,5056,138,139,global positioning system
+Navigation Systems,5057,138,139,military GPS
+Navigation Systems,5052,138,139,autopilot
+Navigation Systems,5058,138,139,terrain following radar
+Navigation Systems,5050,138,139,navigation radar
+Navigation Systems,5051,138,139,anti-collision radar
+Navigation Systems,5054,138,139,transponder
+Other Power and Fuel,28,96,97,solar panel
+Other Power and Fuel,37,96,97,solar cell array
+Other Power and Fuel,425,96,97,fuel cell
+Other Power and Fuel,442,96,97,laser beamed power receiver
+Other Power and Fuel,418,96,97,nitrous oxide booster
+Other Power and Fuel,419,96,97,snorkel
+Other Power and Fuel,401,96,97,muscle engine
+Other Power and Fuel,443,96,97,maser beamed power receiver
+Other Power and Fuel,441,96,97,electric contact power
+Reactionless Thrusters,232,120,121,standard reactionless thruster
+Reactionless Thrusters,233,120,121,super reactionless thruster
+Reactionless Thrusters,234,120,121,mega reactionless thruster
+Reactors,426,98,99,fission reactor
+Reactors,427,98,99,radiothermal generator
+Reactors,428,98,99,nuclear power unit
+Reactors,429,98,99,fusion reactor
+Reactors,430,98,99,antimatter reactor
+Reactors,431,98,99,total conversion plant
+Reactors,432,98,99,cosmic power plant
+Rockets and Spacedrives,235,122,123,liquid fuel rocket
+Rockets and Spacedrives,236,122,123,MOX rocket
+Rockets and Spacedrives,237,122,123,ion drive
+Rockets and Spacedrives,238,122,123,fission rocket
+Rockets and Spacedrives,239,122,123,fusion rocket
+Rockets and Spacedrives,240,122,123,optimized fusion
+Rockets and Spacedrives,241,122,123,antimatter thermal
+Rockets and Spacedrives,242,122,123,antimatter pion
+Rockets and Spacedrives,244,122,123,solid rocket
+Rowing Positions,221,124,125,rowing positions
+Safety Systems,336,60,61,ejection seat
+Safety Systems,338,60,61,airbag
+Safety Systems,339,60,61,crashweb
+Safety Systems,341,60,61,womb tank
+Safety Systems,342,60,61,gravity web
+Safety Systems,343,60,61,grav compensator
+Safety Systems,337,60,61,crew escape capsule
+Sails,222,126,127,square rig sail
+Sails,223,126,127,aerial sail(full rig)
+Sails,224,126,127,light sail
+Sails,255,126,127,fore and aft rig
+Sails,256,126,127,full rig
+Sails,260,126,127,aerial sail(fore & aft rig)
+Screen Generators,674,80,81,small reality stabilizer
+Screen Generators,680,80,81,medium reality stabilizer
+Screen Generators,681,80,81,heavy reality stabilizer
+Screen Generators,673,80,81,nuclear damper
+Searchlights,5012,46,47,searchlight
+Searchlights,5013,46,47,IR searchlight
+Searchlights,5011,46,47,headlight
+Security & Dirty Tricks,651,82,83,brigs and restraints
+Security & Dirty Tricks,652,82,83,burglar alarm
+Security & Dirty Tricks,653,82,83,high-security alarm
+Security & Dirty Tricks,655,82,83,mutable license plate
+Security & Dirty Tricks,656,82,83,oil sprayer
+Security & Dirty Tricks,657,82,83,paint sprayer
+Security & Dirty Tricks,659,82,83,smokescreen
+Security & Dirty Tricks,660,82,83,spike dropper
+Sensors,5106,48,49,surveillance sound detector
+Sensors,5033,48,49,ranging sound detector
+Sensors,5022,48,49,passive IR
+Sensors,5023,48,49,thermograph
+Sensors,5024,48,49,passive radar
+Sensors,5025,48,49,PESA
+Sensors,5014,48,49,telescope
+Sensors,5015,48,49,light amplification
+Sensors,5016,48,49,low-light TV
+Sensors,5018,48,49,standard radar
+Sensors,5019,48,49,ladar
+Sensors,5020,48,49,active sonar
+Sensors,5021,48,49,passive sonar
+Sensors,5026,48,49,geophone
+Sensors,5027,48,49,MAD
+Sensors,5028,48,49,multiscanner
+Sensors,5029,48,49,chemscanner
+Sensors,5030,48,49,radscanner
+Sensors,5031,48,49,bioscanner
+Sensors,5032,48,49,gravascanner
+Sensors,5037,48,49,planetary survey array (low-resolution)
+Sensors,5038,48,49,planetary survey array (medium-resolution)
+Sensors,5039,48,49,planetary survey array (high-resolution)
+Sensors,5036,48,49,astronomical instruments
+Sensors,5017,48,49,sensor periscope
+Sensors,5111,48,49,AESA
+Sensors,5109,48,49,low-res imaging radar
+Sensors,5110,48,49,hi-res imaging radar
+Software,5087,50,51,cartography software
+Software,5088,50,51,computer navigation software
+Software,5093,50,51,damage control software
+Software,5089,50,51,datalink software
+Software,5085,50,51,fire direction software
+Software,5092,50,51,gunner software
+Software,5104,50,51,personality simulation software - limited
+Software,5094,50,51,personality simulation software - full
+Software,5095,50,51,robot skills programs - physical
+Software,5096,50,51,routine vehicle operation software - piloting
+Software,5090,50,51,targeting software
+Software,5091,50,51,transmission profiling software
+Software,5086,50,51,database software
+Software,5107,50,51,robot skills programs - mental
+Software,5108,50,51,holoventure software
+Software,5105,50,51,routine vehicle operation software - other
+Stardrives,245,128,129,hyperdrive
+Stardrives,246,128,129,jump drive
+Stardrives,247,128,129,warp drive
+Stardrives,248,128,129,teleportation drive
+Stardrives,249,128,129,subquantum conveyor
+Stardrives,258,128,129,quantum conveyor
+Stardrives,259,128,129,two-quantum conveyor
+Stardrives,243,128,129,orion engine
+Steam Engines,402,100,101,early steam engine
+Steam Engines,403,100,101,forced-draft steam engine
+Steam Engines,404,100,101,triple-expansion steam engine
+Steam Engines,405,100,101,steam turbine
+Subassemblies,3,2,3,wheels
+Subassemblies,2,4,5,skids
+Subassemblies,4,6,7,tracks
+Subassemblies,8,8,9,hydrofoil
+Subassemblies,9,10,11,hovercraft
+Subassemblies,5,12,13,leg
+Subassemblies,17,14,15,arm
+Subassemblies,38,16,17,autogyro rotor
+Subassemblies,6,18,19,wing
+Subassemblies,12,20,21,mast
+Subassemblies,10,22,23,superstructure
+Subassemblies,14,24,25,turret
+Subassemblies,15,26,27,pop turret
+Subassemblies,11,28,29,open mount
+Subassemblies,16,30,31,gasbag
+Subassemblies,13,32,33,pod
+Subassemblies,27,34,35,equipment pod
+Subassemblies,23,36,37,cargo
+Subassemblies,7,16,17,top-and-tail rotor
+Subassemblies,39,16,17,multiple main rotor
+Subassemblies,40,16,17,coaxial rotor
+Subassemblies,1100,36,37,group
+Targeting Systems,5059,52,53,optical bombsight
+Targeting Systems,5102,52,53,improved bombsight
+Targeting Systems,5103,52,53,advanced bombsight
+Targeting Systems,5060,52,53,fire direction center
+Targeting Systems,5061,52,53,HUDWAC
+Targeting Systems,5062,52,53,HUDWAC w/ pupil scanner
+Targeting Systems,5063,52,53,laser rangefinder
+Targeting Systems,5064,52,53,laser designator
+Targeting Systems,5065,52,53,laser spot tracker
+Vehicle Access,646,62,63,"airlock"
+Vehicle Access,647,62,63,"membrane airlock"
+Vehicle Access,648,62,63,forcelock
+Vehicle Access,649,62,63,passage tube
+Vehicle Access,679,62,63,armored passage tube
+Vehicle Access,645,62,63,cargo ramp
+Vehicle Access,650,62,63,teleport projector
+Vehicle Storage,661,84,85,vehicle bay
+Vehicle Storage,662,84,85,hanger bay
+Vehicle Storage,663,84,85,dry dock
+Vehicle Storage,664,84,85,space dock
+Vehicle Storage,665,84,85,external cradle
+Weapon Accessories,107,140,141,universal mount
+Weapon Accessories,112,140,141,casemate mount
+Weapon Accessories,113,140,141,door mount
+Weapon Accessories,114,140,141,cyberslave
+Weapon Accessories,106,140,141,partial stabilization
+Weapon Accessories,111,140,141,full stabilization
+Weapon Accessories,109,140,141,anti-blast magazine
+Weapon Accessories,108,140,141,weapon bay
+Weapon Accessories,110,140,141,hardpoints
+Weapon Accessories,115,140,141,ammunition

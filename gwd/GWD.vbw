@@ -1,0 +1,12 @@
+clsBeamWeapon = 220, 220, 1002, 813, 
+clsLauncher = 110, 110, 1114, 747, 
+clsLiquidProjector = 132, 132, 1136, 769, 
+clsStoneBoltThrower = 0, 0, 0, 0, C
+clsTorpMissile = 0, 0, 0, 0, C
+clsWeaponMount = 266, 246, 1048, 839, 
+modTableWeaponry = 25, 103, 656, 617, C
+clsGun = 155, 22, 785, 536, 
+frmSplash = 110, 110, 740, 624, C, 88, 88, 718, 602, C
+MainForm = 0, 0, 804, 565, , 66, 66, 848, 659, C
+BarrelData = 176, 176, 958, 769, C, 110, 110, 825, 740, C
+GripData = 132, 132, 914, 725, C, 88, 88, 803, 718, C

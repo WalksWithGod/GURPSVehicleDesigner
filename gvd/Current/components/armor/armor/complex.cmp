@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<object handle = "0_">
+		<string name = "classname">Vehicles.cArmor</string>
+		<string name = "defpath">\Definitions\Armor\complex.xml</string>
+		<string name = "guid">43333</string>
+		<string name = "name">Complex Armor</string>
+		<string name = "Description"></string>
+		<bool name ="Deletable">FALSE</bool>
+		<int name = "childcount">6</int>
+		<objectRef name = "child0">1_</objectRef>
+		<objectRef name = "child1">2_</objectRef>
+		<objectRef name = "child2">3_</objectRef>
+		<objectRef name = "child3">4_</objectRef>
+		<objectRef name = "child4">5_</objectRef>
+		<objectRef name = "child5">6_</objectRef>
+	</object>
+	<object handle = "1_">
+		<string name = "classname">Vehicles.cArmorFace</string>
+		<string name = "defpath">\Definitions\Armor\face.xml</string>
+		<string name = "guid">93333</string>
+		<string name = "name">face(F)</string>
+		<string name = "Description"></string>
+		<int name = "childcount">1</int>
+		<objectRef name = "child0">11_</objectRef>
+	</object>
+	<object handle = "2_">
+		<string name = "classname">Vehicles.cArmorFace</string>
+		<string name = "defpath">\Definitions\Armor\face.xml</string>
+		<string name = "guid">93333</string>
+		<string name = "name">face(B)</string>
+		<string name = "Description"></string>
+		<int name = "childcount">1</int>
+		<objectRef name = "child0">21_</objectRef>
+	</object>
+	<object handle = "3_">
+		<string name = "classname">Vehicles.cArmorFace</string>
+		<string name = "defpath">\Definitions\Armor\face.xml</string>
+		<string name = "guid">93333</string>
+		<string name = "name">face(L)</string>
+		<string name = "Description"></string>
+		<int name = "childcount">1</int>
+		<objectRef name = "child0">31_</objectRef>
+	</object>
+	<object handle = "4_">
+		<string name = "classname">Vehicles.cArmorFace</string>
+		<string name = "defpath">\Definitions\Armor\face.xml</string>
+		<string name = "guid">93333</string>
+		<string name = "name">face(R)</string>
+		<string name = "Description"></string>
+		<int name = "childcount">1</int>
+		<objectRef name = "child0">41_</objectRef>
+	</object>
+	<object handle = "5_">
+		<string name = "classname">Vehicles.cArmorFace</string>
+		<string name = "defpath">\Definitions\Armor\face.xml</string>
+		<string name = "guid">93333</string>
+		<string name = "name">face(T)</string>
+		<string name = "Description"></string>
+		<int name = "childcount">1</int>
+		<objectRef name = "child0">51_</objectRef>
+	</object>
+	<object handle = "6_">
+		<string name = "classname">Vehicles.cArmorFace</string>
+		<string name = "defpath">\Definitions\Armor\face.xml</string>
+		<string name = "guid">93333</string>
+		<string name = "name">face(U)</string>
+		<string name = "Description"></string>
+		<int name = "childcount">1</int>
+		<objectRef name = "child0">61_</objectRef>
+	</object>
+	<object handle = "11_">
+		<string name = "classname">Vehicles.cArmorLayer</string>
+		<string  name = "defpath">\Definitions\Armor\layer.xml</string>
+		<string name = "guid">94444</string>
+		<string name = "name">layer(1)</string>
+		<string name = "Description"></string>
+	</object>
+	<object handle = "21_">
+		<string name = "classname">Vehicles.cArmorLayer</string>
+		<string  name = "defpath">\Definitions\Armor\layer.xml</string>
+		<string name = "guid">94444</string>
+		<string name = "name">layer(1)</string>
+		<string name = "Description"></string>
+	</object>
+	<object handle = "31_">
+		<string name = "classname">Vehicles.cArmorLayer</string>
+		<string  name = "defpath">\Definitions\Armor\layer.xml</string>
+		<string name = "guid">94444</string>
+		<string name = "name">layer(1)</string>
+		<string name = "Description"></string>
+	</object>
+	<object handle = "41_">
+		<string name = "classname">Vehicles.cArmorLayer</string>
+		<string  name = "defpath">\Definitions\Armor\layer.xml</string>
+		<string name = "guid">94444</string>
+		<string name = "name">layer(1)</string>
+		<string name = "Description"></string>
+	</object>
+	<object handle = "51_">
+		<string name = "classname">Vehicles.cArmorLayer</string>
+		<string  name = "defpath">\Definitions\Armor\layer.xml</string>
+		<string name = "guid">94444</string>
+		<string name = "name">layer(1)</string>
+		<string name = "Description"></string>
+	</object>
+	<object handle = "61_">
+		<string name = "classname">Vehicles.cArmorLayer</string>
+		<string  name = "defpath">\Definitions\Armor\layer.xml</string>
+		<string name = "guid">94444</string>
+		<string name = "name">layer(1)</string>
+		<string name = "Description"></string>
+	</object>
+	
+</ObjectStore>

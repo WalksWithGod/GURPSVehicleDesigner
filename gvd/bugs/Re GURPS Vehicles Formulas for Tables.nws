@@ -1,0 +1,93 @@
+From: "Eric Smith" <nospam@nospam.com>
+Newsgroups: rec.games.frp.gurps
+Subject: Re: GURPS Vehicles: Formulas for Tables
+Date: Mon, 11 Jan 1999 09:13:22 -0500
+References: <Pine.LNX.3.96.990111123845.7410A-100000@commlink.zdv.uni-tuebingen.de>
+X-Posted-Path-Was: not-for-mail
+X-Priority: 3
+X-Mimeole: Produced By Microsoft MimeOLE V4.72.3110.3
+X-ELN-Date: 11 Jan 1999 14:13:53 GMT
+X-ELN-Insert-Date: Mon Jan 11 06:15:07 1999
+Organization: EarthLink Network, Inc.
+X-Newsreader: Microsoft Outlook Express 5.00.0810.800
+X-MSMail-Priority: Normal
+Lines: 74
+NNTP-Posting-Host: 1cust65.tnt1.binghamton.ny.da.uu.net
+Path: news.nwlink.com!newsfeed.lightning.net!news.iname.net!nyc-news-feed1.bbnplanet.com!cam-news-hub1.bbnplanet.com!news.gtei.net!newsfeed.xcom.net!newshub.northeast.verio.net!news.maxwell.syr.edu!newsxfer3.itd.umich.edu!newsfeed.berkeley.edu!newsfeed.concentric.net!newsfeed1.earthlink.net!nntp.earthlink.net!posted-from-earthlink!not-for-mail
+Xref: news.nwlink.com rec.games.frp.gurps:35644
+
+
+Werner Arend <kiiar01@commlink.zdv.uni-tuebingen.de> wrote:
+
+<SNIP>
+
+>Volume (cf) to Surface Area (sf) 6.5*(volume^(2/3))
+
+Volume is 6* not 6.5*.  This, by the way, gives the surface area of a cube
+with the given volume.  To figure out the surface area of a cube use this
+formula:
+
+SA = 6 * L^2
+
+A 1 cubic foot cube would have a L of 1 foot, so it would have 6 square feet
+of surface area (6*1*1=6).
+
+
+>While I'm at it - there might just be a bug in the surface area table in
+>GURPS Vehicles, because, IIRC, the surface area of a sphere is 4*PI*R*R -
+>and 4*PI ~ 12.56
+
+You are running into two problems here.  The first is that you are using the
+Diameter of a 1 foot wide sphere, not the radius (which is 1/2 the diameter).
+The second is that the volume of a 1 foot wide sphere is less than 1 cubic
+foot (since it would fit _inside_ a 1 foot wide cube with room to spare).
+
+<<<Pulls out reference book>>>
+
+The formula for surface area of a Sphere is, in fact, 4 * Pi * R^2
+
+However, the formula for it's volume is:
+
+Vol =  4/3 * Pi * R^3
+
+If you want to reverse engineer the radius of a sphere from it's volume (as I
+had to do to fine out the radius of a 1 cubic foot sphere) use this formula:
+
+R = Cubic Root of (Vol/(4/3 * Pi))
+R = Cubic Root of (1 / (4/3 * Pi))
+R = Cubic Root of (1 / 4.18879)
+R = Cubic Root of 0.23873
+R = ~0.62035
+
+
+So, a 1 cubic foot sphere would have a radius of ~0.62035 (that it, it would
+be ~1.24 feet wide).  Now we need to find it's Surface Area:
+
+SA = 4 * Pi * R^2
+SA = 4 * 3.14159 * 0.62035^2
+SA = 4 * 3.14159 * 0.38483
+SA = ~4.83591 square feet
+
+
+
+>is considerably higher than 6.5 - and anything *not* a
+>sphere should have *higher* surface-to-volume ratio, not a lower.
+
+See above, a 1 cubic foot cube would have a surface area of 6 square feet (as
+Vehicles suggests).  A 1 cubic foot sphere would have a surface area of ~4.83
+square feet.  It comes out right.
+
+OK, that's my Math lesson for today ;-)
+
+
+EricBSmith
+@earthlink.net
+
+"By the year 2000, the Internet will be so overloaded that the only ones
+making money will be those receiving refund checks from America Online." -
+Conan O'Brien
+
+The worst thing about censorship is
+
+
+

@@ -1,0 +1,51 @@
+Type=OleDll
+Class=CvbwProfile; CvbwProfile.cls
+Module=vbwProfiler; vbwProfiler.bas
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINNT\System32\stdole2.tlb#OLE Automation
+Reference=*\G{F5078F18-C551-11D3-89B9-0000F81FE221}#4.0#0#C:\WINNT\system32\msxml4.dll#Microsoft XML, v4.0
+Class=ObjectStore; ObjectStore.cls
+Class=cIPersist; cIPersist.cls
+Class=clsObjProperties; clsObjProperties.cls
+Module=modMatrix;modMatrix.bas
+Module=modGVDXMLSchemaConstants;modGVDXMLSchemaConstants.bas
+Startup="Sub Main"
+HelpFile=""
+Title="PersistenceManager"
+ExeName32="PersistenceManager.dll"
+Command32=""
+Name="PersistenceManager"
+HelpContextID="0"
+CompatibleMode="1"
+CompatibleEXE32="C:\Documents and Settings\Administrator\My Documents\dev\vb\projects\XML Persistance\PersistenceManager.dll"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="Mako Software "
+VersionFileDescription="gvdpm.dll"
+VersionLegalCopyright="Copyright 2002 Mako Software.   All Rights Reserved"
+VersionProductName="Object Persistance"
+CondComp="DEBUG_MODE = -1 : VBWPROFILER = 1 "
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+ThreadingModel=1
+DebugStartupOption=0
+Path32="C:\Documents and Settings\Administrator\My Documents\dev\vb\projects\XML Persistance"
+
+[MS Transaction Server]
+AutoRefresh=1
+

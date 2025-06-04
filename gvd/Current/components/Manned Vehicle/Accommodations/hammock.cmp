@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<object handle = "0_">
+		<string name = "classname">Vehicles.aTest</string>
+		<string name = "defpath">\Definitions\Manned Vehicle\Accommodations\hammock.xml</string>
+		<string name = "guid">3333</string>
+		<string name = "name">hammock</string>
+		<string name = "Description"></string>
+		<bool name ="Deletable">FALSE</bool>
+		<long name = "maxchildren">1</long>
+	</object>
+</ObjectStore>
+

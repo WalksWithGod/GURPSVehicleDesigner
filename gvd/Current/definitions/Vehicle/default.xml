@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<object handle = "0_">
+		<string name = "classname">Vehicles.cVehicle"</string>
+		<string name = "guid">999888444</string>
+
+		<int name = "propertycount">20</int>
+		<string name = "image">\icons\vehicle.ico</string>
+		<objectRef name = "property0">1_</objectRef>
+		<objectRef name = "property1">2_</objectRef>
+		<objectRef name = "property2">3_</objectRef>	
+		<objectRef name = "property3">4_</objectRef>
+		<objectRef name = "property4">5_</objectRef>
+		<objectRef name = "property5">6_</objectRef>
+		<objectRef name = "property6">7_</objectRef>
+		<objectRef name = "property7">8_</objectRef>
+		<objectRef name = "property8">9_</objectRef>
+		<objectRef name = "property9">10_</objectRef>
+		<objectRef name = "property10">11_</objectRef>
+		<objectRef name = "property11">12_</objectRef>
+		<objectRef name = "property12">13_</objectRef>
+		<objectRef name = "property13">14_</objectRef>
+		<objectRef name = "property14">15_</objectRef>
+		<objectRef name = "property15">16_</objectRef>
+		<objectRef name = "property16">17_</objectRef>
+		<objectRef name = "property17">18_</objectRef>
+		<objectRef name = "property18">19_</objectRef>
+		<objectRef name = "property19">20_</objectRef>		
+		
+	</object>
+	
+	<object handle = "1_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">HEADER</string> 
+		<string  name = "caption">Vehicle Description</string>
+		<string name = "notes">note</string>
+		<long name = "datatype">-99</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "2_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">8</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<long name = "datatype">0</long>
+		<string name = "callby">name</string> 
+		<string name = "caption">Name</string>
+		<string name = "notes">Your vehicle really wants you to give it a  name</string>
+		<string name = "pageinfo">page 1</string>
+		<bool name = "readonly">FALSE</bool>
+	</object>				
+	<object handle = "3_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">8</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">0</string>
+		<string name = "callby">classification</string>
+		<string name = "caption">Classification</string>
+		<string name = "notes">the primary role or purpose of the vehicle e.g. Heavy lift helicopter or Multi-role jet fighter or Family sedan.</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	<object handle = "4_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">8</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">0</string>
+		<string name = "callby">description</string>
+		<string name = "caption">Description</string>
+		<string name = "notes">Go hog wild. Tell us all about this amazing design!</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	<object handle = "5_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">8</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">0</string>
+		<string name = "callby">header</string>
+		<string name = "caption">Header</string>
+		<string name = "notes">Any message or note that you'd like to appear at the very top of the GURPS text output of this vehicle</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	<object handle = "6_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">8</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">0</string>
+		<string name = "callby">footer</string>
+		<string name = "caption">Footer</string>
+		<string name = "notes">Any footnotes or remarks that you'd like to appear at the bottom of the GURPS text output of this vehicle</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	<object handle = "7_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">9</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">-99</string>
+		<string name = "callby">HEADER</string>
+		<string name = "caption">Version Info</string>
+		<string name = "notes">Vehicle file version information</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "8_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">9</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">1</string>
+		<string name = "callby">autoincrement</string>
+		<string name = "caption">Auto Increment?</string>
+		<string name = "notes">When set to TRUE, every time the vehicle is modified and saved, the 'revision' value increases by 1</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	<object handle = "9_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">9</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">8</string>
+		<string name = "callby">major</string>
+		<string name = "caption">Major</string>
+		<string name = "notes">Should be incremented by 1 after a major design change</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	<object handle = "10_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">9</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">8</string>
+		<string name = "callby">minor</string>
+		<string name = "caption">Minor</string>
+		<string name = "notes">Should be incremented by 1 if any component has been added or removed</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	<object handle = "11_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">9</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">8</string>
+		<string name = "callby">revision</string>
+		<string name = "caption">Revision</string>
+		<string name = "notes">Should be incremented for bug fixes and minor corrections</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	<object handle = "12_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">9</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">6</string>
+		<string name = "callby">dateCreated</string>
+		<string name = "caption">Created Date</string>
+		<string name = "notes">The date this vehicle was created</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	<object handle = "13_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">9</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">6</string>
+		<string name = "callby">dateModified</string>
+		<string name = "caption">Modified Date</string>
+		<string name = "notes">The date of the latest modification to this vehicle.</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	<object handle = "14_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">10</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">-99</string>
+		<string name = "callby">HEADER</string>
+		<string name = "caption">Author Info</string>
+		<string name = "notes">Information about the person who designed this vehicle</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "15_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">10</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">0</string>
+		<string name = "callby">firstname</string>
+		<string name = "caption">First Name</string>
+		<string name = "notes">The author's first name</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>	
+	<object handle = "16_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">10</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">0</string>
+		<string name = "callby">middlename</string>
+		<string name = "caption">Middle Name</string>
+		<string name = "notes">The author's middle name</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>	
+	<object handle = "17_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">10</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">0</string>
+		<string name = "callby">lastname</string>
+		<string name = "caption">Last Name</string>
+		<string name = "notes">The author's last name</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>
+	<object handle = "18_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">10</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">0</string>
+		<string name = "callby">nickname</string>
+		<string name = "caption">Nickname / Handle</string>
+		<string name = "notes">The author's nickname or handle</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>	
+	<object handle = "19_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">10</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">0</string>
+		<string name = "callby">email</string>
+		<string name = "caption">E-mail Address</string>
+		<string name = "notes">The author's e-mail address</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>		
+	<object handle = "20_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">10</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "datatype">0</string>
+		<string name = "callby">url</string>
+		<string name = "caption">Homepage</string>
+		<string name = "notes">The author's website</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+	</object>	
+</ObjectStore>

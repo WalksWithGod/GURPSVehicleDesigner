@@ -1,0 +1,105 @@
+
+Hi folks,
+
+Here's whats been going on:
+
+## Property Display Panel is now working again.
+	## Not only is it working, but its been improved.  You can view the
+properties for a component, _and_ you can view a Description of each
+property and any relevant page information for where to find it in Vehicles
+2nd Edition.  Both the description and page info are user modifieable.
+
+## About 50% done with support for multiple vehicles at once.  Each vehicle
+will appear on a seperate treeview tab.  Until the stats code is finished I
+wont be able to finalize this.. but the framework is there.
+
+## Finalized some loose ends with component icon loading (icons are loaded
+from files now and can be modified by the user if you wish.)
+
+## Started on the last of the really big work items... stats calculations.
+This includes both component level stats and vehicle wide stats (though its
+component level stats which are the main focus) Once this is done, I'll have
+enuf of the code working where i might be able to compile an alpha.
+
+Im really really excited with how this verison is coming along.  This
+version will contain just
+about all the features you've been screaming for since GVD first came out in
+late 1999.  
+
+
+Version 2.0?  What happened to version 1.5?  Well not only is Version 2.0 a
+major program upgrade, its a near complete rewrite.  The new code base
+warrants the major version increment from 1 to 2.0.  To all current
+registered users, it will be a free update so have no fear.
+
+GURPS Vehicles Designer 1.0 was the pioneer in providing GM's and players
+with an intuitive drag and drop interface for creating GURPS vehicles.
+Version 2.0 extends and refines that vision in such a way, that it will
+continue to be the premeir software program for designing vehicles for years
+to come.  There can be only one.
+
+
+What's new in 2.0?
+
+- Custom Component Editor
+Users can now create their own components from virtually any GURPS source
+book and use them inside GVD 2.0.  Further, your new components are first
+class components which means not only will the stats be calculated for you
+(unlike the old "custom" component)  but they will show up in performance
+profiles, power system/fuel/weapon links, etc.  These are NOT generic
+"custom" components.  Any component you make with the editor is treated just
+like an intrinsic Vehicles component when it is loaded into the program.
+
+- Metric System Madness
+GVD 2.0 includes a wizard for formatting any "unit" type in GVD.  So if you
+want to display all "lbs" as "kilograms", you can.  Further you can set cut
+off values for displaying large values to yet a different conversion.  For
+instance, if the weight goes over 10,000lbs display it in "tons,"
+"kilotons," "metric tons,"  etc.  GVD's new unit conversion wizard leaves no
+stone unturned.   It also allows you to set complex decimal rounding.  You
+can also enter in a monetary conversion multiplier and have all the Cost and
+Price stats show up in the currency of your choice!
+
+- Totally Revamped "link" assignment interface
+Fuel links, weapon links and power system links now share a revamped
+interface for assigning engines to fuel tanks, weapons to grouped weapons
+and power consumption components to generators.  The interface is more
+intuitive and has been integrated into the main application window.  (the
+problem with battery endurance and assigning rechargeable batteries to a
+recharge source are solved as well.)
+
+- Extensible GURPS text exporting capabilities
+Via a plug-in interface, users can write their own routines to format the
+GURPS text anyway they please.  This means that GVD 2.0 can support any
+style of output you like.  Classic GURPS Vehicles formating, vanilla html,
+htmal w/ Tables, you name it.  As soon as the plug-in  interface has been
+finalized, I will release the spec so the programmers amongst you can work
+on developing a custom plug-in.
+
+- Missiles with multiple guidance systems and multiple warheads (provided
+all warheads are of same kind)
+
+- Multiple Vehicles At Once
+Working on two or more different designs at the same time?  Well why work on
+them one at a time when you can have each loaded into the program at the
+same time?
+
+- Improved Graphical User Interface
+	- Improved Armor Interface
+	- Totally New Crew Station Assignment Interface
+
+- Faster, Leaner, More Flexible and Robust!
+Building a huge vehicle in GVD 1.0 and tired of the slow statistic updates?
+GVD 2.0 has been rewritten in a way that will allow you to create larger
+vehicles without experiencing the long statistic update.  (also no more
+overflow crashes when building that monolithic spaceship of your dreams.)
+
+All that and more.  I can tell you that all of the above features are either
+already complete or are in various stages of completion.  In other words,
+the above feature list is in fact set in stone.  When will it be "released?"
+Ive been horrible with hitting release dates so I wont give one.  I made
+huge progress over the past 5 days and there are essentially 3 main work
+items left.  When they are done I will release a beta in order to get
+feedback.  Stay tuned.
+
+-Mike Joseph

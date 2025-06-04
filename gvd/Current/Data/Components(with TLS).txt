@@ -1,0 +1,472 @@
+Accessories,668,64,65,refuelling probe,TL6
+Accessories,669,64,65,refuelling drogue,TL6
+Accessories,670,64,65,fuel electrolysis system,TL6
+Accessories,672,64,65,atmosphere processor,TL6
+Accessories,671,64,65,hydrogen fuel scoop,TL6
+Accessories,666,64,65,arrestor hook,TL6
+Accessories,667,64,65,vehicular parachute,TL6
+Accessories,675,64,65,modular socket,TL6
+Accessories,676,64,65,module,TL6
+Accommodations,310,54,55,cramped crew station,TL6
+Accommodations,311,54,55,normal crew station,TL6
+Accommodations,312,54,55,roomy crew station,TL6
+Accommodations,314,54,55,cycle crew station,TL6
+Accommodations,315,54,55,harness station,TL6
+Accommodations,317,54,55,cramped seat,TL6
+Accommodations,318,54,55,normal seat,TL6
+Accommodations,319,54,55,roomy seat,TL6
+Accommodations,320,54,55,cramped standing room,TL6
+Accommodations,321,54,55,normal standing room,TL6
+Accommodations,322,54,55,roomy standing room,TL6
+Accommodations,325,54,55,cycle seat,TL6
+Accommodations,326,54,55,hammock,TL6
+Accommodations,327,54,55,bunk,TL6
+Accommodations,328,54,55,cabin,TL6
+Accommodations,329,54,55,luxury cabin,TL6
+Accommodations,345,54,55,small galley,TL6
+Accommodations,349,54,55,suite,TL6
+Accommodations,350,54,55,luxury suite,TL6
+Airscrews,209,104,105,aerial propeller,TL6
+Airscrews,210,104,105,ducted fan,TL6
+Aquatic Propulsion,211,106,107,paddle wheel,TL6
+Aquatic Propulsion,212,106,107,screw propeller,TL6
+Aquatic Propulsion,213,106,107,light screw propeller,TL6
+Aquatic Propulsion,214,106,107,ducted propeller,TL6
+Aquatic Propulsion,215,106,107,hydrojet,TL6
+Aquatic Propulsion,216,106,107,MHD tunnel,TL6
+Armor,30,38,39,Armor - overall,TL6
+Armor,31,38,39,Armor - location,TL6
+Armor,32,38,39,Armor - by facing (basic),TL6
+Armor,33,38,39,Armor - by facing (complex),TL6
+Armor,34,38,39,Armor - gun shield,TL6
+Armor,35,38,39,Armor - wheel guard,TL6
+Armor,36,38,39,Armor - open frame,TL6
+Armor,41,38,38,Armor - component,TL6
+Artillery and Guns,125,142,143,fast autoloader,TL6
+Artillery and Guns,126,142,143,light automatic,TL6
+Artillery and Guns,127,142,143,heavy automatic,TL6
+Artillery and Guns,128,142,143,electric gatling,TL6
+Artillery and Guns,116,142,143,bolt thrower,TL6
+Artillery and Guns,117,142,143,stone thrower,TL6
+Artillery and Guns,118,142,143,repeating bolt thrower,TL6
+Artillery and Guns,119,142,143,muzzleloader,TL6
+Artillery and Guns,120,142,143,breachloader,TL6
+Artillery and Guns,121,142,143,manual repeater,TL6
+Artillery and Guns,122,142,143,revolver,TL6
+Artillery and Guns,123,142,143,mechanical gatling,TL6
+Artillery and Guns,124,142,143,slow autoloader,TL6
+Audio Visual Systems,5040,130,131,sound system,TL6
+Audio Visual Systems,5042,130,131,vehicle camera,TL6
+Audio Visual Systems,5044,130,131,recon camera,TL6
+Audio Visual Systems,5043,130,131,digital vehicle camera,TL6
+Audio Visual Systems,5045,130,131,digital recon camera,TL6
+Audio Visual Systems,5041,130,131,flight recorder,TL6
+Beam Weapons,147,144,145,military paralysis beam,TL6
+Beam Weapons,139,144,145,x-ray laser,TL6
+Beam Weapons,140,144,145,fusion beam,TL6
+Beam Weapons,141,144,145,gravity beam,TL6
+Beam Weapons,142,144,145,antiparticle beam,TL6
+Beam Weapons,143,144,145,graser,TL6
+Beam Weapons,144,144,145,disintegrator,TL6
+Beam Weapons,145,144,145,displacer,TL6
+Beam Weapons,172,144,145,rainbow laser,TL6
+Beam Weapons,173,144,145,blue green laser,TL6
+Beam Weapons,129,144,145,laser,TL6
+Beam Weapons,130,144,145,UV laser,TL6
+Beam Weapons,131,144,145,IR laser,TL6
+Beam Weapons,132,144,145,disruptor,TL6
+Beam Weapons,133,144,145,charged particle beam,TL6
+Beam Weapons,134,144,145,neutral particle beam,TL6
+Beam Weapons,135,144,145,flamer,TL6
+Beam Weapons,136,144,145,screamer,TL6
+Beam Weapons,137,144,145,stunner,TL6
+Beam Weapons,138,144,145,paralysis beam,TL6
+Bilge Pumps,605,68,69,bilge pump,TL6
+Combustion Engines,406,86,87,gasoline engine,TL6
+Combustion Engines,408,86,87,gasonline engine - turbocharged,TL6
+Combustion Engines,409,86,87,gasoline engine - supercharged,TL6
+Combustion Engines,407,86,87,HP gasoline engine,TL6
+Combustion Engines,410,86,87,HP gasoline engine - turbocharged,TL6
+Combustion Engines,411,86,87,HP gasoline engine - supercharged,TL6
+Combustion Engines,414,86,87,marine diesel engine,TL6
+Combustion Engines,412,86,87,standard diesel engine,TL6
+Combustion Engines,416,86,87,HP diesel engine,TL6
+Combustion Engines,417,86,87,HP diesel engine- turbocharged,TL6
+Combustion Engines,474,86,87,ceramic engine,TL6
+Combustion Engines,475,86,87,ceramic engine - turbocharged,TL6
+Combustion Engines,476,86,87,ceramic engine - supercharged,TL6
+Combustion Engines,477,86,87,HP ceramic engine,TL6
+Combustion Engines,478,86,87,HP ceramic engine - turbocharged,TL6
+Combustion Engines,479,86,87,HP ceramic engine - supercharged,TL6
+Combustion Engines,480,86,87,hydrogen combustion engine,TL6
+Communicators,5001,132,133,radio communicator,TL6
+Communicators,5002,132,133,tight beam radio,TL6
+Communicators,5003,132,133,VLF radio,TL6
+Communicators,5004,132,133,cellular phone,TL6
+Communicators,5005,132,133,cellular phone w/ radio option,TL6
+Communicators,5006,132,133,radio jammer,TL6
+Communicators,5007,132,133,ELF receiver,TL6
+Communicators,5008,132,133,laser communicator,TL6
+Communicators,5009,132,133,neutrino communicator,TL6
+Communicators,5010,132,133,gravity ripple communicator,TL6
+Computers Terminals & Neural Interfaces,5079,134,135,macroframe,TL6
+Computers Terminals & Neural Interfaces,5080,134,135,mainframe,TL6
+Computers Terminals & Neural Interfaces,5081,134,135,microframe,TL6
+Computers Terminals & Neural Interfaces,5082,134,135,minicomputer,TL6
+Computers Terminals & Neural Interfaces,5083,134,135,small computer,TL6
+Computers Terminals & Neural Interfaces,5084,134,135,terminal,TL6
+Computers Terminals & Neural Interfaces,5097,134,135,surgical interface,TL6
+Computers Terminals & Neural Interfaces,5098,134,135,interface web,TL6
+Computers Terminals & Neural Interfaces,5099,134,135,auto-interface web,TL6
+Computers Terminals & Neural Interfaces,5100,134,135,socket interface,TL6
+Computers Terminals & Neural Interfaces,5101,134,135,neural induction field,TL6
+Shields,5125,80,81,deflector field,TL6
+Shields,5126,80,81,force screen,TL6
+Shields,5127,80,81,variable force screen,TL6
+Contragrav Generators,250,108,109,contragrav generator,TL6
+Drivetrains,201,110,111,wheeled drivetrain,TL6
+Drivetrains,202,110,111,tracked drivetrain,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,204,110,111,flexibody drivetrain,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,205,110,111,TTR rotor drivetrain,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,206,110,111,MMR rotor drivetrain,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,207,110,111,CAR rotor drivetrain,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,208,110,111,ornithopter drivetrain,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Drivetrains,254,110,111,all-wheel drive wheeled drivetrain,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5066,136,137,radar detector,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5068,136,137,laser sensor,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5069,136,137,radar/laser detector,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5071,136,137,radio direction finder,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5072,136,137,area jammer,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5073,136,137,deceptive jammers,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5074,136,137,infrared jammer,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5075,136,137,chaff decoy discharger,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5119,136,137,smoke decoy discharger,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5120,136,137,flare decoy discharger,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5121,136,137,sonar decoy discharger,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5122,136,137,hot smoke decoy discharger,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5123,136,137,prism decoy discharger,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5124,136,137,blackout gas decoy discharger,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5076,136,137,radar reflector,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5077,136,137,blip enhancer,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5078,136,137,TEMPEST equipment,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5112,136,137,chaff decoy reload,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5113,136,137,smoke decoy reload,TL6 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5114,136,137,flares decoy reload,TL6 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5115,136,137,sonar decoy reload,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5116,136,137,hot smoke decoy reload,TL6 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5117,136,137,prism decoy reload,TL6 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Electronic Countermeasures,5118,136,137,blackout gas decoy reload,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Emergency & Medical Equipment,627,70,71,operating room,TL6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Emergency & Medical Equipment,628,70,71,stretcher pallet,TL6
+Emergency & Medical Equipment,629,70,71,emergency support unit,TL6
+Emergency & Medical Equipment,630,70,71,emergency lights and siren,TL6
+Emergency & Medical Equipment,631,70,71,cryonic capsule,TL6
+Emergency & Medical Equipment,632,70,71,automed,TL6
+Emergency & Medical Equipment,633,70,71,diagnosis table,TL6
+Energy Bank,444,88,89,clockwork,TL6
+Energy Bank,445,88,89,lead-acid battery,TL6
+Energy Bank,446,88,89,advanced battery,TL6
+Energy Bank,447,88,89,flywheel,TL6
+Energy Bank,448,88,89,rechargeable power cell,TL6
+Energy Bank,449,88,89,power cell,TL6
+Entertainment Facilities,634,72,73,stage,TL6
+Entertainment Facilities,640,72,73,small movie screen and projector,TL6
+Entertainment Facilities,639,72,73,big movie screen and projector,TL6
+Entertainment Facilities,635,72,73,hall,TL6
+Entertainment Facilities,637,72,73,conference room,TL6
+Entertainment Facilities,641,72,73,holoventure zone,TL6
+Entertainment Facilities,636,72,73,bar room,TL6
+Environmental Systems,334,56,57,provisions,TL6
+Environmental Systems,330,56,57,environmental control,TL6
+Environmental Systems,332,56,57,limited life system,TL6
+Environmental Systems,333,56,57,full life system,TL6
+Environmental Systems,348,56,57,total life system,TL6
+Environmental Systems,331,56,57,NBC kit,TL6
+Environmental Systems,335,56,57,artificial gravity unit,TL6
+Exotic Power Plants,436,90,91,mana engine,TL6
+Exotic Power Plants,433,90,91,soulburner,TL6
+Exotic Power Plants,435,90,91,elemental furnace,TL6
+Exotic Power Plants,437,90,91,carnivore bioconveror,TL6
+Exotic Power Plants,438,90,91,herbivore bioconvertor,TL6
+Exotic Power Plants,439,90,91,omnivore bioconvertor,TL6
+Exotic Power Plants,440,90,91,vampire bioconvertor,TL6
+Fire Extinguishers,602,74,75,fire extinguisher system,TL6
+Fire Extinguishers,603,74,75,full fire suppression system,TL6
+Fire Extinguishers,604,74,75,compact fire suppression system,TL6
+Fuel,461,92,93,aviation gas,TL6
+Fuel,469,92,93,cadmium,TL6
+Fuel,460,92,93,diesel fuel,TL6
+Fuel,459,92,93,gasonline,TL6
+Fuel,462,92,93,jet fuel,TL6
+Fuel,471,92,93,rocket fuel,TL6
+Fuel,458,92,93,water,TL6
+Fuel,467,92,93,liquid hydrogen,TL6
+Fuel,470,92,93,metal/LOX,TL6
+Fuel,468,92,93,oxygen (LOX),TL6
+Fuel,463,92,93,propane/LNG,TL6
+Fuel,472,92,93,antimatter,TL6
+Fuel,482,92,93,coal,TL6
+Fuel,481,92,93,wood,TL6
+Fuel,465,92,93,ethanol,TL6
+Fuel,466,92,93,methanol,TL6
+Fuel,464,92,93,liquified natural gas,TL6
+Fuel,483,92,93,uranium fuel rod,TL6
+Fuel Storage,452,94,95,standard fuel tank,TL6
+Fuel Storage,455,94,95,self-sealing fuel tank,TL6
+Fuel Storage,456,94,95,light self-sealing fuel tank,TL6
+Fuel Storage,453,94,95,light fuel tank,TL6
+Fuel Storage,454,94,95,ultralight fuel tank,TL6
+Fuel Storage,457,94,95,ultralight self-sealing fuel tank,TL6
+Fuel Storage,473,94,95,antimatter fuel bay,TL6
+Fuel Storage,450,94,95,coal bunker,TL6
+Fuel Storage,451,94,95,wood bunker,TL6
+Gas and MHD Turbines,422,102,103,optimized gas turbine,TL6
+Gas and MHD Turbines,420,102,103,standard gas turbine,TL6
+Gas and MHD Turbines,421,102,103,HP gas turbine,TL6
+Gas and MHD Turbines,423,102,103,standard MHD turbine,TL6
+Gas and MHD Turbines,424,102,103,HP MHD turbine,TL6
+Harnesses,217,112,113,rope harness,TL6
+Harnesses,218,112,113,yoke-and-pole harness,TL6
+Harnesses,219,112,113,shaft-and-collar harness,TL6
+Harnesses,220,112,113,whiffletree harness,TL6
+Heavy Equipment,613,76,77,extendable ladder,TL6
+Heavy Equipment,614,76,77,crane,TL6
+Heavy Equipment,615,76,77,winch,TL6
+Heavy Equipment,616,76,77,power shovel,TL6
+Heavy Equipment,617,76,77,wrecking crane,TL6
+Heavy Equipment,618,76,77,forklift,TL6
+Heavy Equipment,619,76,77,vehicular bridge,TL6
+Heavy Equipment,620,76,77,launch catapult,TL6
+Heavy Equipment,621,76,77,skyhook,TL6
+Heavy Equipment,622,76,77,bore,TL6
+Heavy Equipment,623,76,77,super-bore,TL6
+Heavy Equipment,625,76,77,tractor beam,TL6
+Heavy Equipment,626,76,77,pressor beam,TL6
+Heavy Equipment,678,76,77,combination beam,TL6
+Jet Engines,226,114,115,turbojet,TL6
+Jet Engines,227,114,115,turbofan,TL6
+Jet Engines,229,114,115,turbo-ramjet,TL6
+Jet Engines,230,114,115,hyperfan,TL6
+Jet Engines,231,114,115,fusion air-ram,TL6
+Jet Engines,228,114,115,ramjet,TL6
+Labs and Workshops,612,78,79,science lab,TL6
+Labs and Workshops,606,78,79,complete workshop,TL6
+Labs and Workshops,677,78,79,mini-mechanic workshop,TL6
+Labs and Workshops,611,78,79,complete mini-workshop,TL6
+Labs and Workshops,607,78,79,mechanic workshop,TL6
+Labs and Workshops,608,78,79,engineering workshop,TL6
+Labs and Workshops,609,78,79,electronics workshop,TL6
+Labs and Workshops,610,78,79,armoury workshop,TL6
+Labs and Workshops,683,78,79,mini-electronics workshop,TL6
+Labs and Workshops,684,78,79,mini-engineering workshop,TL6
+Labs and Workshops,685,78,79,mini-armoury workshop,TL6
+Launchers,148,154,155,disposable launch tube,TL6
+Launchers,149,154,155,muzzleloading launch tube,TL6
+Launchers,150,154,155,breechloading launch tube,TL6
+Launchers,151,154,155,slow autoloading launch tube,TL6
+Launchers,152,154,155,fast autoloading launch tube,TL6
+Launchers,153,154,155,manual repeater launch tube,TL6
+Launchers,154,154,155,revolver launch tube,TL6
+Launchers,155,154,155,light automatic launch tube,TL6
+Launchers,156,154,155,heavy automatic launch tube,TL6
+Lifting Gas,251,116,117,hot air,TL6
+Lifting Gas,252,116,117,hydrogen,TL6
+Lifting Gas,253,116,117,helium,TL6
+Liquid Projectors,175,156,157,water cannon,TL6
+Liquid Projectors,174,148,149,flame thrower,TL6
+Mag-Lev Lifters,225,118,119,mag-lev lifter,TL6
+Maneuver Controls,301,58,59,primitive controls,TL6
+Maneuver Controls,302,58,59,mechanical controls,TL6
+Maneuver Controls,303,58,59,electronic controls,TL6
+Maneuver Controls,304,58,59,computerized controls,TL6
+Maneuver Controls,308,58,59,mechanical diving controls,TL6
+Maneuver Controls,346,58,59,electronic diving controls,TL6
+Maneuver Controls,347,58,59,computerized diving controls,TL6
+Missiles Torps Bombs & Mines,170,160,161,guided missile,TL6
+Missiles Torps Bombs & Mines,171,160,161,guided torpedo,TL6
+Missiles Torps Bombs & Mines,157,146,147,iron bomb,TL6
+Missiles Torps Bombs & Mines,158,146,147,retarded bomb,TL6
+Missiles Torps Bombs & Mines,159,146,147,smart bomb,TL6
+Missiles Torps Bombs & Mines,160,146,147,self destruct system,TL6
+Missiles Torps Bombs & Mines,161,146,147,naval contact mine,TL6
+Missiles Torps Bombs & Mines,162,146,147,naval proximity mine,TL6
+Missiles Torps Bombs & Mines,164,146,147,pressure trigger land mine,TL6
+Missiles Torps Bombs & Mines,165,146,147,command trigger land mine,TL6
+Missiles Torps Bombs & Mines,166,146,147,smart trigger land mine,TL6
+Missiles Torps Bombs & Mines,168,160,161,un-guided missile,TL6
+Missiles Torps Bombs & Mines,169,160,161,un-guided torpedo,TL6
+Navigation Systems,5048,138,139,navigation instruments,TL6
+Navigation Systems,5053,138,139,IFF,TL6
+Navigation Systems,5055,138,139,inertial navigation system,TL6
+Navigation Systems,5056,138,139,global positioning system,TL6
+Navigation Systems,5057,138,139,military GPS,TL6
+Navigation Systems,5052,138,139,autopilot,TL6
+Navigation Systems,5058,138,139,terrain following radar,TL6
+Navigation Systems,5050,138,139,navigation radar,TL6
+Navigation Systems,5051,138,139,anti-collision radar,TL6
+Navigation Systems,5054,138,139,transponder,TL6
+Other Power and Fuel,28,96,97,solar panel,TL6
+Other Power and Fuel,37,96,97,solar cell array,TL6
+Other Power and Fuel,425,96,97,fuel cell,TL6
+Other Power and Fuel,442,96,97,laser beamed power receiver,TL6
+Other Power and Fuel,418,96,97,nitrous oxide booster,TL6
+Other Power and Fuel,419,96,97,snorkel,TL6
+Other Power and Fuel,401,96,97,muscle engine,TL6
+Other Power and Fuel,443,96,97,maser beamed power receiver,TL6
+Other Power and Fuel,441,96,97,electric contact power,TL6
+Reactionless Thrusters,232,120,121,standard reactionless thruster,TL6
+Reactionless Thrusters,233,120,121,super reactionless thruster,TL6
+Reactionless Thrusters,234,120,121,mega reactionless thruster,TL6
+Reactors,426,98,99,fission reactor,TL6
+Reactors,427,98,99,radiothermal generator,TL6
+Reactors,428,98,99,nuclear power unit,TL6
+Reactors,429,98,99,fusion reactor,TL6
+Reactors,430,98,99,antimatter reactor,TL6
+Reactors,431,98,99,total conversion plant,TL6
+Reactors,432,98,99,cosmic power plant,TL6
+Rockets and Spacedrives,235,122,123,liquid fuel rocket,TL6
+Rockets and Spacedrives,236,122,123,MOX rocket,TL6
+Rockets and Spacedrives,237,122,123,ion drive,TL6
+Rockets and Spacedrives,238,122,123,fission rocket,TL6
+Rockets and Spacedrives,239,122,123,fusion rocket,TL6
+Rockets and Spacedrives,240,122,123,optimized fusion,TL6
+Rockets and Spacedrives,241,122,123,antimatter thermal,TL6
+Rockets and Spacedrives,242,122,123,antimatter pion,TL6
+Rockets and Spacedrives,244,122,123,solid rocket,TL6
+Rowing Positions,221,124,125,rowing positions,TL6
+Safety Systems,336,60,61,ejection seat,TL6
+Safety Systems,338,60,61,airbag,TL6
+Safety Systems,339,60,61,crashweb,TL6
+Safety Systems,341,60,61,womb tank,TL6
+Safety Systems,342,60,61,gravity web,TL6
+Safety Systems,343,60,61,grav compensator,TL6
+Safety Systems,337,60,61,crew escape capsule,TL6
+Sails,222,126,127,square rig sail,TL6
+Sails,223,126,127,aerial sail,TL6
+Sails,224,126,127,light sail,TL6
+Sails,255,126,127,fore and aft rig,TL6
+Sails,256,126,127,full rig,TL6
+Sails,260,126,127,aerial sail(fore & aft rig),TL3
+Screen Generators,674,80,81,small reality stabilizer,TL6
+Screen Generators,680,80,81,medium reality stabilizer,TL6
+Screen Generators,681,80,81,heavy reality stabilizer,TL6
+Screen Generators,673,80,81,nuclear damper,TL6
+Searchlights,5012,46,47,searchlight,TL6
+Searchlights,5013,46,47,IR searchlight,TL6
+Searchlights,5011,46,47,headlight,TL6
+Security & Dirty Tricks,651,82,83,brigs and restraints,TL6
+Security & Dirty Tricks,652,82,83,burglar alarm,TL6
+Security & Dirty Tricks,653,82,83,high-security alarm,TL6
+Security & Dirty Tricks,655,82,83,mutable license plate,TL6
+Security & Dirty Tricks,656,82,83,oil sprayer,TL6
+Security & Dirty Tricks,657,82,83,paint sprayer,TL6
+Security & Dirty Tricks,659,82,83,smokescreen,TL6
+Security & Dirty Tricks,660,82,83,spike dropper,TL6
+Sensors,5106,48,49,surveillance sound detector,TL6
+Sensors,5033,48,49,ranging sound detector,TL6
+Sensors,5022,48,49,passive IR,TL6
+Sensors,5023,48,49,thermograph,TL6
+Sensors,5024,48,49,passive radar,TL6
+Sensors,5025,48,49,PESA,TL6
+Sensors,5014,48,49,telescope,TL6
+Sensors,5015,48,49,light amplification,TL6
+Sensors,5016,48,49,low-light TV,TL6
+Sensors,5018,48,49,standard radar,TL6
+Sensors,5019,48,49,ladar,TL6
+Sensors,5020,48,49,active sonar,TL6
+Sensors,5021,48,49,passive sonar,TL6
+Sensors,5026,48,49,geophone,TL6
+Sensors,5027,48,49,MAD,TL6
+Sensors,5028,48,49,multiscanner,TL6
+Sensors,5029,48,49,chemscanner,TL6
+Sensors,5030,48,49,radscanner,TL6
+Sensors,5031,48,49,bioscanner,TL6
+Sensors,5032,48,49,gravascanner,TL6
+Sensors,5037,48,49,planetary survey array (low-resolution),TL6
+Sensors,5038,48,49,planetary survey array (medium-resolution),TL6
+Sensors,5039,48,49,planetary survey array (high-resolution),TL6
+Sensors,5036,48,49,astronomical instruments,TL6
+Sensors,5017,48,49,sensor periscope,TL6
+Sensors,5111,48,49,AESA,TL6
+Sensors,5109,48,49,low-res imaging radar,TL6
+Sensors,5110,48,49,hi-res imaging radar,TL6
+Software,5087,50,51,cartography software,TL6
+Software,5088,50,51,computer navigation software,TL6
+Software,5093,50,51,damage control software,TL6
+Software,5089,50,51,datalink software,TL6
+Software,5085,50,51,fire direction software,TL6
+Software,5092,50,51,gunner software,TL6
+Software,5104,50,51,personality simulation software - limited,TL6
+Software,5094,50,51,personality simulation software - full,TL6
+Software,5095,50,51,robot skills programs - physical,TL6
+Software,5096,50,51,routine vehicle operation software - piloting,TL6
+Software,5090,50,51,targeting software,TL6
+Software,5091,50,51,transmission profiling software,TL6
+Software,5086,50,51,database software,TL6
+Software,5107,50,51,robot skills programs - mental,TL6
+Software,5108,50,51,holoventure software,TL6
+Software,5105,50,51,routine vehicle operation software - other,TL6
+Stardrives,245,128,129,hyperdrive,TL6
+Stardrives,246,128,129,jump drive,TL6
+Stardrives,247,128,129,warp drive,TL6
+Stardrives,248,128,129,teleportation drive,TL6
+Stardrives,249,128,129,subquantum conveyor,TL6
+Stardrives,258,128,129,quantum conveyor,TL6
+Stardrives,259,128,129,two-quantum conveyor,TL6
+Stardrives,243,128,129,orion engine,TL6
+Steam Engines,402,100,101,early steam engine,TL6
+Steam Engines,403,100,101,forced-draft steam engine,TL6
+Steam Engines,404,100,101,triple-expansion steam engine,TL6
+Steam Engines,405,100,101,steam turbine,TL6
+Subassemblies,3,2,3,wheels,TL6
+Subassemblies,2,4,5,skids,TL6
+Subassemblies,4,6,7,tracks,TL6
+Subassemblies,8,8,9,hydrofoil,TL6
+Subassemblies,9,10,11,hovercraft,TL6
+Subassemblies,5,12,13,leg,TL6
+Subassemblies,17,14,15,arm,TL6
+Subassemblies,38,16,17,autogyro rotor,TL6
+Subassemblies,6,18,19,wing,TL6
+Subassemblies,12,20,21,mast,TL6
+Subassemblies,10,22,23,superstructure,TL6
+Subassemblies,14,24,25,turret,TL6
+Subassemblies,15,26,27,pop turret,TL6
+Subassemblies,11,28,29,open mount,TL6
+Subassemblies,16,30,31,gasbag,TL6
+Subassemblies,13,32,33,pod,TL6
+Subassemblies,27,34,35,equipment pod,TL6
+Subassemblies,23,36,37,cargo,TL6
+Subassemblies,7,16,17,top-and-tail rotor,TL6
+Subassemblies,39,16,17,multiple main rotor,TL6
+Subassemblies,40,16,17,coaxial rotor,TL6
+Targeting Systems,5059,52,53,optical bombsight,TL6
+Targeting Systems,5102,52,53,improved bombsight,TL6
+Targeting Systems,5103,52,53,advanced bombsight,TL6
+Targeting Systems,5060,52,53,fire direction center,TL6
+Targeting Systems,5061,52,53,HUDWAC,TL6
+Targeting Systems,5062,52,53,HUDWAC w/ pupil scanner,TL6
+Targeting Systems,5063,52,53,laser rangefinder,TL6
+Targeting Systems,5064,52,53,laser designator,TL6
+Targeting Systems,5065,52,53,laser spot tracker,TL6
+Vehicle Access,646,62,63,"airlock",TL6
+Vehicle Access,647,62,63,"membrane airlock",TL6
+Vehicle Access,648,62,63,forcelock,TL6
+Vehicle Access,649,62,63,passage tube,TL6
+Vehicle Access,679,62,63,armored passage tube,TL6
+Vehicle Access,645,62,63,cargo ramp,TL6
+Vehicle Access,650,62,63,teleport projector,TL6
+Vehicle Storage,661,84,85,vehicle bay,TL6
+Vehicle Storage,662,84,85,hanger bay,TL6
+Vehicle Storage,663,84,85,dry dock,TL6
+Vehicle Storage,664,84,85,space dock,TL6
+Vehicle Storage,665,84,85,external cradle,TL6
+Weapon Accessories,107,140,141,universal mount,TL6
+Weapon Accessories,112,140,141,casemate mount,TL6
+Weapon Accessories,113,140,141,door mount,TL6
+Weapon Accessories,114,140,141,cyberslave,TL6
+Weapon Accessories,106,140,141,partial stabilization,TL6
+Weapon Accessories,111,140,141,full stabilization,TL6
+Weapon Accessories,109,140,141,anti-blast magazine,TL6
+Weapon Accessories,108,140,141,weapon bay,TL6
+Weapon Accessories,110,140,141,hardpoints,TL6
+Weapon Accessories,115,140,141,ammunition,TL6

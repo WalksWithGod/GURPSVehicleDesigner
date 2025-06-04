@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ObjectStore version = "1.0">
+	<object handle = "0_">
+		<string name = "classname">Vehicles.aBody</string>
+		<string name = "guid">1234123412341234</string>
+		<string name = "image">\icons\subassembly_body.ico</string>
+		<string name = "pageinfo">pages123</string>
+		<long name = "dr">1</long>
+		<long name = "maxchildren">1000</long>
+		
+		<int name = "propertycount">11</int>
+		<objectRef name = "property0">1_</objectRef>
+		<objectRef name = "property1">2_</objectRef>	
+		<objectRef name = "property2">3_</objectRef>
+		<objectRef name = "property3">4_</objectRef>
+		<objectRef name = "property4">5_</objectRef>
+		<objectRef name = "property5">6_</objectRef>	
+		<objectRef name = "property6">7_</objectRef>
+		<objectRef name = "property7">8_</objectRef>
+		<objectRef name = "property8">9_</objectRef>
+		<objectRef name = "property9">10_</objectRef>	
+		<objectRef name = "property10">11_</objectRef>
+	</object>
+	<!--> Property List Control Datatype Constants
+		Const wdBool = 1
+		Const wdColor = 4
+		Const wdCurrency = 9
+		Const wdDate = 6
+		Const wdDefault = -1
+		Const wdDouble = 10
+		Const wdFile = 5
+		Const wdFont = 2
+		Const wdList = 3
+		Const wdNumber = 8
+		Const wdObject = 11
+		Const wdPicture = 7
+		Const wdText = 0
+		Const wdHeader = -99
+	<-->				
+	<object handle = "1_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">HEADER</string> 
+		<string  name = "caption">Settings</string>
+		<string name = "notes">Edit the followinig attributes to modify this component</string>
+		<string name = "datatype">-99</string>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "2_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">0</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">Description</string> 
+		<string name = "caption">Description</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<bool name = "readonly">FALSE</bool>
+		<string name = "datatype">0</string>
+		<s_array name = "Selections" lowerBound="0" upperBound = "2">
+			<string name = "0">none</string>
+			<string name = "1">advanced</string>
+			<string name = "2">radical</string>
+		</s_array>
+	</object>
+	<object handle = "3_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">TL</string>
+		<string  name = "caption">TL</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<bool name = "readonly">FALSE</bool>
+		<string name = "datatype">3</string>
+		<s_array name = "Selections" lowerBound = "0" upperBound = "11">
+			<string name = "0">0</string>
+			<string name = "1">1</string>
+			<string name = "2">2</string>
+			<string name = "3">3</string>
+			<string name = "4">4</string>
+			<string name = "5">5</string>
+			<string name = "6">6</string>
+			<string name = "7">7</string>
+			<string name = "8">8</string>
+			<string name = "9">9</string>
+			<string name = "10">10</string>
+			<string name = "11">11</string>
+		</s_array>
+	</object>
+	<object handle = "4_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">5</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">volumeExtra</string> 
+		<string name = "caption">Added Volume</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "readonly">FALSE</bool>
+	</object>	
+	<object handle = "5_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">dr</string> 
+		<string name = "caption">DR</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">8</string>
+		<bool name = "readonly">FALSE</bool>
+	</object>	
+	<object handle = "6_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">HEADER</string> 
+		<string  name = "caption">Statistics</string>
+		<string name = "notes">Below are the statistics for this component</string>
+		<string name = "datatype">-99</string>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "7_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">Cost</string> 
+		<string name = "caption">Cost</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "8_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">weight</string> 
+		<string name = "caption">Weight</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "9_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">volume</string> 
+		<string name = "caption">Volume</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "10_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">surfacearea</string> 
+		<string name = "caption">Surface Area</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "11_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">4</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">hitpoints</string> 
+		<string name = "caption">Hitpoints</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+</ObjectStore>

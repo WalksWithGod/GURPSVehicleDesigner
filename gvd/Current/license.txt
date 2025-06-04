@@ -1,0 +1,160 @@
+GURPS Vehicle Designer v1.2.5 Copyright (C) 1999-2002 Mako Software. 
+All Rights Reserved
+
+
+END-USER LICENSE AGREEMENT FOR GURPS VEHICLE DESIGNER
+-----------------------------------------------------
+IMPORTANT-READ CAREFULLY: This End-User License Agreement ("EULA") is a 
+legal agreement between you (either an individual or a single entity) and 
+Mako Software ("AUTHOR") for the GURPS Vehicle Designer software product(s) 
+accompanying this EULA, which include(s) computer software and may include 
+"online" or electronic documentation, associated media, and printed 
+materials ("SOFTWARE PRODUCT").
+
+Your use of this SOFTWARE PRODUCT indicates your acceptance of this 
+license agreement and warranty. By installing, copying, or otherwise 
+using the SOFTWARE PRODUCT or any UPDATES (as defined below), you agree 
+to be bound by the terms of this EULA. If you do not agree to the terms 
+of this EULA, do not install, copy, or otherwise use the SOFTWARE PRODUCT
+
+In addition, by installing, copying, or otherwise using any updates or 
+other components of the SOFTWARE PRODUCT that you receive separately as 
+part of the SOFTWARE PRODUCT ("UPDATES"), you agree to be bound by any 
+additional license terms that accompany such UPDATES. If you do not agree 
+to the additional license terms that accompany such UPDATES, you may not 
+install, copy, or otherwise use such UPDATES.
+
+The SOFTWARE PRODUCT is protected by copyright laws and international 
+copyright treaties, as well as other intellectual property laws and 
+treaties.
+
+
+EVALUATION AND REGISTRATION
+---------------------------
+This is not free software.  Subject to the terms below, you are hereby 
+licensed to use this software for evaluation purposes without charge for 
+a period of 21 days.  If you use this software after the 21 day evaluation 
+period a registration fee of $25 is required. Unregistered use of the 
+SOFTWARE PRODUCT after the 21-day evaluation period is in violation of 
+U.S. and international copyright laws.
+
+
+TERMS FOR REGISTERED USERS
+--------------------------
+The SOFTWARE PRODUCT is licensed, not sold. Your paid $25 registration 
+fee will grant you a nonexclusive and NON TRANSFERABLE single-user license 
+and allow you to use your copy of the SOFTWARE PRODUCT past the 21 day 
+evaluation period.  
+
+RESTRICTIONS ON THE PUBLISHING SERVICE
+----------------------------------------
+The Publishing service which is accessible in registered versions of the 
+SOFTWARE PRODUCT by clicking the "Publish Vehicle" toolbar button and 
+menu items is a FREE service that is provided for the convenience of 
+registered users.  The availability of the free Publishing service and 
+support for the Publishing utility built into the SOFTWARE PRODUCT may 
+be cancelled at any time and without prior notice.  
+
+Only registered users with valid registration codes are permitted to 
+submit files via the SOFTWARE PRODUCT's built in "Publishing" utility.  
+We reserve the right to review all submitted files and to refuse to accept 
+any file for any reason.  We reserve the right to deny specific users from
+accessing or using the Publishing Service for any reason we deem necessary.
+
+The AUTHOR may transfer, assign sublicense or pledge in any manner whatsoever, any 
+of his rights and obligations under this agreement to a subsidiary, 
+affiliate successor thereof or to any third party whatsoever, without 
+notifying you or receiving your consent. 
+
+
+LIMITATION ON REVERSE ENGINEERING, DECOMPILATION, AND DISASSEMBLY
+-----------------------------------------------------------------
+You may not reverse engineer, decompile, or disassemble the 
+SOFTWARE PRODUCT, except and only to the extent that such activity is 
+expressly permitted by applicable law notwithstanding this limitation.
+
+The SOFTWARE PRODUCT is licensed as a single product. Its component parts 
+may not be separated for use by more than one user. 
+
+
+TERMINATION
+-----------
+Without prejudice to any other rights, the AUTHOR may terminate this 
+EULA if you fail to comply with the terms and conditions of this EULA. 
+In such event, you must destroy all copies of the SOFTWARE PRODUCT and 
+all of its component parts.
+
+
+UPGRADES 
+--------
+If the SOFTWARE PRODUCT is labeled as an upgrade, you must be properly 
+licensed to use a product identified by the AUTHOR as being 
+eligible for the upgrade in order to use the SOFTWARE PRODUCT. A 
+SOFTWARE PRODUCT labeled as an upgrade replaces and/or supplements the 
+product that formed the basis for your eligibility for the upgrade. 
+You may use the resulting upgraded product only in accordance with the 
+terms of this EULA. If the SOFTWARE PRODUCT is an upgrade of a component 
+of a package of software programs that you licensed as a single product, 
+the SOFTWARE PRODUCT may be used and transferred only as part of that 
+single product package and may not be separated for use on more than one 
+computer.
+
+
+DISTRIBUTION
+------------
+You may not rent, lease, or lend the SOFTWARE PRODUCT or its registration 
+codes.  You may not sell, re-sell or otherwise transfer for value, the 
+SOFTWARE PRODUCT or its registration codes. You are prohibited from charging, 
+or requesting donations, for any such copies, however made; and from 
+distributing the software, registration codes and/or documentation with 
+other products (commercial or otherwise) without prior written permission 
+from the author.
+
+You are specifically prohibited from distributing the SOFTWARE PRODUCT as 
+part of a shareware distribution, magazine, internet book, CD-ROM, etc. 
+without prior written permission from the author.
+
+You shall not transfer, assign, sublicense nor pledge in any manner 
+whatsoever, any of your rights or obligations under this agreement. 
+
+
+DISCLAIMER OF WARRANTY
+----------------------
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, 
+THE SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS" AND 
+THE AUTHOR DISCLAIMS ALL OTHER WARRANTIES AND CONDITIONS, 
+EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE, CONFORMANCE WITH DESCRIPTION, TITLE 
+AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO 
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY INDIRECT, 
+INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES 
+OR LOST PROFITS WHATSOEVER (INCLUDING, WITHOUT LIMITATION, 
+DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, 
+LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) 
+ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE 
+PRODUCT , EVEN IF THE AUTHOR HAS BEEN ADVISED OF THE 
+POSSIBILITY OF SUCH DAMAGES. IN ANY CASE, THE AUTHOR´S 
+CUMULATIVE AND ENTIRE LIABILITY TO YOU OR ANY OTHER PARTY 
+FOR ANY LOSS OR DAMAGES RESULTING FROM ANY CLAIMS, DEMANDS 
+OR ACTIONS ARISING OUT OF OR RELATING TO THIS AGREEMENT 
+SHALL NOT EXCEED THE PURCHASE PRICE PAID FOR THIS LICENSE. 
+
+Should any term of these terms and conditions be declared 
+void or unenforceable by any court of competent jurisdiction, 
+such declaration shall have no effect on the remaining terms
+hereof.
+
+
+-----------------------------------------------------------
+GURPS (R) is a trademark of Steve Jackson Games Incorporated, 
+used by permission.  All rights reserved.
+
+The GURPS (R) game is copyright (C) 1986 by Steve Jackon Games 
+Incorporated.  This program includes copyright material from 
+the GURPS game which is used by permission of Steve Jackson 
+Games Incorporated.  All rights reserved by Steve Jackson Games 
+Incorporated.
+

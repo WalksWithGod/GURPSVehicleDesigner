@@ -1,0 +1,48 @@
+Received: from lists.io.com (majordom@lists.io.com [199.170.88.15])
+	by mail.nwlink.com (8.9.1a/8.9.1) with ESMTP id OAA13496
+	for <mikej@nwlink.com>; Thu, 10 Dec 1998 14:41:29 -0800 (PST)
+Received: (from majordom@localhost)
+	by lists.io.com (8.9.0/8.9.0) id QAA14144
+	for gurpsnet-l-outgoing; Thu, 10 Dec 1998 16:24:06 -0600
+X-Authentication-Warning: lists.io.com: majordom set sender to owner-gurpsnet-l@lists.io.com using -f
+Received: from deliverator.io.com (root@deliverator.io.com [199.170.88.17])
+	by lists.io.com (8.9.0/8.9.0) with ESMTP id QAA14117
+	for <gurpsnet-l@lists.io.com>; Thu, 10 Dec 1998 16:23:58 -0600
+Received: from vega.iii.com (vega.iii.com [192.33.187.51])
+	by deliverator.io.com (8.9.1a/8.9.1a) with ESMTP id QAA17400
+	for <gurpsnet-l@io.com>; Thu, 10 Dec 1998 16:04:44 -0600
+Received: from molly (molly [192.33.187.250])
+	by vega.iii.com (8.9.1/8.9.1) with SMTP id OAA13131;
+	Thu, 10 Dec 1998 14:25:25 -0800 (PST)
+Received: from ping by molly (5.61/1.34)
+	id AA07215; Thu, 10 Dec 98 14:19:57 -0800
+Date: Thu, 10 Dec 1998 14:17:27 -0800 (PST)
+From: Anthony Jackson <ajackson@molly.iii.com>
+Reply-To: Anthony Jackson <ajackson@molly.iii.com>
+Subject: Re: mpg in Vehicles
+To: Cort Esch <esch@99main.com>
+Cc: gurpsnet-l@io.com
+In-Reply-To: <001501be245d$ab667690$a56bf6cd@cort-s-computer>
+Message-Id: <ML-2.3.913328247.5758.ajackson@ping.iii.com>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII
+Sender: owner-gurpsnet-l@lists.io.com
+Precedence: list
+Content-Return: prohibited
+X-URL: http://www.sjgames.com/gurps
+X-URL: http://www.io.com/GURPSnet
+X-UIDL: 6e209732ff5350bedb5c38312daad09b
+
+Cort Esch writes:
+> I'm sure this has been covered, so I apologize in advance.
+> 
+> Does Vehicles *1ed* have a formula for miles per gallon and/or range? 
+> Using max speed and gallons per hour yields a result, but numerically and
+conceptually, 80% or so of max speed seems better to use.  Am I missing
+something? 
+
+No it doesn't.  Vehicles performance rules (any version) are fairly incorrect,
+but appear to be intended to produce relatively reasonable results for typical
+vehicles.  Realistic performance figures cannot be generated without fairly
+complicated math (for my attempt at doing a better job, see
+http://www.io.com/GURPSnet/Archive/Vehicles/Construction/grdspeed).

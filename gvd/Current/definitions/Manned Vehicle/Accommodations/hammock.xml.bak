@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+
+	<Comment>  1) How to track armor? Default settings?  Layering?
+		   2) How to track Component Group -- only applicable too .CMP though
+                   3) These .DEF files shouldnt contain "Groups" right?  Just single components.
+		   4) Since .CMP can contain groups, must be way to enforce that .CMP's only have one
+ 		      entire vehicle is different because you get to restore the exact same key values.  But adding a branch, the key might already be used.
+		      For example, say you have Armor component who's parent key is set to that of another component in the restoring file.  That restored parent
+		      has its key change (and certainly its object handle) so now the armor needs its key updated.  Issue here is to make sure we add these all through
+		      AddObject and pretend we are adding them one at a time but just using a script to do the adding.   Incidentally, thats how battlesuits should be ;loaded...via script.
+	</Comment>
+	<Comment>
+		I dont think i need this crap.  Actually, maybe i do so that when user "saves" a component, it goes into
+		the right folder with other components of its type?
+		<Category>Manned Vehicle</Category>
+		<SubCategory>Accommodations</SubCategory>
+	</Comment>
+
+	<Rules>
+		<WeightFormula>1</WeightFormula>
+		<VolumeFormula>1</VolumeFormula>
+		<SurfaceFormula>1</SurfaceFormula>
+		<CostFormula>1</CostFormula>
+	</Rules>
+	
+	<Bitflag1>
+		<element>0</element>
+	</Bitflag1>
+	<Bitflag2>
+	</Bitflag2>	
+	
+	<Author>
+		<Name>Mike Joseph</Name>
+		<Email>gvd@makosoft.com</Email>
+		<URL>http://www.makosoft.com/gvd</URL>
+	</Author>
+	<Version>
+		<GUID></GUID>
+		<Major></Major>
+		<Minor></Minor>
+		<Revision></Revision>		
+		<Created>09/05/02</Created>
+		<Modified>09/06/02</Modified>	
+	</Version>
+	<Object classname = "Vehicles.aTest" objid = "0_" defid = "3333">
+		<string name = "image">\icons\Manned_Accommodations.ico</string>
+		<f_table name = "statstable" lRow="0" uRow="0" lCol="0" uCol = "2">
+			<float name = "0,0">100</float>
+			<float name = "0,1">100</float>
+			<float name = "0,2">20</float>
+		</f_table>
+		<int name = "propertycount">11</int>
+		<objectRef name = "property0">1_</objectRef>
+		<objectRef name = "property1">2_</objectRef>	
+		<objectRef name = "property2">3_</objectRef>
+		<objectRef name = "property3">4_</objectRef>
+		<objectRef name = "property4">5_</objectRef>
+		<objectRef name = "property5">6_</objectRef>	
+		<objectRef name = "property6">7_</objectRef>
+		<objectRef name = "property7">8_</objectRef>
+		<objectRef name = "property8">9_</objectRef>
+		<objectRef name = "property9">10_</objectRef>	
+		<objectRef name = "property10">11_</objectRef>
+	</Object>
+	
+	<comment> These are used for both property display, and print output display.  for print output, user GuRPSify.dll
+		  takes all this data and parses it into a print string on their own
+	</comment>
+	<Object classname = "Vehicles.cPropertyItem" objid = "1_" defid = "" defpath = "">
+		<string  name = "caption">Settings</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">Edit the followinig attributes to modify this component</string>
+		<string name = "datatype">-99</string>
+		<bool name = "readonly">TRUE</bool>
+	</Object>	
+	<Object classname = "Vehicles.cPropertyItem"  objid = "2_" defid = "" defpath = "">
+		<string name = "varname">Description</string> 
+		<string name = "caption">Description</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<bool name = "validate">TRUE</bool>
+		<bool name = "readonly">FALSE</bool>
+		<string name = "datatype">0</string>
+		<s_array name = "Selections" lowerBound="0" upperBound = "2">
+			<string name = "0">none</string>
+			<string name = "1">advanced</string>
+			<string name = "2">radical</string>
+		</s_array>
+	</Object>		
+	<Object classname = "Vehicles.cPropertyItem"  objid = "3_" defid = "" defpath = "">
+		<string name = "varname">TL</string>
+		<string  name = "caption">TL</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<bool name = "validate">TRUE</bool>
+		<bool name = "readonly">FALSE</bool>
+		<string name = "datatype">3</string>
+		<s_array name = "Selections" lowerBound = "0" upperBound = "11">
+			<string name = "0">0</string>
+			<string name = "1">1</string>
+			<string name = "2">2</string>
+			<string name = "3">3</string>
+			<string name = "4">4</string>
+			<string name = "5">5</string>
+			<string name = "6">6</string>
+			<string name = "7">7</string>
+			<string name = "8">8</string>
+			<string name = "9">9</string>
+			<string name = "10">10</string>
+			<string name = "11">11</string>
+		</s_array>
+	</Object>
+	<Object classname = "Vehicles.cPropertyItem"  objid = "4_" defid = "" defpath = "">
+		<string name = "varname">addedvolume</string> 
+		<string name = "caption">Added Volume</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "validate">TRUE</bool>
+		<bool name = "readonly">FALSE</bool>
+	</Object>	
+	<Object classname = "Vehicles.cPropertyItem"  objid = "5_" defid = "" defpath = "">
+		<string name = "varname">dr</string> 
+		<string name = "caption">DR</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">8</string>
+		<bool name = "validate">TRUE</bool>
+		<bool name = "readonly">FALSE</bool>
+	</Object>	
+	<Object classname = "Vehicles.cPropertyItem" objid = "6_" defid = "" defpath = "">
+		<string  name = "caption">Statistics</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">Below are the statistics for this component</string>
+		<string name = "datatype">-99</string>
+		<bool name = "readonly">TRUE</bool>
+	</Object>
+	<Object classname = "Vehicles.cPropertyItem"  objid = "7_" defid = "" defpath = "">
+		<string name = "varname">Cost</string> 
+		<string name = "caption">Cost</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "validate">FALSE</bool>
+		<bool name = "readonly">TRUE</bool>
+	</Object>	
+	<Object classname = "Vehicles.cPropertyItem"  objid = "8_" defid = "" defpath = "">
+		<string name = "varname">weight</string> 
+		<string name = "caption">Weight</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "validate">FALSE</bool>
+		<bool name = "readonly">TRUE</bool>
+	</Object>	
+	<Object classname = "Vehicles.cPropertyItem"  objid = "9_" defid = "" defpath = "">
+		<string name = "varname">volume</string> 
+		<string name = "caption">Volume</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "validate">FALSE</bool>
+		<bool name = "readonly">TRUE</bool>
+	</Object>
+	<Object classname = "Vehicles.cPropertyItem"  objid = "10_" defid = "" defpath = "">
+		<string name = "varname">surfacearea</string> 
+		<string name = "caption">Surface Area</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "validate">FALSE</bool>
+		<bool name = "readonly">TRUE</bool>
+	</Object>	
+	<Object classname = "Vehicles.cPropertyItem"  objid = "11_" defid = "" defpath = "">
+		<string name = "varname">hitpoints</string> 
+		<string name = "caption">Hitpoints</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">8</string>
+		<bool name = "validate">FALSE</bool>
+		<bool name = "readonly">TRUE</bool>
+	</Object>	
+	<Location>
+		<Comment>This holds list of classes that are EXCLUDED from being attached to it.  As a rule, we already know
+			 That any component can attach to any Container and that Real Containers can accept any component including Logical Containers
+			 and Quantity Containers.   So the list of Location elements should contain EXCEPTS to these simple rules.  This is alot
+ 			 simpler than tracking which objects CAN be attached since MOST can.
+
+			It would actually be simpler, to come up with a scheme for describing attributes of a Child which a parent
+			wont accept.  for instance, if a child component is PropulsionType, then a particular container wont accept it.  This
+			is much more elegant by far.
+		</Comment>
+	</Location>
+	
+</ObjectStore>

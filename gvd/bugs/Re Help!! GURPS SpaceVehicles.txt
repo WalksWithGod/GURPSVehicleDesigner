@@ -1,0 +1,101 @@
+From: <foxyandy@hotmail.com>
+Newsgroups: rec.games.frp.gurps
+Subject: Re: Help!! GURPS Space/Vehicles
+Date: Mon, 12 Apr 1999 09:04:02 GMT
+Organization: Deja News - The Leader in Internet Discussion
+Lines: 86
+References: <370EBE1C.F8F50846@concentric.net> <19990411052949.05308.00002927@ngol02.aol.com>
+NNTP-Posting-Host: 136.1.1.18
+X-Article-Creation-Date: Mon Apr 12 09:04:02 1999 GMT
+X-MimeOLE: Produced By Microsoft MimeOLE V4.72.3110.3
+X-Http-User-Agent: Mozilla/4.04 [en]C-c32f404p (Win95; I)
+X-Http-Proxy: 1.0 x14.dejanews.com:80 (Squid/1.1.22) for client 136.1.1.18
+Path: news.nwlink.com!newsfeed.nwlink.com!newspeer1.nac.net!news.maxwell.syr.edu!newsfeed.cwix.com!205.231.236.10!newspeer.monmouth.com!nntp2.dejanews.com!nnrp1.dejanews.com!not-for-mail
+Xref: news.nwlink.com rec.games.frp.gurps:45702
+
+In article <19990411052949.05308.00002927@ngol02.aol.com>,
+  kitarak@aol.com.spam (Kitarak) wrote:
+> In article <370EBE1C.F8F50846@concentric.net>, Chad Wauls
+> <rwauls@concentric.net> writes:
+>
+> >My group is trying to get ourselves set up for a campaign in the Star
+> >Wars Universe.  Character conversion and generation went great.  So did
+> >the personal equipment and weapons.  I thought we were sailing smooth.
+> >Then we tried to do the starships and starship combat...oh boy.
+> >
+> >I'm not sure what's worse - the amazingly ambiguous Starship generation
+> >and Space Combat rules for GURPS Space (they don't even talk about
+> >targeting systems!!) or the mind boggling complexity of the GURPS
+> >Vehicles book which doesn't handle spaceships very well (my head hurts
+> >after looking at all the equations and unit conversions.).
+> >
+> >Anyone have any advice on what we can do?  Or if anyone has converted
+> >the Star Wars ships or spaceship rules from West End Games, that would
+> >be a help as well.  Please email me.  Thanks.
+> >
+>
+> If you are even thinking about doing star wars with vehicles then I have one
+> word for you: Don't.
+> Vehicles is an approximation of reality, star wars is not - Reactionless ion
+> drives, travelling between systems in a couple of days at sublights speeds,
+> maximum speeds in space. The Do Not Work with vehicles. Space isn't much
+better
+> - You're better off trying to fudge the results.
+>
+> --------------------------------------
+> Kitarak
+
+A few ideas: first, take a look at the excellent Star Wars Techical
+Commentaries (http://www.theforce.net/swtc/). These try and find a
+pseudo-scientific basis for a lot of Star Wars technology, and do quite well
+IMO.
+
+My idea for SW starships is this: drives are reaction-less, and are actually
+more similar to Star Trek Warp Drives than traditional reaction drives. The
+drive creates a distortion in space which it 'rides' like a surfer on a wave.
+There is a maximum distortion a drive can create, which in effect gives you a
+maximum speed, even in vacuum. If a drive is shut down, the wave will die out,
+and the ship will coast to a halt.
+
+The ship, and occupants, experience no acceleration G (which fits the films)
+and turns can be performed by changing the direction the wave propogates
+through space. Deceleration occurs be dampening the wave, which means that
+ships slow down without turning around.
+
+The wave distortion creates a lot of waste heat and light - this
+'dislocation' occurs on plates at the rear of the ship - hence the glowing
+engines of SW ships that are lit all the time.
+
+Hyperdrive is as per GURPS:Space, but alternatively you could say that it's
+just a device the massively amplifys this wave, and somehow allows the ship
+to go superluminal (note that SW ships still have their drives lit in
+hyperspace, and there is a sudden burst of light from the engines as they
+'jump').
+
+Anti-grav is as per GURPS, but vehicles alternatively use pressor beams to
+push off against the ground ('repulsorlift'). Newton says that pushing
+against something pushes you the opposite direction ! Make these very short
+range for 'ground' craft, to limit their altitude to a few metres. Also,
+maybe the pressor works against the mass as a whole, and not just the bit
+directly underneath the vehicle (so you don't get squashed pedestrians from
+overhead speeders...)
+
+Weapons are blasters and ion cannons (as per electro-lasers in GURPS). In SW,
+'laser', 'turbo-laser' etc all mean 'blaster'. The Death Star's 'Super Lasers'
+and probably some kind of antimatter blaster. Energy screens are per GURPS.
+
+Use the Space Opera Combat System for space combat, and play it fast and
+loose !
+
+As for using vehicles, you need to decide how YOU want things to work, and
+then create the rules to support this, using Vehicles as a guideline. There
+are plenty of technical descriptions of SW ships - try reverse engineering
+one.
+
+Please post any SW vehicles you create. If I get the time I'll try and do the
+same !
+
+Andy
+
+-----------== Posted via Deja News, The Discussion Network ==----------
+http://www.dejanews.com/       Search, Read, Discuss, or Start Your Own    

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<rules>
+		<WeightFormula>1</WeightFormula>
+		<VolumeFormula>1</VolumeFormula>
+		<SurfaceFormula>1</SurfaceFormula>
+		<CostFormula>1</CostFormula>
+	</rules>
+	
+	<bitflag1>
+		<element>0</element>
+	</bitflag1>
+	<bitflag2>
+	</bitflag2>	
+	
+	
+	<object handle = "0_">
+		<string name = "classname">Vehicles.cArmorFace</string>
+		<string name = "guid">90210</string>
+		<string name = "image">\icons\subassembly_armor.ico</string>
+		
+		<int name = "maxchildren">10</int>
+		<int name = "propertycount">8</int>
+		<objectRef name = "property0">1_</objectRef>
+		<objectRef name = "property1">2_</objectRef>	
+		<objectRef name = "property2">3_</objectRef>
+		<objectRef name = "property3">4_</objectRef>
+		<objectRef name = "property4">5_</objectRef>
+		<objectRef name = "property5">6_</objectRef>	
+		<objectRef name = "property6">7_</objectRef>
+		<objectRef name = "property7">8_</objectRef>
+
+		
+		<objectRef name = "version">-2</objectRef>
+		<objectRef name = "author">-1</objectRef>
+	</object>
+
+	<object handle = "-1_">
+		<string name = "classname">cAuthor.cls</string>
+		<string name = "first">Michael</string>
+		<string name = "middle">P.</string>
+		<string name = "last">Joseph</string>
+		<string name = "nick">Pizaz</string>
+		<string name = "email">gvd@makosoft.com</string>
+		<string name = "url">http://www.makosoft.com/gvd</string>
+	</object>
+
+	<object handle = "-2_">
+		<string name = "classname">cVersion.cls</string>
+		<string name = "guid"></string>
+		<string name = "major">1</string>
+		<string name = "minor">0</string>
+		<string name = "revision">0</string>
+		<date name = "created">01/20/03</date>
+		<date name = "modified">01/21/03</date>	
+	</object>
+
+	
+	<object handle = "1_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string  name = "caption">Settings</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">Edit the followinig attributes to modify this component</string>
+		<string name = "datatype">-99</string>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "2_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "varname">Description</string> 
+		<string name = "caption">Description</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<bool name = "validate">TRUE</bool>
+		<bool name = "readonly">FALSE</bool>
+		<string name = "datatype">0</string>
+		<s_array name = "Selections" lowerBound="0" upperBound = "2">
+			<string name = "0">none</string>
+			<string name = "1">advanced</string>
+			<string name = "2">radical</string>
+		</s_array>
+	</object>		
+	<object handle = "3_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "varname">slope</string>
+		<string  name = "caption">slope</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">slope of this face</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<bool name = "validate">TRUE</bool>
+		<bool name = "readonly">FALSE</bool>
+		<string name = "datatype">3</string>
+		<s_array name = "Selections" lowerBound = "0" upperBound = "2">
+			<string name = "0">none</string>
+			<string name = "1">60 degrees</string>
+			<string name = "2">90 degrees</string>
+		</s_array>
+	</object>	
+	<object handle = "4_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string  name = "caption">Statistics</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">Below are the statistics for this component</string>
+		<string name = "datatype">-99</string>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "5_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "varname">Cost</string> 
+		<string name = "caption">Cost</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "validate">FALSE</bool>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "6_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "varname">weight</string> 
+		<string name = "caption">Weight</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "validate">FALSE</bool>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<object handle = "7_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "varname">volume</string> 
+		<string name = "caption">Volume</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "validate">FALSE</bool>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "8_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "varname">surfacearea</string> 
+		<string name = "caption">Surface Area</string>
+		<string name = "format">Format</string>
+		<string name = "mask">placeholder</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo">maybe page 1</string>
+		<string name = "datatype">10</string>
+		<bool name = "validate">FALSE</bool>
+		<bool name = "readonly">TRUE</bool>
+	</object>	
+	<location>
+		<comment>This holds list of classes that are EXCLUDED from being attached to it.  As a rule, we already know
+			 That any component can attach to any Container and that Real Containers can accept any component including Logical Containers
+			 and Quantity Containers.   So the list of Location elements should contain EXCEPTS to these simple rules.  This is alot
+ 			 simpler than tracking which objects CAN be attached since MOST can.
+
+			It would actually be simpler, to come up with a scheme for describing attributes of a Child which a parent
+			wont accept.  for instance, if a child component is PropulsionType, then a particular container wont accept it.  This
+			is much more elegant by far.
+		</comment>
+	</location>
+	
+</ObjectStore>

@@ -1,0 +1,43 @@
+
+RegSoft.com Registration Report for sales November 1999 
+Author Name	: Michael Joseph
+Author ID	: 9710 
+Contact E-Mail	: mikej@nwlink.com
+
+
+Product ID	: 16539 
+Product Name 	: GURPS Vehicle Designer
+
+Order ID		Order Name			Order Email			Qty	Type	Order Status	Order Amount	CDROM Purchase
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+11011999-16539-7	Craig A Hyett                  	craig_hyett@email.msn.com      	1	On-Line	Authorized	$25.00		N
+11131999-16539-15	Paul John Corey                	nemocapt@aol.com               	1	On-Line	Authorized	$25.00		N
+11061999-16539-9	Peter C Burns                  	rburns@sympatico.ca            	1	On-Line	Authorized	$25.00		N
+11081999-16539-10	Justin Gl Patton               	gamer@montana.com              	1	On-Line	Authorized	$25.00		N
+11101999-16539-11	Juliean Galak                  	jg42@cornell.edu               	1	On-Line	Authorized	$25.00		N
+11111999-16539-12	Otis H Viles                   	cierhart@ic.net                	1	On-Line	Authorized	$25.00		N
+11111999-16539-13	Christopher w Ferenz           	sobe@effectnet.com             	1	On-Line	Authorized	$25.00		N
+11131999-16539-14	Joseph R. Dietrich             	yikes@evansville.net           	1	On-Line	Authorized	$25.00		N
+11141999-16539-16	Lowell C Blankenship           	lblanken@visnetinc.com         	1	On-Line	Authorized	$25.00		N
+11161999-16539-17	David E Dalton                 	sdfmacros@aol.com              	1	On-Line	Authorized	$25.00		N
+11171999-16539-18	Nicholas Welch                 	nwelch@sugok.chongju-e.ac.kr   	1	On-Line	Authorized	$25.00		N
+11201999-16539-19	Harry William Phillips III     	kephera@as.net                 	1	On-Line	Authorized	$25.00		N
+11201999-16539-20	Christopher B Kornfeld         	kles@io.com                    	1	On-Line	Authorized	$25.00		N
+11231999-16539-21	Milton J. Merl                 	patrick@miltonmerl.com         	1	On-Line	Authorized	$25.00		N
+11241999-16539-22	Scott A Corum                  	scottcorum@aol.com             	1	On-Line	Authorized	$25.00		N
+11271999-16539-23	Novel Monson                   	monson@bellsouth.net           	1	On-Line	Authorized	$25.00		N
+11271999-16539-24	a p j luker                    	andy@apjluker.freeserve.co.uk  	1	On-Line	Authorized	$25.00		N
+11291999-16539-25	Michael Lobsinger              	migg@southwind.net             	1	On-Line	Authorized	$25.00		N
+11291999-16539-26	José Soler Martinez            	jose.soler@falcon-es.com       	1	On-Line	Authorized	$25.00		N
+
+Qty SubTotals	: 19
+Product SubTotal: $475
+CDROM SubTotal	: 0
+
+
+Qty Total	: 19
+Order Total	: $475
+CDROM Totals	: $0   ($3.00 per sale)
+Commission Total: ($57)
+Payment Total	: $418
+

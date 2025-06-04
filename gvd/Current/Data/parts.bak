@@ -1,0 +1,74 @@
+[Subassemblies]
+Item0=Subassemblies
+
+[Armor]
+Item0=Armor
+
+[Propulsion & Lift]
+Item0=Airscrews
+Item1=Aquatic Propulsion
+Item2=Contragrav Generators
+Item3=Drivetrains
+Item4=Harnesses
+Item5=Jet Engines
+Item6=Lifting Gas
+Item7=Mag-Lev Lifters
+Item8=Reactionless Thrusters
+Item9=Rockets and Spacedrives
+Item10=Rowing Positions
+Item11=Sails
+Item12=Stardrives
+ 
+[Power and Fuel]
+Item0=Energy Bank
+Item1=Exotic Power Plants
+Item2=Fuel Storage
+Item3=Gas and MHD Turbines
+Item4=Combustion Engines
+Item5=Other Power and Fuel
+Item6=Reactors
+Item7=Steam Engines
+
+
+[Weaponry]
+Item0=Artillery and Guns
+Item1=Beam Weapons
+Item2=Launchers
+Item3=Liquid Projectors
+Item4=Missiles Torps Bombs & Mines
+Item5=Weapon Accessories
+
+
+[Instruments and Electronics]
+Item0=Audio Visual Systems
+Item1=Communicators
+Item2=Computers Terminals & Neural
+Item3=Electronic Countermeasures
+Item4=Navigation Systems
+Item5=Targeting Systems
+Item6=Searchlights
+Item7=Sensors
+Item8=Shields
+Item9=Software
+
+
+[Miscellaneous Equipment]
+Item0=Accessories
+Item1=Bilge Pumps
+Item2=Emergency & Medical Equipment
+Item3=Entertainment Facilities
+Item4=Fire Extinguishers
+Item5=Heavy Equipment
+Item6=Labs and Workshops
+Item7=Vehicle Access
+Item8=Screen Generators
+Item9=Security & Dirty Tricks
+Item10=Vehicle Storage	
+
+
+[Manned Vehicle]
+Item0=Accommodations
+Item1=Environmental Systems
+Item2=Maneuver Controls
+Item3=Safety Systems
+

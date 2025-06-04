@@ -1,0 +1,48 @@
+
+RegSoft.com Registration Report for sales September 1999 
+Author Name	: Michael Joseph
+Author ID	: 9710 
+Contact E-Mail	: mikej@nwlink.com
+
+
+Product ID	: 16539 
+Product Name 	: GURPS Vehicle Designer
+
+Order ID		Order Name			Order Email			Qty	Type	Order Status	Order Amount	CDROM Purchase
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+141565	Howard Knight                  	howknight@aol.com              	1	On-Line	Authorized	$25.00		N
+141582	Jeremy E Barton                	barton@grinnell.edu            	1	On-Line	Authorized	$25.00		N
+141644	William D Miller               	pmiller@ipa.net                	1	On-Line	Authorized	$25.00		N
+141665	Shawn Fisher                   	safisher@cswnet.com            	1	On-Line	Authorized	$25.00		N
+141718	Tracy A Ratcliff               	tratclif@mail.bright.net       	1	On-Line	Authorized	$25.00		N
+141771	Richard P. Spainhour           	jabaguan@earthlink.net         	1	On-Line	Authorized	$25.00		N
+141799	J.T. Benton                    	lordjobe@nex.net               	1	On-Line	Authorized	$25.00		N
+141839	James Randolph Dunson          	jdunson@vt.edu                 	1	On-Line	Authorized	$25.00		N
+141900	James Schaeffer                	jim7332@nauticom.net           	1	On-Line	Authorized	$25.00		N
+141972	shawn learmonth                	shawnl@telusplanet.net         	1	On-Line	Authorized	$25.00		N
+142083	Dennis Richard Icardi          	ike96@fidnet.com               	1	On-Line	Authorized	$25.00		N
+142314	JON C JONES                    	jonj@clark.net                 	1	On-Line	Authorized	$25.00		N
+142346	S Turner                       	tsimon@globalnet.co.uk         	1	On-Line	Authorized	$25.00		N
+142411	Thomas F Woodard               	thomasw@modify.com             	1	On-Line	Authorized	$25.00		N
+142474	Mikel J Featherston            	mikelf@quixnet.net             	1	On-Line	Authorized	$25.00		N
+142734	Edward Dunai                   	dunaie@idt.net                 	1	On-Line	Authorized	$25.00		N
+143036	William B Rhodes               	willrhodes@downbelow.net       	1	On-Line	Authorized	$25.00		N
+143043	Aiken Oliver                   	wolfbat@mindspring.com         	1	On-Line	Authorized	$25.00		N
+143091	Rafael A Acevedo               	rafi@sprynet.com               	1	On-Line	Authorized	$25.00		N
+143218	David                          	dtraub@vt.edu                  	1	On-Line	Authorized	$25.00		N
+143303	Joseph Munson                  	jmunson@ix.netcom.com          	1	On-Line	Authorized	$25.00		N
+143377	Joseph Weber                   	warlockco@aol.com              	1	On-Line	Authorized	$25.00		N
+143689	David J Butcher                	daveb@incitae.demon.co.uk      	1	On-Line	Authorized	$25.00		N
+144658	John L Lynch                   	jllynch@fortlewis.edu          	1	On-Line	Authorized	$25.00		N
+
+Qty SubTotals	: 24
+Product SubTotal: $600
+CDROM SubTotal	: 0
+
+
+Qty Total	: 24
+Order Total	: $600
+CDROM Totals	: $0   ($3.00 per sale)
+Commission Total: ($72)
+Payment Total	: $528
+

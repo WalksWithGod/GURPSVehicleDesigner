@@ -1,0 +1,67 @@
+Received: from smtp.nwlink.com (smtp.nwlink.com [209.20.130.57])
+	by pop.nwlink.com (8.9.3/8.9.3) with ESMTP id UAA21270
+	for <mikej@nwlink.com>; Thu, 4 Mar 1999 20:46:50 -0800 (PST)
+From: RyanTomas@aol.com
+Received: from imo24.mx.aol.com (imo24.mx.aol.com [198.81.17.68])
+	by smtp.nwlink.com (8.9.3/8.9.3) with ESMTP id JAA25483
+	for <mikej@nwlink.com>; Thu, 4 Mar 1999 09:16:27 -0800 (PST)
+Received: from RyanTomas@aol.com
+	by imo24.mx.aol.com (IMOv19.3) id iFVGa16840
+	 for <mikej@nwlink.com>; Thu, 4 Mar 1999 12:02:31 -0500 (EST)
+Message-ID: <97744c72.36debca7@aol.com>
+Date: Thu, 4 Mar 1999 12:02:31 EST
+To: mikej@nwlink.com
+Mime-Version: 1.0
+Subject: Re: [VEHICLE DESIGN]: XAU-29 "Terrorhawk" Battlefield Support Fighter
+Content-type: text/plain; charset=US-ASCII
+Content-transfer-encoding: 7bit
+X-Mailer: AOL 4.0 for Windows 95 sub 4
+X-UIDL: 018ab3397eb896feff2a3ae23fd827ad
+
+In a message dated 3/3/99 2:45:51 PM Eastern Standard Time, mikej@nwlink.com
+writes:
+
+> Hmm.. well i know GVD doesnt yet have decoy reloads but it will next
+>  version.   Anything else about GVD that is preventing it from being your #1
+>  option when it comes to making  a new vehicle?
+>  
+>  -Mike.
+
+I will tell you my #1 peeve right now w/ GVD.  The inability to copy
+components--any kind, not just weaponry--and paste them into other parts of
+the vehicle.
+
+It's something like this, you get a big idea for a vehicle, and load up GVD.
+You going, gung ho, all set--then, the tedium of making and remaking the same
+component over and over again, b/c it resides in differing subassemblies.  The
+eyes roll, you get tired, suddenly, your not that hot to finish your vehicle.
+
+This is exactly what you are trying to avoid w/ GVD.  I'm not a progger, so
+I'm not sure what kind of difficulties there are in putting in Cut, Copy, and
+Paste commands, but it should be your #1 thing to fix.  You want to keep
+people in thier chair designing thier vehicle from start to finish, w/ out the
+teduim--which is the #1 defeater of programs like this.  If it's not fun, AND
+easy, people will get turned off.  Sales would spike at the beginning, I would
+expect, then level, and finally drop off after word gets around.
+
+Other than that, I'm going to redo my vehicle in GVD and see if the numbers
+jive.
+
+Also, I've been meaning to email you about your Electromags again.  They're
+spitting out funky damage dice.  I built my 457mm Hellfire naval cannon, long
+barrel, normal power, and that (unless I did the formula wrong in my SS)
+should come out to something like 1645d (5d*329).  When I build w/ GVD, it
+spits out 6d*305!  Way too much.  Even if 1645 was divisible by 6, it would
+only come out to 6d*274.744...  Which brings my to my other "gripe"--not all
+damage dice will be divisible by six.  Maybe have something that finds the
+correct number divisible by and use it.  Most will be divisible by 5 or 6,
+maybe have a 9 and a 4 option.  Also, some damages may not have to be divided.
+I would say anything under 10d would be a no no to divide, between 12 and 16
+an option to divide.  Some numbers you just CAN'T divide, like 11 and 13.  Can
+GVD accomodate that?  Most users would probably like to pick what thier damage
+is divided by, that would be a nice feature, but not real necessary as long as
+GVD came up w/ correct numbers.
+
+I think that's it for now.
+
+-Ryan

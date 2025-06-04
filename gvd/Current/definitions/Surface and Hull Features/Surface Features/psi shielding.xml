@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ObjectStore version = "1.0">
+	<comment>Note that in the XML Def, only the root object needs a GUID since any component that is saved based on it
+		will share this same GUID.  We check upon loading the component in the listview whether the def it points to
+ 		shares the same GUID as this XML or not.
+	</comment>
+	<object handle = "0_">
+		<string name = "classname">Vehicles.cFeature</string>
+		<string name = "defpath"></string>
+		<string name = "guid">98767</string>
+		<string name = "image">\icons\options.ico</string>
+		
+		<int name = "maxchildren">0</int>
+		<int name = "propertycount">3</int>
+		<objectRef name = "property0">1_</objectRef>
+		<objectRef name = "property1">2_</objectRef>
+		<objectRef name = "property2">3_</objectRef>
+	</object>
+
+	<object handle = "1_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">HEADER</string> 
+		<string  name = "caption">Stats</string>
+		<string name = "notes">The following are stats for this surface feature</string>
+		<long name = "datatype">-99</long>
+		<bool name = "readonly">TRUE</bool>
+	</object>
+	<object handle = "2_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">11</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">weight</string> 
+		<string name = "caption">Weight</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+		<long name = "datatype">8</long>
+	</object>	
+	<object handle = "3_">
+		<string name = "classname">Vehicles.cPropertyItem</string>
+		<long name = "interfaceid">11</long>
+		<string name = "guid"></string>
+		<string name = "defpath"></string>
+		<string name = "callby">cost</string> 
+		<string name = "caption">Cost</string>
+		<string name = "notes">this is a note</string>
+		<string name = "pageinfo"></string>
+		<bool name = "readonly">FALSE</bool>
+		<long name = "datatype">8</long>
+	</object>	
+</ObjectStore>

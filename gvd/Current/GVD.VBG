@@ -1,0 +1,5 @@
+VBGROUP 5.0
+StartupProject=Designer.vbp
+Project=Vehicles.vbp
+Project=CmpEdit.vbp
+Project=..\..\XML Persistance\PersistenceManager.vbp

@@ -1,0 +1,575 @@
+The Rrangoon are an alien race I designed. In GURPS terms, they're 
+generally at TL8, save that they know practically nothing about 
+electromagnetism or radiation (magnets are the latest "in-thing" for 
+Rrangoon technophiles), save for some biologically-derived lasers 
+(similar to the ones mentioned in David Brin's "Sundiver"). The 
+following text describes what could be called an "orbital truck", 
+hauling up to about 50 tons of bulk freight from one orbit to another.
+
+-----8<-----
+
+Rrangoon Light-Sail Shuttle-Cube
+
+Total Cost: $35,064,716.25 + Standard Gear ($64,887.50)
+ Maintainance: 198.96 man-hours per week (28.4 man-hours per day)
+  With four crew, 50 hours per week each (Wealth level of Poor); with 
+  five, 40 (Struggling, Average, or Comfortable).
+Total Weight: 172,557.4 lbs (86.2787 tons) plus cargo
+Volume: 5,000 cubic feet
+ Dimensions: 17 feet, 1.1 inches per side
+Surface Area: 2,000 square feet
+
+Size Modifier: +6
+ cSM: -4
+ Active-Scan Signature: -4 (+2 when light-sail unfurled)
+ Passive-Scan Signature: -4
+
+--
+
+Structure (internal skeleton and frame):
+ Weight: 8,000 lbs
+ Cost: $100,000
+ Body Hit Points: 3,000
+  At 1,500 hit points: no longer sealed.
+  At 0: Must make a Health roll to avoid being disabled.
+  At -3,000: Must make a Health roll to avoid being destroyed.
+  At -15,000: Automatically destroyed.
+  At -30,000: Blown to bits or vaporized.
+ Health: 8
+
+Compartmentalization, total
+ (Strengthened air-tight interior walls and extra-strong pressure doors. 
+ Also includes careful spacing of fuel and power systems to reduce risk 
+ of fire or decompression.)
+ Weight: 1,600 lbs
+ Cost: $80,000
+
+--
+
+Surface Features:
+
+A. Armor (includes both ordinary surface plating as well as actual armor 
+plate):
+ Type: Laminate, regular (A complex composition: a sandwich of outer and 
+inner hard plates containing layers of ceramic blocks held within a 
+special resin, reinforced with a mesh.)
+ Damage Resistance: 100 (200 vs shaped-charge rounds, 10,000 vs other 
+explosions)
+ Weight: 25,000 lbs
+ Cost: $250,000
+ Passive Defense: 4 (but see C. below)
+ Radiation Protection Factor: 10 (but see D. below)
+
+B. Self-Sealing Hull.
+ Cost: $80,000
+ Weight: 100 lbs
+ Protected against the effects of sudden pressure changes. Will close 
+small punctures in less than a second. The GM may declare major breaches 
+beyond the ability of the hull, and small punctures may eventually leak 
+in corrosive atmospheres as the corrosive destroys the sealant, but 
+ordinary leaks and flooding are prevented.
+
+C. Reflective Surface
+ (Adds +2 to the chance of being detected by radar.)
+ Passive Defense vs laser beams: 6 (Not effective vs. x-ray or graser 
+  beams)
+ Cost: $60,000
+
+D. Radiation Shielding
+ Radiation Protection Factor: 100 (+10 from Armor = 110)
+ Weight: 4,000 lbs
+ Cost: $40,000
+
+--
+
+Components:
+ (Components are disabled at 0 Hit Points, destroyed at -5 * Hit Points, 
+vaporized at -10 * Hit Points.)
+
+A. Propulsion
+
+A.1. Light Sail:
+ (Essentially, a very large, ultra-thin sterrable mirror. When unfurled, 
+cannot use any other form of thrust without damaging the sail, nor can it 
+come within 200 miles of any world with an atmosphere. Furling or 
+unfurling a lightsail is a difficult maneuver requiring one hour to 
+accomplish, although a successful Piloting (Lightsail) roll will cut this 
+to 15 minutes.)
+ Volume: 250 cubic feet
+ Weight: 50,000 lbs
+ Cost: $25,000,000
+ Area: 209,088,000 square feet (7.5 square miles)
+ Thrust (1 AU): 5
+ Hit Points: 238
+ Damage Resistance: 5
+ Health: 6
+ Size Modifier: +3
+
+A.2. Reaction Engine:
+ Type: Liquid-Fuel Chemical Rocket
+ Volume: 250 cubic feet
+ Weight: 4,000 lbs
+ Cost: $100,000
+ Thrust: 165 G-tons
+ Fuel Consumption (at max thrust): 2,300,000 lbs HO rocket fuel per hour
+ Hit Points: 238
+ Damage Resistance: 5
+ Health: 12
+ Size Modifier: +3
+ (Anyone behind the engine, when operating at full thrust, will take 
+6d*539 damage [avg 3,773], quartered for every 6 feet of distance from 
+the engine. Ie, 6d*135 at 6 feet [avg 945], 6d*34 at 12 feet [avg 238], 
+6d*8 at 18 feet [avg 56], 13d-1 at 24 feet [avg 44.5], 3d at 30 feet 
+[avg 10.5], 1d-1 at 36 feet [avg 2.667], 1d-4 at 42 feet [avg 1.167], 0 
+at 48 feet.)
+
+A.3. Attitude Jets, small:
+ A spin of 180 degrees takes 60 seconds.
+
+B. Weaponry:
+ Name: Laser Cannon
+ Beam Output: 5,000 kilojoules
+ Malfunction: ver.
+ Damage Type: Impaling
+ Damage: 6d*6
+  (In rain or fog, half damage. Damage is also halved for each 22,600 
+yards (12.5 miles) of smoke, or fraction thereof, crossed.)
+ Snap Shot: 25
+ Accuracy: 29
+ Half-Damage Range (atmosphere): 113,000 yards (62.5 miles)
+ Maximum Range (atmosphere): 339,000 yards (187.5 miles)
+ Half-Damage Range (vacuum): 625 miles
+ Maximum Range (vacuum): 1,875 miles
+ Rate of Fire: 1 shot every 2 seconds
+ Weight: 560 lbs
+ Volume: 11.2 cubic feet
+ Power Requirements: 2,000 kilowatts per second
+ Cost: $38,000
+ Angle of fire: Can fire with a 15 degree angle off to right or left and 
+a 15 degree elevation or depression.
+ Hit Points: 30
+ Damage Resistance: 5
+ Health: 12
+ Size Modifier: +1
+
+C. Instruments and Electronics
+
+C.1. Communication System: Communicator, Laser
+ Range: 200,000 miles
+  Count each mile of water as 100 miles of range (for a total of 2,000 
+   miles).
+  Count each 10,000 miles of vacuum as one mile of range (for a total of 
+   about 21 AU).
+  Speed of light: about 7.2 AU/hour.
+ Weight: 10,000 lbs
+ Volume: 200 cubic feet
+ Cost: $75,000
+ Power Requirement: 4 kilowatts
+ Hit Points: 205
+ Damage Resistance: 2
+ Health: 9
+ Size Modifier: +3
+
+C.2. Lights: 
+
+C.2.1. Headlights:
+ Clearly illuminates an area up to about 40 yards. Can be seen from 800 
+yards away.
+ Power: 0.05 kilowatts
+
+C.2.2. Searchlight:
+ (Illuminates a 16-yard radius. Can be spotted from 16 miles.)
+ Range: 8 miles
+ Weight: 80 lbs
+ Volume: 1.6 cubic feet
+ Cost: $4,000
+ Power: 8 kilowatts
+ Hit Points: 8
+ Damage Resistance: 2
+ Health: 12
+ Size Modifier: -1
+C.2.2.1. Shutter system:
+ (Equipped with shutter, can send a pulse code at 4 x skill characters 
+per minute.)
+ Weight: 5 lbs
+ Cost: $50
+
+C.2.3. Running Lights
+ (Eliminate darkness penalties for spotting the vehicle, giving the +2 
+anti-camouflage bonus instead.)
+ Power: 0.2 kilowatts
+
+C.3. Sensors:
+
+C.3.1. Telescopes (6, one per side), fully stabilized
+ Magnification: Variable, 1x to 1000x
+ Weight: 6,600 lbs (1,100 lbs each)
+ Volume: 132 cubic feet (22 cubic feet each)
+ Cost: $300,000 ($50,000 each)
+ Vision Bonus: +9/+18
+ Hit Points: 47 each
+ Damage Resistance: 2
+ Health: 12
+ Size Modifier: +1 each
+
+C.3.2 Micro-meteor analyzer:
+ (A device for trapping dust particles and measuring their size and 
+surface roughness.)
+ Weight: 15 lbs
+ Volume: 0.3 cubic feet
+ Cost: $2,000
+
+C.4. Navigation Systems:
+
+C.4.1. Navigation Instruments, Precision:
+ (Includes astrolabe/sextant, precise chronometer, and gyroscopic 
+compass. Dead reckoning is accurate to about 1% of the distance 
+traveled.)
+ Weight: 20 lbs
+ Volume: 0.4 cubic feet
+ Cost: $5,000
+ Hit Points: 3
+ Damage Resistance: 2
+ Health: 12
+ Size Modifier: -2
+
+D. Miscellaneous:
+
+D.1. Full Fire Suppression System:
+ (A fully-automatic array of hoses mounted inside the vehicle, using 
+inert gases to put out fires in milliseconds.)
+ Weight: 200 lbs
+ Volume: 4 cubic feet
+ Cost: $5,000
+ Hit Points: 15
+ Damage Resistance: 5
+ Health: 12
+ Size Modifier: +0
+
+D.2. Vehicle Access: Airlock
+ Capacity: 1 person or 10 cubic feet of cargo
+ Weight: 500 lbs
+ Volume: 50 cubic feet
+ Cost: $1,000
+ Time to cycle: 8 seconds
+ Hit Points: 81
+ Damage Resistance: 5
+ Health: 12
+ Size Modifier: +2
+
+E. Crew Systems
+Crew:
+ Number: 5
+ Weight: 1,000 lbs
+
+E.1.1. Crew Stations:
+ (Each station includes a seat to operate those controls. Moving to a 
+different crew station takes an average of 36 seconds.)
+ 1 x Maneuver Controls (These are mechanical and electro-mechanical 
+controls plus analog instrumentation such as gauges and dials.)
+ 1 x Laser
+ 1 x Laser Communicator
+ 1 x Navigation Instruments
+ 6 x Sensors
+ Type: Roomy
+ Weight: 400 lbs (40 lbs each)
+ Volume: 400 cubic feet (40 cubic feet each)
+ Cost: $1,000 ($100 each)
+ Hit Points: 70 each
+ Damage Resistance: 5
+ Health: 12
+ Size Modifier: +2 each
+E.1.2. G-Seats x 10:
+ (Careful ergonomic design that makes high-G maneuvering more 
+confortable; halves the felt G-force.)
+ Cost: $5,000 ($500 each)
+E.1.3. Crashwebs x 10:
+ Weight: 50 lbs (5 lbs each)
+ Volume: 5 cubic feet (0.5 cubic feet each)
+ Cost: $1,000 ($100 each)
+ Hit Points: 4 each
+ Damage Resistance: 5
+ Health: 12
+ Size Modifier: -2 each
+
+E.2.1. Accomodations/Quarters:
+ Type: Bunks x 5 (A bunk or hammock for a single person. Includes a 
+locker for storing personal possessions.)
+ Weight: 1,000 lbs (200 lbs each)
+ Volume: 500 cubic feet (100 cubic feet each)
+ Cost: $500 ($100 each)
+ Hit Points: 129 each
+ Damage Resistance: 5
+ Health: 12
+ Size Modifier: +2 each
+E.2.2. Womb Tanks x 5:
+ (Gel-filled fluid bath that protects against shocks and acceleration 
+(halves the felt G-force), as well as crash-induced whiplash and 
+collision damage. Getting in or out takes 30 seconds.)
+ Weight: 2,000 lbs (400 lbs each)
+ Volume: 40 cubic feet (8 cubic feet each)
+ Cost: $100,000 ($20,000 each)
+ Hit Points: 24 each
+ Damage Resistance: 5
+ Health: 12
+ Size Modifier: +0 each
+
+E.3. Environmental Systems:
+ Type: Life Support, Total
+ (A self-regenerating oxygen and water purification plant, which also 
+produces food. Works indefinitely. Includes a basic light, heat, air 
+conditioning and ventilation system.)
+ Capacity: 5 people
+ Weight: 9,000 lbs
+ Volume: 600 cubic feet
+ Cost: $15,000
+ Power Requirement: 50 kilowatts
+ Hit Points: 427
+ Damage Resistance: 5
+ Health: 12
+ Size Modifier: +4
+
+F. Power Systems and Fuel
+
+F.1. Batteries:
+ Total Storage Capacity: 225,000,000 kilowatt-seconds
+ Total Weight: 24,750 lbs
+ Total Volume: 247.5 cubic feet
+ Total Cost: $2,475,000
+ Total Hit Points: 237
+ Damage Resistance: 5
+ Health: 7
+ Total Size Modifier: +3
+
+F.2. Solar Panels, retractable:
+ Area: 48,000 square feet (0.096 inches thick)
+ Weight: 19,200 lbs (0.4 pounds per square foot)
+ Volume: 384 cubic feet
+ Cost: $6,240,000
+ Hit Points: 960
+ Damage Resistance: 5
+ Health: 12
+ Power (at 1 AU): 1,920 kilowatts
+ Size Modifier: +4
+
+F.3. Beamed Power Receiver (laser)
+ Capacity: 1,000 kilowatts
+ Weight: 5,000 lbs
+ Volume: 100 cubic feet
+ Cost: $2,000
+ Hit Points: 129
+ Damage Resistance: 5
+ Health: 10
+ Size Modifier: +2
+
+F.4.1. Fuel Tankage:
+ Total Volume: 250 cubic feet
+ Total Weight: 25 lbs
+ Total Cost: $85,000
+ Total Hit Points: 238
+ Damage Resistance: 3
+ Health: 12
+ Total Size Modifier: +3
+
+F.4.2. Fuel (Liquid Hydrogen-Oxygen Rocket Fuel):
+ Weight: 3,500 lbs
+ Cost: $166.25
+
+G.1. Cargo Space 1 
+ Total Volume: 74 cubic feet.
+ Total Size Modifier: +2
+
+G.1.1. Standard Equipment:
+ Total Cost: $64,887.50
+ Total Weight: 1,952.4 lbs
+ Volume: 44.9 cf
+
+ Biphase Rope, 3/4", 150 feet: 10 lb, $150 (pUT1-15)
+ Fire Extinguisher Tubes, large, 5: 10 lb, $250 (pUT1-15)
+ Basic Tool Kit, Mechanic: $800, 300 lb, 13.5 cf (pUT1-16)
+ Basic Tool Kit, Engineer: $800, 300 lb, 13.5 cf (pUT1-16)
+ Basic Tool Kit, Armoury: $1,200, 100 lb, 6.75 cf (pUT1-16)
+ Basic Tool Kit, Electronics: $1,200, 100 lb, 6.75 cf (pUT1-16)
+ Enviro-Bubbles, 5: $4,000, 25 lbs (pUT1-23)
+ Pressure Tents, one-man, 5: $2,500, 75 lbs (pUT1-23)
+ Air Tanks, 2-hour, 5: $500, 20 lbs (pUT1-24)
+ Air Tanks, 24-hour, 5: $2,000, 365 lbs (pUT1-24)
+ Air Masks, with mini-tanks and rebreathers, 5: $1,750, 10 lbs (pUT1-25)
+ Vacc Suits, Standard, with water/food and waste-relief systems, 5: 
+  $10,000, 50 lbs (pUT1-25)
+ Pocket Packs, 5: $100, 2.5 lbs (pUT1-27)
+ Prism Aerosol, 5 cans: $125, 5 lbs (pUT1-79)
+ Emergency Medkits, 5: $1,500, 5 lbs (pUT1-94)
+ Ursaline, 5-person supply for 1 year: $13,000.
+ Zero-G Hand Thrusters, each with a spare cylinder, 5: $300, 25 lbs 
+  (pUT1-114)
+ Thruster Packs, each with a spare cylinder, 5: $10,150, 275 lbs 
+  (pUT1-114)
+ Indicator Goo, 1 set: $200, 1 lb (pUT2-26)
+ Pressure Boxes, 10: $4,000, 40 lb (p UT2-26)
+ Laser-Tools, 5: $4862.50, 13.9 lbs (see below)
+ Printed Books, 1 gig (Complete physical data about Rrangoon star
+  system): $5,000, 200 lb, 4 cf
+ Printed Books, 0.1 gig (Technical manual for ship): $500, 20 lb, 0.4 cf
+
+G.2. Cargo Space 2
+ Total Volume: 1,500 cubic feet
+ Total Size Modifier: +5
+
+G.2.1. Cargo
+ Weight: up to about 100,000 lbs
+
+--
+
+Small Details:
+ Comes with up to 80 normal, airtight doors and hatches.
+ Internal communication system: Voice tubes, a system of speaking tubes 
+  used to carry sound between key areas of a large vehicle.
+ Safety straps/belts included.
+
+-----
+
+Space Performance:
+
+With no Cargo:
+ sAccel (Lightsail, 1 AU): 0.0558 G (about 1/18th G)
+  (At twice the distance, thrust is quartered; at half, thrust is 
+  quadrupled.)
+
+ sAccel (Rocket): up to 1.91 G
+ Burn Endurance (Rocket, at max accel): 5.478 seconds
+ Burn Endurance (at 0.1 G): 104.6 seconds
+ Delta-vee: 102.5 metres per second
+
+With 100,000 lbs of cargo:
+ sAccel (Lightsail, 1 AU): 0.0367 G (about 1/27th G)
+
+ sAccel (Rocket): up to 1.21 G
+ Burn Endurance (Rocket, at max accel): 5.478 seconds
+ Burn Endurance (at 0.1 G): 66.3 seconds
+ Delta-vee: 65.0 metres per second
+
+--
+
+Water performance:
+ Draft:
+  With no cargo: 3 feet, 9 inches. (13 feet, 4 inches above water)
+  With 100,000 lbs cargo: 4 feet, 4 inches (12 feet, 9 inches above)
+ Crush depth: 1,650 feet, divided by the surface gravity, also divided 
+  by the density of the liquid (50 atmospheres of pressure). (Below 
+  this, must make Health rolls to avoid the pressure collapsing its 
+  hull.)
+
+Air performance:
+ Stall Speed: 1,665 miles per hour.
+ Top Air Speed (rocket): 600 miles per hour (for 10.2 seconds)
+ aAccel: 40 mph per second
+
+Ground performance (using underside as a skid):
+ Maximum Ground Speed: 205 mph.
+ Ground Acceleration: 25 mph/s
+ Ground Deceleration: 5 mph/s
+ Ground Stability Rating: 0.125
+ Ground Maneuver Rating: 4 G
+ Off-Road Speed: 100 mph
+
+--
+
+ Time to recharge Battery (at 1 AU): 32 hours, 33 minutes, 8 seconds
+ Battery can power Life Support for 52 days, 2 hours.
+
+-----
+
+Crew and Skills:
+ Captain
+  required: Tactics 12+, Leadership 12+, Status 0+
+  recommended: high IQ, Strategy 12+
+  *Comforable; $500 x (Status + Rank + Leadership - 12); worst PR; -3i, 
+   2d / LJ, 4d.
+ Engineer
+  required: shipboard skill 12+, Status 0+
+  *Average; ($80 x shipboard skill) + ($200 + Rank or Status); job's PR; 
+   LJ, 2d / LJ, 8d.
+ Gunner
+  required: Gunner (Beams) 12+, Status 0+
+  *Average; ($80 x Gunner skill) + ($200 + Rank or Status); job's PR; 
+   LJ, 2d / LJ, 8d.
+ Pilot
+  required: Piloting (Lightsail) 12+, Piloting (High-Performance 
+   Spacecraft) 12+, Status 0+
+  recommended: Piloting 15+ or Piloting 20+, 3D Spatial Sense
+  *Average; ($80 x shipboard skill) + ($200 + Rank or Status); job's PR; 
+   LJ, 2d / LJ, 8d.
+ Passenger/Cabin Boy/Supernumary
+
+Recommended advantages: high IQ; Acceleration Tolerance, Acute Sight, 
+ Alertness, Combat Reflexes, G-Experience, Rank, Status.
+Recommended skills: Armoury (Spaceship Armor; Spaceship Energy 
+ Weaponry), Astrogation, Breath Control, Breath-Holding, Diagnosis, 
+ Electronics (Communications; Medical), Electronics Operation 
+ (Communications; Medical), Engineer (Vehicles), First Aid, Free Fall, 
+ Mechanic (Energy Bank; Light Sail; Rocket; Solar Panels; Spacecraft) 
+ 9+, Physician, Shipbuilding (Spacecraft), Surgery, Tactics, Telegraphy, 
+ Vacc Suit.
+Disrecommended disadvantages: Acceleration Weakness, Motion Sickness, 
+ Night Blindness, Space Sickness.
+
+-----
+
+Mass Production Line for Rrangoon shuttle-cubes:
+Total Cost: $35,064,716.25
+ Cost: $701,294,325.
+ Volume: 500,000 cubic feet
+ Production time: 17.777 hours each
+ Cost of parts: $7,023,943.25 each
+ Cost of labor: $10,519,414.88 each ($591,717.09 per hour)
+
+Without such a line, cost of a shuttle-cube is doubled.
+
+----->8-----
+
+-----8<-----
+Weapon
+Beam Type: Laser, Variable
+Beam Output: 60 kilojoules
+Rate of Fire: 1 shot per 2 seconds
+Malf: ver.
+Damage: 1d impaling
+Half-Damage Range: 400 yards (5/22nds of a mile)
+ in Vacuum: 4,000 yards.
+Maximum Range: 800 yards (5/11ths of a mile)
+ in Vacuum: 8,000 yards.
+Accuracy: 14
+Snap Shot: 11
+Weight: 0.56 lbs
+Volume: 0.0028 cubic feet (4.32 cubic inches)
+Power:
+ Weapon: 60 kilowatts every second, or 1 fatigue per 3 shots
+ "Hotshot": double the damage, five times the fatigue
+ "Dazzle": no damage other than possible blindness, one-tenth the fatigue 
+ Welding: 1 fatigue per 15 seconds
+ Cooking a meal: 1 fatigue per 3 minutes
+ Flashlight: 1 fatigue per 15 minutes
+ Lighting a fire: 1 fatigue for every 300 fire-starts in dry wood
+Cost: $660
+ In atmosphere, a weapon-laser-beam is powerful enough to ionize the air, 
+leaving a trail of sparks and producing a sharp crack as air rushes into 
+the vacuum left in its wake.
+
+Communicator, Short-Range, Laser
+Weight: 2.5 lbs
+Volume: 0.05 cubic feet (86.4 cubic inches)
+Cost: $625
+Range: 20 miles (direct line-of-sight)
+ in Vacuum: 200 miles
+Power: 0.01 kilowatts every second (1/36,000th fatigue per second, or 1 
+fatigue per 10 hours of use)
+
+Combination Item:
+ Weight: 2.78 lbs
+ Volume: 0.0514 cubic feet (88.8192 cubic inches, eg 10"x3"x3")
+ Cost: $972.50
+ Hit Points: 1
+ Health: 12
+ Maintanance: 4 hours every 26d 17h 20m 7.3s of use
+----->8-----

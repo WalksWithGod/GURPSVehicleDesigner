@@ -1,0 +1,5 @@
+VBGROUP 5.0
+StartupProject=GVD2\Designer.vbp
+Project=Vehicles\Vehicles.vbp
+Project=..\CmpEdit.vbp
+Project=PersistenceManager\PersistenceManager.vbp

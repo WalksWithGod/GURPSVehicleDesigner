@@ -1,0 +1,74 @@
+From: "Andrew Stephenson" <ames@deltrak.demon.co.uk>
+Newsgroups: rec.games.frp.gurps
+Subject: Re: vehicle size determination
+Date: Sun, 14 Mar 99 05:05:35 GMT
+Organization: DNS
+References: <RoGG2.172$L2.3270222@news.apex.net>
+Reply-To: <ames@deltrak.demon.co.uk>
+X-Trace: mail2news.demon.co.uk 921387976 mail2news:5918 mail2news mail2news.demon.co.uk
+X-Complaints-To: abuse@demon.net
+X-Mail2News-Path: news.demon.net!deltrak.demon.co.uk
+X-Newsreader: Demon Internet Simple News v1.30
+X-Mimeole: Produced By Microsoft MimeOLE V4.72.3110.3
+Lines: 58
+Path: news.nwlink.com!newspeer1.nac.net!news.maxwell.syr.edu!newsfeed.nacamar.de!dispose.news.demon.net!demon!news.demon.co.uk!demon!mail2news.demon.co.uk!not-for-mail
+Xref: news.nwlink.com rec.games.frp.gurps:42859
+
+In article <RoGG2.172$L2.3270222@news.apex.net> spoe@apex.net "Scott" writes:
+
+> [...]
+>
+> If i create a 3, 540,000 cf starcruiser that is some XX square
+> feet in surface area...how do i determine the actual dimensions
+> of it...or, more to the point, determine how much footage I
+> have to work with if I want to create it any dimension that I
+> want?  [...]
+
+Ah, Starship Design 101 <g>...
+
+1) Try breaking the whole vehicle into sections whose stats can
+   be worked out separately.  For the purposes of this posting,
+   I assume these sections are rectangular; if they are not, you
+   can apply the necessary corrections.  Easiest to work with are
+   likely to be rectangular boxes, cylinders, spheres, or any mix
+   of these.
+
+2) At first work in terms of proportional dimensions and algebra:
+	HL = hull length
+	HW = hull width = HL / 4
+	HH = hull height = HL / 5
+
+	DP1L = drive pod 1 length = HL * 0.7
+
+	etc
+
+3) You then produce a (probably large) expression for overall
+   volume and area.  Eg:
+	Volume = (hull) + (drive pod 1) + (drive pod 2) + etc
+	       = (HL * HW * HH) + (DP1L * ...) + ...
+	       = HL * ((0.05) + (0.7 * ...) + ...)
+	Area = (exposed part of hull) + (exposed part of DP1)
+		+ (exposed part of DP1) + etc
+	     = <whatever>
+
+4) Eventually you have expressions for Volume and Area in terms
+   of one basic dimension (here, HL, the hull length).  From the
+   one for Volume it is trivial to work out that basic dimension,
+   given the desired volume.  Then you calculate the Area.
+
+5) If you do not like the Area figure, or anything else about the
+   calculated values, you adjust the large formula and instantly
+   (with a computer) recalculate.  Repeat until happy.
+
+Bear in mind that, if you fix Volume and Area, you will instead
+have to readjust proportions of the sub-sections.  A spreadsheet
+program is likely to be useful (but not essential).  Or you can
+try some other simple programming environment, even BASIC.  (If I
+read your query aright, this is likely to be a one-off, so some
+fiddling about is acceptable.)  Write down all details carefully,
+so you know exactly what is what.
+
+BTW, do you NEED to define your spacecraft so precisely? <g>
+--
+Andrew Stephenson
+
